@@ -13,7 +13,9 @@ end
 -- ------------------------------------------------------------------------------
 function SetDefaultBuildConfiguration()
 
+    filter "system:Windows"
     buildoptions { "/bigobj" }
+    filter {}
 
     filter "configurations:Debug"
         defines   { "DEBUG" }
@@ -65,6 +67,19 @@ workspace ("markovich_" .. _ACTION)
 
     filter {}
 
+    filter "system:macosx"
+        platforms       { "universal" }
+        architecture      "universal"
+        system            "macosx"
+        systemversion     "11.0"
+        
+        buildoptions
+        {
+            "-Wall"
+        }
+    filter {}
+    
+
 
 -- ------------------------------------------------------------------------------
 function StandardAppSetup( appname )
@@ -78,17 +93,21 @@ function StandardAppSetup( appname )
 
     targetdir   ( "$(SolutionDir)../../bin/" .. appname .. "/build_%{cfg.shortname}" )
 
+    filter "system:Windows"
     links
     {
         "shlwapi",
-        "ws2_32",
-        "opengl32",
-        "winmm",
-        "dxguid.lib",
         "version.lib",
         "setupapi.lib",
         "imm32.lib",
     }
+    filter {}
+
+    filter "system:macosx"
+    links 
+    {
+    }
+    filter {}
 
 end
 
@@ -102,6 +121,11 @@ project "runtime"
     defines
     {
         "_CRT_SECURE_NO_WARNINGS"
+    }
+
+    sysincludedirs
+    {
+        SrcRoot()
     }
 
     includedirs
@@ -125,4 +149,4 @@ project "runtime"
     }
 
     pchsource "../pch.cpp"
-    pchheader "pch.h"
+    pchheader ( SrcRoot() .. "pch.h" )

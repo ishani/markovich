@@ -175,7 +175,7 @@ mk::TrigramAssembler PadInvalidConsonantClusters( pcg32_random_t& rng, const mk:
         result.AppendChar( thisLetter );
     }
 
-    return std::move( result );
+    return result;
 }
 
 mk::TrigramAssembler LimitSeparators( const mk::TrigramAssembler& input )
@@ -207,7 +207,7 @@ mk::TrigramAssembler LimitSeparators( const mk::TrigramAssembler& input )
         result.AppendChar( thisLetter );
     }
 
-    return std::move( result );
+    return result;
 }
 
 bool HasSingleFollowingSeparator( const mk::TrigramAssembler& input )
