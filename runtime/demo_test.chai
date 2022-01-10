@@ -1,0 +1,31 @@
+print( "\n" )
+
+var rng = CreateRNGNonDeterministic()
+var themes = [slavic, england, scotland, wales, japan, latin, arabic, thailand]
+
+for (theme : themes)
+{
+    print( theme )
+    print( "----------------------")
+
+    for (var w = 0; w < 8; ++w)
+    {
+        var newWord = BeginGeneration( theme, GetRandom(rng) )
+
+        var wordLength = 3 + GetRandomInRange( rng, 6 )
+
+        for (var i = 0; i < wordLength; ++i)
+        { 
+            var randomChoice = GetRandom(rng)
+            var weight = GetRandomFloat(rng)
+
+            if ( !AddLetter( newWord, theme, weight, randomChoice, FnWeightThreshold ) )
+            {
+                break;
+            }
+        }
+
+        print( LimitSeparators(newWord).AsString() )
+    }
+    print( "\n" )
+}

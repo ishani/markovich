@@ -1,0 +1,89 @@
+
+/*
+    available themes:
+
+    slavic
+    england
+    scotland
+    wales
+    japan
+    latin
+    arabic
+    thailand
+*/
+
+// create a random number generator (rng) with either a fixed (same results each time) or non-deterministic (different results each time) seed value
+
+//var rng = CreateRNG( 123, 456 )
+var rng = CreateRNGNonDeterministic()
+
+
+print( "\n" )
+
+for (var w = 0; w < 32; ++w)
+{
+    // each word gets its own random number generator; this ensures that for a deterministic run, the global RNG produces 
+    // the same set of core words each time, even if random choices are made while post-processing the word
+    //
+    var wordRng = CreateRNG( GetRandom(rng), GetRandom(rng) )
+
+    // choose a beginning trigram to generate with; this chooses a known set of 3 letters from the specified language/theme set
+    //
+    var newWord = BeginGeneration( scotland, GetRandom(wordRng) )
+
+
+    // choose a target word length; this isn't exact, given post-processing may add or remove elements
+    var wordLength = 6 + GetRandomInRange( wordRng, 6 )
+    // .. subtract 3 as we already have three letters chosen by BeginGeneration() above
+    //    and we'll now use this variable as the loop target to add new letters
+        wordLength -= 3
+
+
+    var weight = 0.0
+
+    for (var i = 0; i < wordLength; ++i)
+    { 
+        var randomChoice = GetRandom(wordRng)
+
+        weight = GetRandomFloat(wordRng)
+
+        if ( !AddLetter( newWord, [latin, slavic, japan, scotland], weight, randomChoice, FnWeightThreshold ) )
+        {
+            break;
+        }
+    }
+
+    var result = newWord
+
+    // --- apply some linguistic post-processing -- all of this is optional --
+    
+    // look for odd sounding consonant pairs, such as "kb" and pad them with a random vowel to improve
+    // the flow of the word; can either accept standard English-style pairs (eg. "ll" or "st" is fine) or
+    // can widen the set to include pairs from other languages (eg. "vk" becomes valid)
+    var processed = PadInvalidConsonantClusters( wordRng, result, 
+                    true,    // consider 'y' a vowel when analysing
+                    false )  // allow extended consonant pairs, not just basic English ones
+
+    // trim separators (ie. - or ') from the start and end of the word, and ensure there aren't too many / too many mixed
+        processed = LimitSeparators( processed )
+
+    // for a word with a single letter suffixing a separator (eg. "foo-a" or "bar'b") run an additional 
+    // append of a letter by searching all available themes for a match
+    if ( HasSingleFollowingSeparator( processed ) )
+    {
+        TryAddAnyLetter( processed, GetRandom(wordRng) )
+    }
+
+
+/*
+    if ( processed != result )
+    {
+        print( result + "    ->    " + processed )
+    }
+    else
+    {
+        print( result )
+    }
+*/
+    print( processed.AsString() )
+}
