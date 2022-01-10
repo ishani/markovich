@@ -149,4 +149,13 @@ project "runtime"
     }
 
     pchsource "../pch.cpp"
+
+    -- pch header reference rules different on win vs osx
+
+    filter "system:Windows"
+    pchheader "pch.h"
+    filter {}
+
+    filter "system:macosx"
     pchheader ( SrcRoot() .. "pch.h" )
+    filter {}
