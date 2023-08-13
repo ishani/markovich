@@ -104,7 +104,7 @@ public:
           (( (uint32_t)asString[string_len - 2] ) << 8) |
           (( (uint32_t)asString[string_len - 1] ) << 16);
 
-        return cast;
+        return trigramU32;
     }
 
 private:
