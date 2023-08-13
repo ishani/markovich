@@ -18,5 +18,6 @@
 
 #include "generated/mk-all.inl"
 
+#ifndef MK_MINI_DEMO
 #include <chaiscript/chaiscript.hpp>
-
+#endif // MK_MINI_DEMO

@@ -11,10 +11,9 @@
 #include "pcg_basic.h"
 #include <array>
 
-char
-ChooseRandomVowel( pcg32_random_t& rng, bool include_y /* = false */ )
+constexpr char ChooseRandomVowel( pcg32_random_t& rng, bool include_y /* = false */ )
 {
-    const std::array<char, 6> vowels{ { 'a', 'e', 'i', 'o', 'u', 'y' } };
+    constexpr std::array<char, 6> vowels { 'a', 'e', 'i', 'o', 'u', 'y' };
 
     const uint32_t choice = pcg32_random_u32_range( rng, include_y ? 6 : 5 );
 
@@ -24,7 +23,7 @@ ChooseRandomVowel( pcg32_random_t& rng, bool include_y /* = false */ )
 // https://en.wikipedia.org/wiki/List_of_Latin-script_digraphs
 // https://www.enchantedlearning.com/consonantblends/index.shtml
 
-bool ValidEnglishConsonantPair( const char lhs, const char rhs )
+constexpr bool ValidEnglishConsonantPair( const char lhs, const char rhs )
 {
     // allow all run-ons with separator letters like "-" or "'"
     if ( IsSeparator( lhs ) || IsSeparator( rhs ) )
@@ -95,7 +94,7 @@ bool ValidEnglishConsonantPair( const char lhs, const char rhs )
     }
 }
 
-bool ValidExtendedConsonantPair( const char lhs, const char rhs )
+constexpr bool ValidExtendedConsonantPair( const char lhs, const char rhs )
 {
     // allow all run-ons with separator letters like "-" or "'"
     if ( IsSeparator( lhs ) || IsSeparator( rhs ) )

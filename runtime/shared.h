@@ -32,7 +32,7 @@ public:
         mString[2] = root_chars[2];
     }
 
-    inline TrigramAssembler( const std::string& from_string )
+    TrigramAssembler( const std::string& from_string )
     {
         mString.fill( 0 );
         strcpy( mString.data(), from_string.c_str() );
@@ -43,26 +43,22 @@ public:
         return TrigramAssembler( std::move(std::string("")) );
     }
 
-    inline size_t
-    GetSize() const
+    size_t GetSize() const
     {
         return strlen( mString.data() );
     }
 
-    inline char
-    At( const size_t idx ) const
+    constexpr char At( const size_t idx ) const
     {
         return mString[idx];
     }
 
-    inline void 
-    Merge( const TrigramAssembler& other )
+    void Merge( const TrigramAssembler& other )
     {
         AppendString( other.mString.data() );
     }
 
-    inline void
-    AppendString( const char* to_append )
+    void AppendString( const char* to_append )
     {
         assert( to_append != nullptr );
         assert( strlen( to_append ) >= 1 );
@@ -71,8 +67,7 @@ public:
         strcat( mString.data(), to_append );
     }
 
-    inline void
-    AppendChar( const char to_append )
+    void AppendChar( const char to_append )
     {
         char appendBuffer[2] = { to_append, 0 };
         assert( strlen( mString.data() ) + 1 < 64 );
@@ -80,8 +75,7 @@ public:
         strcat( mString.data(), appendBuffer );
     }
 
-    inline void
-    PrependChar( const char to_prepend )
+    void PrependChar( const char to_prepend )
     {
         assert( strlen( mString.data() ) + 1 < 64 );
 
@@ -92,15 +86,13 @@ public:
         mString[0] = to_prepend;
     }
 
-    inline std::string
-    AsString() const
+    std::string AsString() const
     {
         return mString.data();
     }
 
     // take the current trailing trigram and cast it to a u32 for use in search lookups
-    inline uint32_t
-    AsU32() const
+    uint32_t AsU32() const
     {
         const auto asString = AsString();
         const size_t string_len = asString.size();

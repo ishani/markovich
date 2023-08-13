@@ -8,9 +8,7 @@
 
 struct pcg_state_setseq_64;
 
-inline bool
-IsVowel(
-    const char letter, bool include_y = false )
+constexpr bool IsVowel( const char letter, bool include_y = false )
 {
     switch( letter ) {
         case 'a':
@@ -26,9 +24,7 @@ IsVowel(
     return false;
 }
 
-inline bool
-IsSeparator(
-    const char letter )
+constexpr bool IsSeparator( const char letter )
 {
     switch ( letter ) {
         case '\'':
@@ -39,8 +35,7 @@ IsSeparator(
     return false;
 }
 
-char
-ChooseRandomVowel( pcg_state_setseq_64& rng, bool include_y = false );
+char ChooseRandomVowel( pcg_state_setseq_64& rng, bool include_y = false );
 
 
 // inject random vowels between any double consonants 

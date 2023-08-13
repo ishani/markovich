@@ -33,6 +33,11 @@
 
 struct pcg32_random_t
 {
+    constexpr pcg32_random_t( uint64_t _state, uint64_t _inc )
+      : state(_state)
+      , inc(_inc)
+    {}
+
     uint64_t state;             // RNG state.  All values are possible.
     uint64_t inc;               // Controls which RNG sequence (stream) is
                                 // selected. Must *always* be odd.
@@ -41,7 +46,7 @@ struct pcg32_random_t
 // pcg32_random_u32( state )
 //     Generate a uniformly distributed 32-bit random number
 
-inline uint32_t
+constexpr uint32_t
 pcg32_random_u32( pcg32_random_t& rng )
 {
     const uint64_t oldstate     = rng.state;
@@ -53,7 +58,7 @@ pcg32_random_u32( pcg32_random_t& rng )
 }
 
 
-inline float
+constexpr float
 pcg32_random_float( pcg32_random_t& rng )
 {
     // mask lower 23 bits, multiply by 1/2**23.
@@ -64,12 +69,10 @@ pcg32_random_float( pcg32_random_t& rng )
 //     Seed the rng.  Specified in two parts, state initializer and a
 //     sequence selection constant (a.k.a. stream id)
 
-inline pcg32_random_t
+constexpr pcg32_random_t
 pcg32_seed( const uint64_t initstate, const uint64_t initseq )
 {
-    pcg32_random_t rng;
-    rng.state = 0U;
-    rng.inc   = ( initseq << 1u ) | 1u;
+    pcg32_random_t rng( 0U, (initseq << 1u) | 1u );
     pcg32_random_u32( rng );
     rng.state += initstate;
     pcg32_random_u32( rng );
@@ -80,7 +83,7 @@ pcg32_seed( const uint64_t initstate, const uint64_t initseq )
 // pcg32_random_u32_range( state, bound ):
 //     Generate a uniformly distributed number, r, where 0 <= r < bound
 
-inline uint32_t
+constexpr uint32_t
 pcg32_random_u32_range( pcg32_random_t& rng, const uint32_t bound )
 {
     // To avoid bias, we need to make the range of the RNG a multiple of

@@ -7,9 +7,6 @@
 #include "pch.h"
 #include "linguistics.h"
 
-#include <chaiscript/extras/math.hpp>
-#include <chaiscript/extras/string_methods.hpp>
-
 namespace mk {
 #define MK_CHOICE(_var) Choice::_var,
     static const std::vector< Choice > AllThemeChoices{
@@ -33,8 +30,7 @@ static std::string to_string( const mk::Choice& ns_choice ) {
 
 namespace decision_functions {
 
-static char
-WeightThreshold(
+static char WeightThreshold(
     const char*     data_table_chars,
     const uint16_t* data_table_weights_u16,
     const size_t    data_table_size,
@@ -44,9 +40,12 @@ WeightThreshold(
     const uint16_t target_weight  = (uint16_t) roundf( input_weight * 0x00010000 );
     uint16_t       current_weight = 0;
     size_t         data_index     = 0;
-    for( ; data_index < data_table_size; data_index++ ) {
+
+    for( ; data_index < data_table_size; data_index++ )
+    {
         current_weight += data_table_weights_u16[data_index];
-        if( current_weight >= target_weight ) {
+        if( current_weight >= target_weight )
+        {
             return data_table_chars[data_index];
         }
     }
@@ -54,8 +53,7 @@ WeightThreshold(
     return data_table_chars[data_table_size - 1];
 }
 
-static char
-Random(
+static char Random(
     const char*     data_table_chars,
     const uint16_t* data_table_weights_u16,
     const size_t    data_table_size,
@@ -69,8 +67,76 @@ Random(
 
 }    // namespace decision_functions
 
-int
-main( int argv, char** argc )
+void padRight( std::string& subject, int32_t toLength )
+{
+  if ( toLength > subject.size() )
+    subject.insert( subject.size(), toLength - subject.size(), ' ');
+}
+
+
+#ifdef MK_MINI_DEMO
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+const char* getModelName( mk::Choice choice )
+{
+#define MKV_NAME( _entry )  case mk::Choice::_entry: return #_entry;
+    switch ( choice )
+    {
+      MKV_CHOICE_LIST( MKV_NAME )
+    }
+    return "unknown";
+}
+
+int main( int argv, char** argc )
+{
+    auto rng = pcg32_seed( std::time( nullptr ), 17322130906412408941ULL );
+
+    const mk::Choice randomModel = (mk::Choice)pcg32_random_u32_range( rng, 7 );
+    printf( "using [%s] ...\n", getModelName( randomModel ) );
+
+    for ( uint32_t word = 0; word < 16; word++ )
+    {
+        const uint32_t initialSeed = pcg32_random_u32( rng );
+
+        auto assembler = mk::BeginGeneration( randomModel, initialSeed );
+        const uint32_t wordLength = 3 + pcg32_random_u32_range( rng, 5 );
+
+        float randomWeight = pcg32_random_float( rng );
+
+        for ( uint32_t count = 0; count < wordLength; count ++ )
+        {
+            const uint32_t randomChoice = pcg32_random_u32( rng );
+
+            char nextChar = mk::SelectNextLetter(
+                randomModel,
+                assembler.AsU32(),
+                randomWeight,
+                randomChoice,
+                &decision_functions::WeightThreshold );
+
+            assembler.AppendChar( nextChar );
+
+            randomWeight *= 0.8f;
+        }
+
+        assembler = PadInvalidConsonantClusters( rng, assembler, true, false );
+        assembler = LimitSeparators( assembler );
+
+        printf( "%s\n", assembler.AsString().c_str() );
+    }
+}
+
+
+#else // MK_MINI_DEMO
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+#include <chaiscript/extras/math.hpp>
+#include <chaiscript/extras/string_methods.hpp>
+
+
+int main( int argv, char** argc )
 {
     printf( "Markovich | Procedural Name Generator | ishani.org 2022\n" );
 
@@ -81,6 +147,7 @@ main( int argv, char** argc )
     }
     {
         auto stringlib = chaiscript::extras::string_methods::bootstrap();
+        stringlib->add( chaiscript::fun( padRight ), "padRight" );
         chai.add( stringlib );
     }
 
@@ -235,3 +302,5 @@ main( int argv, char** argc )
 
     return 0;
 }
+
+#endif // MK_MINI_DEMO

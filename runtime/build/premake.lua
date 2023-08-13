@@ -26,11 +26,10 @@ function SetDefaultBuildConfiguration()
         flags     { "LinkTimeOptimization" }
         optimize  "Full"
 
-    filter "configurations:Release-AVX2"
-        defines   { "NDEBUG" }
-        flags     { "LinkTimeOptimization" }
-        optimize  "Full"
-        vectorextensions "AVX2"
+    -- custom config for the 'miniature' demo that doesn't use chai
+    filter "configurations:Mini"
+        defines   { "DEBUG", "MK_MINI_DEMO" }
+        symbols   "On"
 
     filter {}
 
@@ -49,7 +48,7 @@ end
 -- ==============================================================================
 workspace ("markovich_" .. _ACTION)
 
-    configurations  { "Debug", "Release", "Release-AVX2" }
+    configurations  { "Debug", "Release", "Mini" }
     platforms       { "x86_64" }
     architecture      "x64"
 
@@ -123,7 +122,7 @@ project "runtime"
         "_CRT_SECURE_NO_WARNINGS"
     }
 
-    sysincludedirs
+    externalincludedirs
     {
         SrcRoot()
     }

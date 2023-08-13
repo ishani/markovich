@@ -15,4 +15,4 @@
 #define MKV_DISABLE_OPT [[clang::optnone]]
 #endif    // !_MSC_VER
 
-#define MKV_DATA const
+#define MKV_DATA constexpr
