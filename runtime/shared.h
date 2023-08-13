@@ -98,9 +98,13 @@ public:
         const size_t string_len = asString.size();
         assert( string_len >= 3 );
 
-        const char* terminal_ptr = &( asString[string_len - 3] );
+        // take the last three letters to form a uint32 indexer
+        const uint32_t trigramU32 = 
+          (( (uint32_t)asString[string_len - 3] )) |
+          (( (uint32_t)asString[string_len - 2] ) << 8) |
+          (( (uint32_t)asString[string_len - 1] ) << 16);
 
-        return *(uint32_t*) terminal_ptr;
+        return cast;
     }
 
 private:

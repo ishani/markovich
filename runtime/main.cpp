@@ -88,42 +88,66 @@ const char* getModelName( mk::Choice choice )
     return "unknown";
 }
 
+// a simple demo that doesn't use ChaiScript
 int main( int argv, char** argc )
 {
     auto rng = pcg32_seed( std::time( nullptr ), 17322130906412408941ULL );
 
+    // choose a random language to use as our default
     const mk::Choice randomModel = (mk::Choice)pcg32_random_u32_range( rng, 7 );
     printf( "using [%s] ...\n", getModelName( randomModel ) );
 
-    for ( uint32_t word = 0; word < 16; word++ )
+    // make a pile of words
+    for ( uint32_t word = 0; word < 48; word++ )
     {
         const uint32_t initialSeed = pcg32_random_u32( rng );
 
         auto assembler = mk::BeginGeneration( randomModel, initialSeed );
         const uint32_t wordLength = 3 + pcg32_random_u32_range( rng, 5 );
 
-        float randomWeight = pcg32_random_float( rng );
+        // choose which of the decision functions to select
+        const bool bUseRandomDecision = ( pcg32_random_u32( rng ) & 1 ) == 1;
+
+        // for weighted selection, start at a random 50%+
+        float startingWeight = 0.5f + (pcg32_random_float( rng ) * 0.5f);
 
         for ( uint32_t count = 0; count < wordLength; count ++ )
         {
             const uint32_t randomChoice = pcg32_random_u32( rng );
 
-            char nextChar = mk::SelectNextLetter(
-                randomModel,
-                assembler.AsU32(),
-                randomWeight,
-                randomChoice,
-                &decision_functions::WeightThreshold );
+            if ( bUseRandomDecision )
+            {
+                char nextChar = mk::SelectNextLetter(
+                  randomModel,
+                  assembler.AsU32(),
+                  0.0f,
+                  randomChoice,
+                  &decision_functions::Random );
 
-            assembler.AppendChar( nextChar );
+                assembler.AppendChar( nextChar );
+            }
+            else
+            {
+                char nextChar = mk::SelectNextLetter(
+                  randomModel,
+                  assembler.AsU32(),
+                  startingWeight,
+                  randomChoice,
+                  &decision_functions::WeightThreshold );
 
-            randomWeight *= 0.8f;
+                assembler.AppendChar( nextChar );
+
+                // decay weight, increases temperature as the word progresses
+                startingWeight *= 0.8f;
+            }
         }
 
         assembler = PadInvalidConsonantClusters( rng, assembler, true, false );
         assembler = LimitSeparators( assembler );
 
-        printf( "%s\n", assembler.AsString().c_str() );
+        printf( "%-16s", assembler.AsString().c_str() );
+        if ( ( word + 1 ) % 4 == 0 )
+          printf( "\n" );
     }
 }
 
