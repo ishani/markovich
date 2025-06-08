@@ -94,7 +94,7 @@ int main( int argv, char** argc )
     auto rng = pcg32_seed( std::time( nullptr ), 17322130906412408941ULL );
 
     // choose a random language to use as our default
-    const mk::Choice randomModel = (mk::Choice)pcg32_random_u32_range( rng, 7 );
+    const mk::Choice randomModel = (mk::Choice)pcg32_random_u32_range( rng, (uint32_t)mk::AllThemeChoices.size() );
     printf( "using [%s] ...\n", getModelName( randomModel ) );
 
     // make a pile of words
@@ -162,7 +162,7 @@ int main( int argv, char** argc )
 
 int main( int argv, char** argc )
 {
-    printf( "Markovich | Procedural Name Generator | ishani.org 2022\n" );
+    printf( "Markovich | Procedural Name Generator | ishani.org 2025\n" );
 
     chaiscript::ChaiScript chai;
     {
