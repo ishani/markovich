@@ -1,7 +1,7 @@
 print( "\n" )
 
 var rng = CreateRNGNonDeterministic()
-var themes = [slavic, england, scotland, wales, japan, latin, arabic, thailand]
+var themes = [england, japan]
 
 for (theme : themes)
 {

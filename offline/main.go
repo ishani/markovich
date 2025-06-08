@@ -86,8 +86,10 @@ func buildAndEmit(generatedOutputPath, outputName string, trainingDataFiles ...s
 
 	// ft.DebugDumpTrigrams(outputName)
 
-	codegenRoots(ft, generatedOutputPath, outputName)
-	codegenProcessor(ft, generatedOutputPath, outputName)
+	codegenCppRoots(ft, generatedOutputPath, outputName)
+	codegenCppProcessor(ft, generatedOutputPath, outputName)
+
+	codegenJsProcessor(ft, generatedOutputPath, outputName)
 
 	generatedOutputs = append(generatedOutputs, outputName)
 }
@@ -101,14 +103,8 @@ func main() {
 	SysLog.Info("Starting...")
 
 	// carve up the original data sources, export into ready-to-process training data files
-	ProcessCSV("bulk/arabic.txt", "arabic", 0, -1)
-	ProcessCSV("bulk/japan.txt", "japan", 0, -1)
-	ProcessCSV("bulk/latin.txt", "latin", 0, -1)
-	ProcessCSV("bulk/slavic.txt", "slavic", 0, -1)
-	ProcessCSV("bulk/thai.txt", "thai", 0, -1)
-	ProcessCSV("bulk/uk.england.txt", "uk.england", 0, -1)
-	ProcessCSV("bulk/uk.scotland.txt", "uk.scotland", 0, -1)
-	ProcessCSV("bulk/uk.wales.txt", "uk.wales", 0, -1)
+	ProcessCSV("bulk/japanese_romaji.txt", "japan", 0, -1)
+	ProcessCSV("bulk/uk.england.txt", "england", 0, -1)
 
 	generatedOutputPath := "../runtime/generated/"
 	os.MkdirAll(generatedOutputPath, os.ModePerm)
@@ -116,46 +112,16 @@ func main() {
 	// load batches of training data and run code generation for each
 	buildAndEmit(
 		generatedOutputPath,
-		"slavic",
-		trainingIoPath+"/processed/slavic_all.txt",
-	)
-	buildAndEmit(
-		generatedOutputPath,
-		"england",
-		trainingIoPath+"/processed/uk.england_all.txt",
-	)
-	buildAndEmit(
-		generatedOutputPath,
-		"scotland",
-		trainingIoPath+"/processed/uk.scotland_all.txt",
-	)
-	buildAndEmit(
-		generatedOutputPath,
-		"wales",
-		trainingIoPath+"/processed/uk.wales_all.txt",
-	)
-	buildAndEmit(
-		generatedOutputPath,
 		"japan",
 		trainingIoPath+"/processed/japan_all.txt",
 	)
 	buildAndEmit(
 		generatedOutputPath,
-		"latin",
-		trainingIoPath+"/processed/latin_all.txt",
-	)
-	buildAndEmit(
-		generatedOutputPath,
-		"arabic",
-		trainingIoPath+"/processed/arabic_all.txt",
-	)
-	buildAndEmit(
-		generatedOutputPath,
-		"thailand",
-		trainingIoPath+"/processed/thai_all.txt",
+		"england",
+		trainingIoPath+"/processed/england_all.txt",
 	)
 
-	codegenMasterInclude(generatedOutputPath, generatedOutputs...)
+	codegenCppMasterInclude(generatedOutputPath, generatedOutputs...)
 
 	debugDumpOccurances(allPrefixPairOccurances, "prefix", "global")
 	debugDumpOccurances(allSuffixPairOccurances, "suffix", "global")

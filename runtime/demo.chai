@@ -2,14 +2,8 @@
 /*
     available themes:
 
-    slavic
     england
-    scotland
-    wales
     japan
-    latin
-    arabic
-    thailand
 */
 
 // create a random number generator (rng) with either a fixed (same results each time) or non-deterministic (different results each time) seed value
@@ -33,7 +27,7 @@ for (var w = 0; w < 16; ++w)
 
         // choose a beginning trigram to generate with; this chooses a known set of 3 letters from the specified language/theme set
         //
-        var newWord = BeginGeneration( wales, GetRandom(wordRng) )
+        var newWord = BeginGeneration( japan, GetRandom(wordRng) )
 
 
         // choose a target word length; this isn't exact, given post-processing may add or remove elements
@@ -51,7 +45,7 @@ for (var w = 0; w < 16; ++w)
 
             weight = GetRandomFloat(wordRng)
 
-            if ( !AddLetter( newWord, [wales, latin], weight, randomChoice, FnWeightThreshold ) )
+            if ( !AddLetter( newWord, [japan, england], weight, randomChoice, FnWeightThreshold ) )
             {
                 break;
             }

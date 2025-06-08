@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <title>Markovich Test</title>
+    <script src="markovich.js"></script>
+    <script src="mk-selector-japan.js"></script>
+    <style>
+        table {
+            width: auto;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: "Libre Baskerville", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.5em;
+        }
+        th, td {
+            padding: 1em;
+            text-align: center;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #GenerateNewNames {
+            font-size: 2em;
+            padding: 0.25em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center">
+        <button id="GenerateNewNames">Generate Names</button>
+    </div>
+
+    <table id="nameTable">
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <script>
+
+        // decision function used to pick the next character, given the frequency table data for
+        // the currently active trigram
+        function WeightThreshold(
+            data_table_chars,
+            data_table_weights_u16,
+            data_table_size,
+            input_weight,
+            input_seed
+        ) {
+            const target_weight = Math.round(input_weight * 0x10000);
+            let current_weight = 0;
+            let data_index = 0;
+
+            for (; data_index < data_table_size; data_index++) {
+                current_weight += data_table_weights_u16[data_index];
+                if (current_weight >= target_weight) {
+                    return data_table_chars[data_index];
+                }
+            }
+
+            // If the loop finishes, return the last character
+            // (handles cases where rounding or float precision might prevent exact match)
+            return data_table_chars[data_table_size - 1];
+        }
+
+        function GenerateName(rng, short_bound, long_bound) {
+
+            let assembler = BeginGeneration( rng.int32() );
+
+            let wordLength = rng.range(short_bound, long_bound) - 3;
+
+            for (var i = 0; i < wordLength; i++) {
+                let nextLetter = SelectNextLetter(assembler.asU32(), rng(), 12345, WeightThreshold);
+                if (nextLetter === 0)
+                    break;
+                assembler.appendChar( nextLetter );
+            }
+            
+            return padInvalidConsonantClusters(rng, assembler, true, true);
+        }
+
+        function RegenerateAllName() {
+            let cells = document.querySelectorAll('td');
+            cells.forEach(cell => {
+
+                let rng = aleaPRNG( Math.random() );
+                let primaryName = GenerateName(rng, 6, 10);
+
+                // on longer results, optionall cut them in half with a random break character (eg. space, dash)
+                if ( primaryName.getSize() > 8 )
+                {
+                    if ( rng.range(100) > 50 )
+                        primaryName.spliceAtNearestVowel( 4, randomBreak(rng) );
+                }
+                // on short results, bolt on another short generation
+                if ( primaryName.getSize() < 6 )
+                {
+                    primaryName.appendChar(" ");
+
+                    secondaryName = GenerateName(rng, 4, 5);
+                    primaryName.merge(secondaryName);
+                }
+
+                cell.innerHTML = primaryName.asString();
+            });
+        }
+
+        document.getElementById('GenerateNewNames').onclick = function() { RegenerateAllName(); };
+        window.onload = (event) => { RegenerateAllName(); };
+
+    </script>
+</body>
+</html>
