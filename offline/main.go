@@ -105,6 +105,7 @@ func main() {
 	// carve up the original data sources, export into ready-to-process training data files
 	ProcessCSV("bulk/japanese_romaji.txt", "japan", 0, -1)
 	ProcessCSV("bulk/uk.england.txt", "england", 0, -1)
+	ProcessCSV("bulk/mixture.txt", "mix", 0, -1)
 
 	generatedOutputPath := "../runtime/generated/"
 	os.MkdirAll(generatedOutputPath, os.ModePerm)
@@ -119,6 +120,11 @@ func main() {
 		generatedOutputPath,
 		"england",
 		trainingIoPath+"/processed/england_all.txt",
+	)
+	buildAndEmit(
+		generatedOutputPath,
+		"mix",
+		trainingIoPath+"/processed/mix_all.txt",
 	)
 
 	codegenCppMasterInclude(generatedOutputPath, generatedOutputs...)

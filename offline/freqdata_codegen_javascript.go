@@ -62,10 +62,10 @@ func (cg *codeGenUtil) emitJsRoots(fqd *freqdata) {
 	cg.buf.WriteString("const G_TRIGRAM_ROOTS = \n")
 	cg.buf.WriteString(buildBuffer.String())
 
-	cg.buf.WriteString("function BeginGeneration(input_user_random_u32) {\n")
+	cg.buf.WriteString("export function BeginGeneration(input_user_random_u32) {\n")
 	cg.buf.WriteString("	const chosen_index = input_user_random_u32 % E_TRIGRAM_ROOTS;\n")
 	cg.buf.WriteString("	const startIndex = chosen_index * 3;\n")
-	cg.buf.WriteString("	return TrigramAssembler.fromRootChars( G_TRIGRAM_ROOTS.substring(startIndex, startIndex + 3) );\n")
+	cg.buf.WriteString("	return G_TRIGRAM_ROOTS.substring(startIndex, startIndex + 3);\n")
 	cg.buf.WriteString("}\n")
 }
 
@@ -73,7 +73,7 @@ func (cg *codeGenUtil) emitJsRoots(fqd *freqdata) {
 
 func (cg *codeGenUtil) emitJsSelector(fqd *freqdata) {
 
-	cg.buf.WriteString("function SelectNextLetter(\n")
+	cg.buf.WriteString("export function SelectNextLetter(\n")
 	cg.buf.WriteString("    trigram_u32,\n")
 	cg.buf.WriteString("    input_weight,\n")
 	cg.buf.WriteString("    input_seed,\n")

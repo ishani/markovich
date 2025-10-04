@@ -136,7 +136,7 @@ static char SelectNextLetter(
             // aao
             case 0x006f6161:
             {
-                MKV_DATA char  data_chars[5]   = "yiks";
+                MKV_DATA char  data_chars[5]   = "iyks";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -225,7 +225,7 @@ static char SelectNextLetter(
             // aba
             case 0x00616261:
             {
-                MKV_DATA char  data_chars[18]   = "rstnykcigmedbjhou";
+                MKV_DATA char  data_chars[18]   = "rstnykcimgedbjhou";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x4835, // 0.282051 
                     0x3b14, // 0.230769 
@@ -264,7 +264,7 @@ static char SelectNextLetter(
             // abe
             case 0x00656261:
             {
-                MKV_DATA char  data_chars[19]   = "tcskmrygndaibphwjo";
+                MKV_DATA char  data_chars[19]   = "tcskrmygndapibhojw";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x5555, // 0.333333 
                     0x1bdd, // 0.108844 
@@ -292,7 +292,7 @@ static char SelectNextLetter(
             // abi
             case 0x00696261:
             {
-                MKV_DATA char  data_chars[16]   = "rkntsgdocyzaeib";
+                MKV_DATA char  data_chars[16]   = "rkntsgdocyzeiba";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x5a81, // 0.353535 
                     0x3b7a, // 0.232323 
@@ -329,7 +329,7 @@ static char SelectNextLetter(
             // abo
             case 0x006f6261:
             {
-                MKV_DATA char  data_chars[10]   = "rskntymci";
+                MKV_DATA char  data_chars[10]   = "rsknmtyci";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x6c17, // 0.422222 
                     0x3333, // 0.200000 
@@ -348,7 +348,7 @@ static char SelectNextLetter(
             // abu
             case 0x00756261:
             {
-                MKV_DATA char  data_chars[16]   = "rkstcnmgzdhjeoa";
+                MKV_DATA char  data_chars[16]   = "rkstcnmgzhjdaoe";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x46f1, // 0.277108 
                     0x260a, // 0.148594 
@@ -464,7 +464,7 @@ static char SelectNextLetter(
             // act
             case 0x00746361:
             {
-                MKV_DATA char  data_chars[4]   = "iyo";
+                MKV_DATA char  data_chars[4]   = "ioy";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -477,7 +477,7 @@ static char SelectNextLetter(
             // ada
             case 0x00616461:
             {
-                MKV_DATA char  data_chars[22]   = "inktcsyrhgmouzbdawjef";
+                MKV_DATA char  data_chars[22]   = "inktcsyrhgmoubzdjawef";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x6361, // 0.388193 
                     0x308b, // 0.189624 
@@ -527,7 +527,7 @@ static char SelectNextLetter(
             // ade
             case 0x00656461:
             {
-                MKV_DATA char  data_chars[16]   = "rnsyhmbkgjztiwc";
+                MKV_DATA char  data_chars[16]   = "rnsymhgbkzwcjti";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x6077, // 0.376812 
                     0x303b, // 0.188406 
@@ -552,7 +552,7 @@ static char SelectNextLetter(
             // adi
             case 0x00696461:
             {
-                MKV_DATA char  data_chars[4]   = "sun";
+                MKV_DATA char  data_chars[4]   = "snu";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -572,7 +572,7 @@ static char SelectNextLetter(
             // ado
             case 0x006f6461:
             {
-                MKV_DATA char  data_chars[18]   = "rmnkcgywsihdbtauf";
+                MKV_DATA char  data_chars[18]   = "rmnkcgywsihtbduaf";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5f7a, // 0.372951 
                     0x3582, // 0.209016 
@@ -746,7 +746,7 @@ static char SelectNextLetter(
             // aei
             case 0x00696561:
             {
-                MKV_DATA char  data_chars[5]   = "nwkm";
+                MKV_DATA char  data_chars[5]   = "nkmw";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -802,7 +802,7 @@ static char SelectNextLetter(
             // aen
             case 0x006e6561:
             {
-                MKV_DATA char  data_chars[8]   = "oaeubmt";
+                MKV_DATA char  data_chars[8]   = "oaubetm";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xaaab, // 0.666667 
                     0x1c72, // 0.111111 
@@ -936,7 +936,7 @@ static char SelectNextLetter(
             // aft
             case 0x00746661:
             {
-                MKV_DATA char  data_chars[3]   = "se";
+                MKV_DATA char  data_chars[3]   = "es";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -971,7 +971,7 @@ static char SelectNextLetter(
             // aga
             case 0x00616761:
             {
-                MKV_DATA char  data_chars[22]   = "wtrsmnyhkoieucbdzjfga";
+                MKV_DATA char  data_chars[22]   = "wtrsmnyhkoieucbdjfzag";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x32da, // 0.198636 
                     0x1e1e, // 0.117647 
@@ -1002,7 +1002,7 @@ static char SelectNextLetter(
             // age
             case 0x00656761:
             {
-                MKV_DATA char  data_chars[18]   = "ntrmkbcdhisojygzf";
+                MKV_DATA char  data_chars[18]   = "ntrmbkcdhiosgyjzf";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x31c7, // 0.194444 
                     0x25ed, // 0.148148 
@@ -1036,7 +1036,7 @@ static char SelectNextLetter(
             // agi
             case 0x00696761:
             {
-                MKV_DATA char  data_chars[22]   = "nsmrcthdwygzkobajufie";
+                MKV_DATA char  data_chars[22]   = "nsmrcthywdgzkobaujeif";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3472, // 0.204861 
                     0x28e4, // 0.159722 
@@ -1091,7 +1091,7 @@ static char SelectNextLetter(
             // ago
             case 0x006f6761:
             {
-                MKV_DATA char  data_chars[19]   = "smyercnzdhiuktjbga";
+                MKV_DATA char  data_chars[19]   = "smyercnzdhiktubjga";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x28b4, // 0.158996 
                     0x2022, // 0.125523 
@@ -1161,7 +1161,7 @@ static char SelectNextLetter(
             // aha
             case 0x00616861:
             {
-                MKV_DATA char  data_chars[17]   = "rmtnsgcyzdibekoj";
+                MKV_DATA char  data_chars[17]   = "rmtnsgcyzidbejok";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x6ff7, // 0.437367 
                     0x37fc, // 0.218684 
@@ -1213,7 +1213,7 @@ static char SelectNextLetter(
             // ahi
             case 0x00696861:
             {
-                MKV_DATA char  data_chars[16]   = "grkntmdscobyhie";
+                MKV_DATA char  data_chars[16]   = "grkntmdscobhyei";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x5aa4, // 0.354067 
                     0x3c05, // 0.234450 
@@ -1238,7 +1238,7 @@ static char SelectNextLetter(
             // aho
             case 0x006f6861:
             {
-                MKV_DATA char  data_chars[13]   = "rnmskgudthyc";
+                MKV_DATA char  data_chars[13]   = "rnmskgudchty";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x6945, // 0.411215 
                     0x323e, // 0.196262 
@@ -1284,7 +1284,7 @@ static char SelectNextLetter(
             // aia
             case 0x00616961:
             {
-                MKV_DATA char  data_chars[7]   = "nkcstr";
+                MKV_DATA char  data_chars[7]   = "nkcsrt";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5e51, // 0.368421 
                     0x435e, // 0.263158 
@@ -1300,7 +1300,7 @@ static char SelectNextLetter(
             // aib
             case 0x00626961:
             {
-                MKV_DATA char  data_chars[6]   = "aeuoi";
+                MKV_DATA char  data_chars[6]   = "aeoui";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xad09, // 0.675926 
                     0x1c72, // 0.111111 
@@ -1473,7 +1473,7 @@ static char SelectNextLetter(
             // ain
             case 0x006e6961:
             {
-                MKV_DATA char  data_chars[11]   = "oaieutgbny";
+                MKV_DATA char  data_chars[11]   = "oaieutgybn";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x7ebc, // 0.495050 
                     0x3029, // 0.188119 
@@ -1493,7 +1493,7 @@ static char SelectNextLetter(
             // aio
             case 0x006f6961:
             {
-                MKV_DATA char  data_chars[12]   = "ikunjrschmt";
+                MKV_DATA char  data_chars[12]   = "ikujnchrsmt";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x51ec, // 0.320000 
                     0x28f6, // 0.160000 
@@ -1514,7 +1514,7 @@ static char SelectNextLetter(
             // aip
             case 0x00706961:
             {
-                MKV_DATA char  data_chars[6]   = "uopae";
+                MKV_DATA char  data_chars[6]   = "uaeop";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -1632,7 +1632,7 @@ static char SelectNextLetter(
             // aja
             case 0x00616a61:
             {
-                MKV_DATA char  data_chars[5]   = "nyrm";
+                MKV_DATA char  data_chars[5]   = "ynrm";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -1658,7 +1658,7 @@ static char SelectNextLetter(
             // aji
             case 0x00696a61:
             {
-                MKV_DATA char  data_chars[19]   = "mrkngytocshwbiaduf";
+                MKV_DATA char  data_chars[19]   = "mrkngytocshwibadfu";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x5fa4, // 0.373596 
                     0x2c96, // 0.174157 
@@ -1710,7 +1710,7 @@ static char SelectNextLetter(
             // aju
             case 0x00756a61:
             {
-                MKV_DATA char  data_chars[9]   = "knrsjhat";
+                MKV_DATA char  data_chars[9]   = "knjrstha";
                 MKV_DATA uint16_t data_weights[8] = {
                     0xaaab, // 0.666667 
                     0x1555, // 0.083333 
@@ -1779,7 +1779,7 @@ static char SelectNextLetter(
             // ake
             case 0x00656b61:
             {
-                MKV_DATA char  data_chars[21]   = "nmsbdhtyrczgkiouafjw";
+                MKV_DATA char  data_chars[21]   = "nmsbhdtyzcrgkiouafjw";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x36c0, // 0.213873 
                     0x19e5, // 0.101156 
@@ -1857,7 +1857,7 @@ static char SelectNextLetter(
             // ako
             case 0x006f6b61:
             {
-                MKV_DATA char  data_chars[20]   = "sgnmbjdtzirkeycuhoa";
+                MKV_DATA char  data_chars[20]   = "sgnmbjtdzirkeycuhoa";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x1e63, // 0.118705 
                     0x1d78, // 0.115108 
@@ -1886,7 +1886,7 @@ static char SelectNextLetter(
             // aku
             case 0x00756b61:
             {
-                MKV_DATA char  data_chars[23]   = "rsbnmtcjiedkgyzhwouapl";
+                MKV_DATA char  data_chars[23]   = "rsbnmtcjiedkgyzhwoaupl";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x3bf7, // 0.234234 
                     0x25ab, // 0.147147 
@@ -2026,7 +2026,7 @@ static char SelectNextLetter(
             // alp
             case 0x00706c61:
             {
-                MKV_DATA char  data_chars[4]   = "ish";
+                MKV_DATA char  data_chars[4]   = "his";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -2116,7 +2116,7 @@ static char SelectNextLetter(
             // ame
             case 0x00656d61:
             {
-                MKV_DATA char  data_chars[22]   = "ngirtkdzmyscojauehfbl";
+                MKV_DATA char  data_chars[22]   = "ngirtkzdmyscoajehulfb";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3657, // 0.212264 
                     0x26a4, // 0.150943 
@@ -2195,7 +2195,7 @@ static char SelectNextLetter(
             // amo
             case 0x006f6d61:
             {
-                MKV_DATA char  data_chars[18]   = "trngcimsodkjeuybz";
+                MKV_DATA char  data_chars[18]   = "trngcimsdokjeubyz";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5044, // 0.313531 
                     0x3f5e, // 0.247525 
@@ -2243,7 +2243,7 @@ static char SelectNextLetter(
             // amu
             case 0x00756d61:
             {
-                MKV_DATA char  data_chars[17]   = "rkistngwbcymzhdp";
+                MKV_DATA char  data_chars[17]   = "rkistngwzmycbdhp";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x809a, // 0.502347 
                     0x28dd, // 0.159624 
@@ -2360,7 +2360,7 @@ static char SelectNextLetter(
             // ane
             case 0x00656e61:
             {
-                MKV_DATA char  data_chars[23]   = "kgscdntmizhybojpraeufw";
+                MKV_DATA char  data_chars[23]   = "kgscdntmizhybojrpaeufw";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x1c72, // 0.111111 
                     0x1862, // 0.095238 
@@ -2399,7 +2399,7 @@ static char SelectNextLetter(
             // ang
             case 0x00676e61:
             {
-                MKV_DATA char  data_chars[9]   = "aoueyilw";
+                MKV_DATA char  data_chars[9]   = "aoueyiwl";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5dde, // 0.366667 
                     0x40da, // 0.253333 
@@ -2417,7 +2417,7 @@ static char SelectNextLetter(
             // anh
             case 0x00686e61:
             {
-                MKV_DATA char  data_chars[4]   = "aoi";
+                MKV_DATA char  data_chars[4]   = "oai";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6666, // 0.400000 
                     0x6666, // 0.400000 
@@ -2430,7 +2430,7 @@ static char SelectNextLetter(
             // ani
             case 0x00696e61:
             {
-                MKV_DATA char  data_chars[22]   = "scmgwnykhjutadozibfre";
+                MKV_DATA char  data_chars[22]   = "scmgwnykhtujadozifber";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x5241, // 0.321311 
                     0x1d61, // 0.114754 
@@ -2508,7 +2508,7 @@ static char SelectNextLetter(
             // ann
             case 0x006e6e61:
             {
-                MKV_DATA char  data_chars[9]   = "oaeiuydn";
+                MKV_DATA char  data_chars[9]   = "oaeuiydn";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x921a, // 0.570707 
                     0x3b7a, // 0.232323 
@@ -2526,7 +2526,7 @@ static char SelectNextLetter(
             // ano
             case 0x006f6e61:
             {
-                MKV_DATA char  data_chars[22]   = "smkhutcydbginorejwzaf";
+                MKV_DATA char  data_chars[22]   = "smkhutcdybginorejwzaf";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x30d2, // 0.190698 
                     0x2582, // 0.146512 
@@ -2588,7 +2588,7 @@ static char SelectNextLetter(
             // ans
             case 0x00736e61:
             {
-                MKV_DATA char  data_chars[9]   = "heuaomyi";
+                MKV_DATA char  data_chars[9]   = "heuaoimy";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4b18, // 0.293333 
                     0x40da, // 0.253333 
@@ -2622,7 +2622,7 @@ static char SelectNextLetter(
             // anu
             case 0x00756e61:
             {
-                MKV_DATA char  data_chars[12]   = "mksnpcitdrh";
+                MKV_DATA char  data_chars[12]   = "mkspncidthr";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x6d62, // 0.427273 
                     0x5ac3, // 0.354545 
@@ -2681,7 +2681,7 @@ static char SelectNextLetter(
             // anz
             case 0x007a6e61:
             {
-                MKV_DATA char  data_chars[5]   = "aeou";
+                MKV_DATA char  data_chars[5]   = "aeuo";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x999a, // 0.600000 
                     0x25ba, // 0.147368 
@@ -2785,7 +2785,7 @@ static char SelectNextLetter(
             // aoi
             case 0x00696f61:
             {
-                MKV_DATA char  data_chars[10]   = "dmsbrcknw";
+                MKV_DATA char  data_chars[10]   = "mdscbrwkn";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x2aab, // 0.166667 
                     0x2aab, // 0.166667 
@@ -2846,7 +2846,7 @@ static char SelectNextLetter(
             // aon
             case 0x006e6f61:
             {
-                MKV_DATA char  data_chars[9]   = "oasiubce";
+                MKV_DATA char  data_chars[9]   = "oasiubec";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x78c1, // 0.471698 
                     0x2b79, // 0.169811 
@@ -2971,7 +2971,7 @@ static char SelectNextLetter(
             // ape
             case 0x00657061:
             {
-                MKV_DATA char  data_chars[5]   = "rckl";
+                MKV_DATA char  data_chars[5]   = "rklc";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -3010,7 +3010,7 @@ static char SelectNextLetter(
             // apo
             case 0x006f7061:
             {
-                MKV_DATA char  data_chars[6]   = "rinpk";
+                MKV_DATA char  data_chars[6]   = "ripkn";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6666, // 0.400000 
                     0x4ccd, // 0.300000 
@@ -3048,7 +3048,7 @@ static char SelectNextLetter(
             // apt
             case 0x00747061:
             {
-                MKV_DATA char  data_chars[3]   = "ai";
+                MKV_DATA char  data_chars[3]   = "ia";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -3060,7 +3060,7 @@ static char SelectNextLetter(
             // apu
             case 0x00757061:
             {
-                MKV_DATA char  data_chars[6]   = "rpsac";
+                MKV_DATA char  data_chars[6]   = "rspac";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -3087,7 +3087,7 @@ static char SelectNextLetter(
             // ara
             case 0x00617261:
             {
-                MKV_DATA char  data_chars[23]   = "mskicgndtbyhzuojwrfpae";
+                MKV_DATA char  data_chars[23]   = "mskicgndtbyhzuojwrpfae";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x21b5, // 0.131661 
                     0x1d6d, // 0.114943 
@@ -3156,7 +3156,7 @@ static char SelectNextLetter(
             // are
             case 0x00657261:
             {
-                MKV_DATA char  data_chars[18]   = "nkrytimghbaowdpcs";
+                MKV_DATA char  data_chars[18]   = "nkyrtimgbhaocdpsw";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x2c86, // 0.173913 
                     0x2164, // 0.130435 
@@ -3207,7 +3207,7 @@ static char SelectNextLetter(
             // ari
             case 0x00697261:
             {
-                MKV_DATA char  data_chars[23]   = "mnksytgdbcahiuzoefjwrp";
+                MKV_DATA char  data_chars[23]   = "mnksytgbdcahiuzoefjwrp";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x2791, // 0.154562 
                     0x1944, // 0.098696 
@@ -3271,7 +3271,7 @@ static char SelectNextLetter(
             // aro
             case 0x006f7261:
             {
-                MKV_DATA char  data_chars[17]   = "mbknujgctydpzshe";
+                MKV_DATA char  data_chars[17]   = "mkbunjcgytpzdshe";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x2d2d, // 0.176471 
                     0x21e2, // 0.132353 
@@ -3332,7 +3332,7 @@ static char SelectNextLetter(
             // aru
             case 0x00757261:
             {
-                MKV_DATA char  data_chars[23]   = "mkbgistnyhdcofwzerupja";
+                MKV_DATA char  data_chars[23]   = "mkbgistnyhcdofwezrupja";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x2492, // 0.142857 
                     0x20dc, // 0.128364 
@@ -3378,7 +3378,7 @@ static char SelectNextLetter(
             // asa
             case 0x00617361:
             {
-                MKV_DATA char  data_chars[22]   = "kwmnghtirsdbyzojceufa";
+                MKV_DATA char  data_chars[22]   = "kwmnghtirsdbyzocjuefa";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x56a6, // 0.338476 
                     0x2489, // 0.142719 
@@ -3421,7 +3421,7 @@ static char SelectNextLetter(
             // ase
             case 0x00657361:
             {
-                MKV_DATA char  data_chars[17]   = "ngdbmckrityuhosz";
+                MKV_DATA char  data_chars[17]   = "ngdbmckrituyhozs";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x464f, // 0.274648 
                     0x1cd8, // 0.112676 
@@ -3476,7 +3476,7 @@ static char SelectNextLetter(
             // ask
             case 0x006b7361:
             {
-                MKV_DATA char  data_chars[4]   = "iua";
+                MKV_DATA char  data_chars[4]   = "uia";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6666, // 0.400000 
                     0x6666, // 0.400000 
@@ -3489,7 +3489,7 @@ static char SelectNextLetter(
             // asm
             case 0x006d7361:
             {
-                MKV_DATA char  data_chars[4]   = "iae";
+                MKV_DATA char  data_chars[4]   = "aei";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -3514,7 +3514,7 @@ static char SelectNextLetter(
             // aso
             case 0x006f7361:
             {
-                MKV_DATA char  data_chars[17]   = "nkbedgrzusijmyoa";
+                MKV_DATA char  data_chars[17]   = "nkbdegurzsjimaoy";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3ad0, // 0.229730 
                     0x2298, // 0.135135 
@@ -3552,7 +3552,7 @@ static char SelectNextLetter(
             // ass
             case 0x00737361:
             {
-                MKV_DATA char  data_chars[6]   = "haoeu";
+                MKV_DATA char  data_chars[6]   = "haeou";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6762, // 0.403846 
                     0x5d8a, // 0.365385 
@@ -3567,7 +3567,7 @@ static char SelectNextLetter(
             // ast
             case 0x00747361:
             {
-                MKV_DATA char  data_chars[7]   = "louyei";
+                MKV_DATA char  data_chars[7]   = "ilouye";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x2aab, // 0.166667 
                     0x2aab, // 0.166667 
@@ -3583,7 +3583,7 @@ static char SelectNextLetter(
             // asu
             case 0x00757361:
             {
-                MKV_DATA char  data_chars[23]   = "mgkntdhzyorijbscweupaf";
+                MKV_DATA char  data_chars[23]   = "mgkntdhzyorijbscwuepaf";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x29ea, // 0.163728 
                     0x27fb, // 0.156171 
@@ -3670,7 +3670,7 @@ static char SelectNextLetter(
             // ate
             case 0x00657461:
             {
-                MKV_DATA char  data_chars[21]   = "nrgmkiscbhytdozfawue";
+                MKV_DATA char  data_chars[21]   = "nrgmkiscbhtydowfzaeu";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x34a3, // 0.205607 
                     0x22b1, // 0.135514 
@@ -3732,7 +3732,7 @@ static char SelectNextLetter(
             // atn
             case 0x006e7461:
             {
-                MKV_DATA char  data_chars[3]   = "ae";
+                MKV_DATA char  data_chars[3]   = "ea";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -3744,7 +3744,7 @@ static char SelectNextLetter(
             // ato
             case 0x006f7461:
             {
-                MKV_DATA char  data_chars[23]   = "mrkncygsibduztheofjwap";
+                MKV_DATA char  data_chars[23]   = "mrkncygsbiduztheofjwap";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x2e50, // 0.180905 
                     0x20ce, // 0.128141 
@@ -3901,7 +3901,7 @@ static char SelectNextLetter(
             // auk
             case 0x006b7561:
             {
-                MKV_DATA char  data_chars[4]   = "iue";
+                MKV_DATA char  data_chars[4]   = "ieu";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -3927,7 +3927,7 @@ static char SelectNextLetter(
             // aun
             case 0x006e7561:
             {
-                MKV_DATA char  data_chars[8]   = "enbostm";
+                MKV_DATA char  data_chars[8]   = "enbmost";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -3968,7 +3968,7 @@ static char SelectNextLetter(
             // aus
             case 0x00737561:
             {
-                MKV_DATA char  data_chars[6]   = "hutoa";
+                MKV_DATA char  data_chars[6]   = "hutao";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xb65b, // 0.712329 
                     0x3b9e, // 0.232877 
@@ -4044,7 +4044,7 @@ static char SelectNextLetter(
             // awa
             case 0x00617761:
             {
-                MKV_DATA char  data_chars[23]   = "crmstngdkbhzjiuyowafev";
+                MKV_DATA char  data_chars[23]   = "crmstngdkbhzjiuyoawfev";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x2adf, // 0.167472 
                     0x2866, // 0.157810 
@@ -4090,7 +4090,7 @@ static char SelectNextLetter(
             // aya
             case 0x00617961:
             {
-                MKV_DATA char  data_chars[21]   = "mstnkcbgdhorzwuiayjf";
+                MKV_DATA char  data_chars[21]   = "mstnkcbgdhrozwuifyaj";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x68ae, // 0.408907 
                     0x3747, // 0.215924 
@@ -4132,7 +4132,7 @@ static char SelectNextLetter(
             // ayo
             case 0x006f7961:
             {
-                MKV_DATA char  data_chars[13]   = "skinrubtojdg";
+                MKV_DATA char  data_chars[13]   = "skinrubtodgj";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x638e, // 0.388889 
                     0x2aab, // 0.166667 
@@ -4166,7 +4166,7 @@ static char SelectNextLetter(
             // ayu
             case 0x00757961:
             {
-                MKV_DATA char  data_chars[15]   = "kmgrtzbnsicuhe";
+                MKV_DATA char  data_chars[15]   = "kmgrtzbnscieuh";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x5ef8, // 0.370968 
                     0x1ce7, // 0.112903 
@@ -4190,7 +4190,7 @@ static char SelectNextLetter(
             // aza
             case 0x00617a61:
             {
-                MKV_DATA char  data_chars[18]   = "wktmnirbeshaofcgd";
+                MKV_DATA char  data_chars[18]   = "wktmnibreshadgocf";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5866, // 0.345304 
                     0x5592, // 0.334254 
@@ -4217,7 +4217,7 @@ static char SelectNextLetter(
             // aze
             case 0x00657a61:
             {
-                MKV_DATA char  data_chars[11]   = "nkmcgtydhr";
+                MKV_DATA char  data_chars[11]   = "nkmcgtydrh";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x430c, // 0.261905 
                     0x2aab, // 0.166667 
@@ -4237,7 +4237,7 @@ static char SelectNextLetter(
             // azo
             case 0x006f7a61:
             {
-                MKV_DATA char  data_chars[7]   = "nekijs";
+                MKV_DATA char  data_chars[7]   = "nekisj";
                 MKV_DATA uint16_t data_weights[6] = {
                     0xac00, // 0.671875 
                     0x3800, // 0.218750 
@@ -4253,7 +4253,7 @@ static char SelectNextLetter(
             // azu
             case 0x00757a61:
             {
-                MKV_DATA char  data_chars[17]   = "mkrsncthygoiefab";
+                MKV_DATA char  data_chars[17]   = "mkrsncthyegoibaf";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x4afb, // 0.292887 
                     0x4269, // 0.259414 
@@ -4348,7 +4348,7 @@ static char SelectNextLetter(
             // bae
             case 0x00656162:
             {
-                MKV_DATA char  data_chars[3]   = "mn";
+                MKV_DATA char  data_chars[3]   = "nm";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -4400,7 +4400,7 @@ static char SelectNextLetter(
             // bai
             case 0x00696162:
             {
-                MKV_DATA char  data_chars[15]   = "ksrtconehmbjdg";
+                MKV_DATA char  data_chars[15]   = "kstrcneomdbhjg";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x3832, // 0.219512 
                     0x3832, // 0.219512 
@@ -4482,7 +4482,7 @@ static char SelectNextLetter(
             // ban
             case 0x006e6162:
             {
-                MKV_DATA char  data_chars[22]   = "acosedgznybtuwjkirmhp";
+                MKV_DATA char  data_chars[22]   = "acosegdznybtuwjkrihpm";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3b14, // 0.230769 
                     0x1e86, // 0.119231 
@@ -4528,7 +4528,7 @@ static char SelectNextLetter(
             // bap
             case 0x00706162:
             {
-                MKV_DATA char  data_chars[3]   = "pt";
+                MKV_DATA char  data_chars[3]   = "tp";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -4540,7 +4540,7 @@ static char SelectNextLetter(
             // bar
             case 0x00726162:
             {
-                MKV_DATA char  data_chars[7]   = "auioey";
+                MKV_DATA char  data_chars[7]   = "auieoy";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x79bc, // 0.475524 
                     0x7293, // 0.447552 
@@ -4664,7 +4664,7 @@ static char SelectNextLetter(
             // bea
             case 0x00616562:
             {
-                MKV_DATA char  data_chars[5]   = "crsk";
+                MKV_DATA char  data_chars[5]   = "crks";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -4715,7 +4715,7 @@ static char SelectNextLetter(
             // bee
             case 0x00656562:
             {
-                MKV_DATA char  data_chars[3]   = "sr";
+                MKV_DATA char  data_chars[3]   = "rs";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -4806,7 +4806,7 @@ static char SelectNextLetter(
             // bel
             case 0x006c6562:
             {
-                MKV_DATA char  data_chars[4]   = "lmc";
+                MKV_DATA char  data_chars[4]   = "lcm";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -4833,7 +4833,7 @@ static char SelectNextLetter(
             // ben
             case 0x006e6562:
             {
-                MKV_DATA char  data_chars[15]   = "tozikjasbgecnr";
+                MKV_DATA char  data_chars[15]   = "tozikjabsgnecr";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x38e4, // 0.222222 
                     0x2492, // 0.142857 
@@ -4899,7 +4899,7 @@ static char SelectNextLetter(
             // bes
             case 0x00736562:
             {
-                MKV_DATA char  data_chars[7]   = "hsuaet";
+                MKV_DATA char  data_chars[7]   = "hsuate";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x7dc1, // 0.491228 
                     0x5555, // 0.333333 
@@ -4992,7 +4992,7 @@ static char SelectNextLetter(
             // bib
             case 0x00626962:
             {
-                MKV_DATA char  data_chars[5]   = "aiuo";
+                MKV_DATA char  data_chars[5]   = "aiou";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -5137,7 +5137,7 @@ static char SelectNextLetter(
             // bin
             case 0x006e6962:
             {
-                MKV_DATA char  data_chars[13]   = "oangiksbyzde";
+                MKV_DATA char  data_chars[13]   = "oangiksbezdy";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x53ef, // 0.327869 
                     0x25c5, // 0.147541 
@@ -5330,7 +5330,7 @@ static char SelectNextLetter(
             // boa
             case 0x00616f62:
             {
-                MKV_DATA char  data_chars[4]   = "nrt";
+                MKV_DATA char  data_chars[4]   = "tnr";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -5367,7 +5367,7 @@ static char SelectNextLetter(
             // bod
             case 0x00646f62:
             {
-                MKV_DATA char  data_chars[5]   = "aoei";
+                MKV_DATA char  data_chars[5]   = "aoie";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xa000, // 0.625000 
                     0x4000, // 0.250000 
@@ -5381,7 +5381,7 @@ static char SelectNextLetter(
             // boe
             case 0x00656f62:
             {
-                MKV_DATA char  data_chars[6]   = "tkinr";
+                MKV_DATA char  data_chars[6]   = "ktinr";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4ccd, // 0.300000 
                     0x4ccd, // 0.300000 
@@ -5435,7 +5435,7 @@ static char SelectNextLetter(
             // boi
             case 0x00696f62:
             {
-                MKV_DATA char  data_chars[10]   = "kwcnszgfh";
+                MKV_DATA char  data_chars[10]   = "cnwzksfgh";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x2222, // 0.133333 
                     0x2222, // 0.133333 
@@ -5467,7 +5467,7 @@ static char SelectNextLetter(
             // bok
             case 0x006b6f62:
             {
-                MKV_DATA char  data_chars[8]   = "ukoiaey";
+                MKV_DATA char  data_chars[8]   = "ukoaiey";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x722a, // 0.445946 
                     0x2983, // 0.162162 
@@ -5499,7 +5499,7 @@ static char SelectNextLetter(
             // bon
             case 0x006e6f62:
             {
-                MKV_DATA char  data_chars[17]   = "oeagyksmnijtdczh";
+                MKV_DATA char  data_chars[17]   = "oeaksgymijnztdhc";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x6cb6, // 0.424658 
                     0x188c, // 0.095890 
@@ -5538,7 +5538,7 @@ static char SelectNextLetter(
             // bor
             case 0x00726f62:
             {
-                MKV_DATA char  data_chars[9]   = "ioaueyvl";
+                MKV_DATA char  data_chars[9]   = "ioaueylv";
                 MKV_DATA uint16_t data_weights[8] = {
                     0xac86, // 0.673913 
                     0x1bd3, // 0.108696 
@@ -5556,7 +5556,7 @@ static char SelectNextLetter(
             // bos
             case 0x00736f62:
             {
-                MKV_DATA char  data_chars[7]   = "haoeuc";
+                MKV_DATA char  data_chars[7]   = "haouec";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x999a, // 0.600000 
                     0x3723, // 0.215385 
@@ -5572,7 +5572,7 @@ static char SelectNextLetter(
             // bot
             case 0x00746f62:
             {
-                MKV_DATA char  data_chars[7]   = "aostce";
+                MKV_DATA char  data_chars[7]   = "aostec";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x8000, // 0.500000 
                     0x43c4, // 0.264706 
@@ -5588,7 +5588,7 @@ static char SelectNextLetter(
             // bou
             case 0x00756f62:
             {
-                MKV_DATA char  data_chars[7]   = "rsegkn";
+                MKV_DATA char  data_chars[7]   = "rsengk";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -5665,7 +5665,7 @@ static char SelectNextLetter(
             // bri
             case 0x00697262:
             {
-                MKV_DATA char  data_chars[4]   = "dcg";
+                MKV_DATA char  data_chars[4]   = "dgc";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -5790,7 +5790,7 @@ static char SelectNextLetter(
             // bui
             case 0x00697562:
             {
-                MKV_DATA char  data_chars[8]   = "cwklnrz";
+                MKV_DATA char  data_chars[8]   = "cwlnrzk";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x6aab, // 0.416667 
                     0x2aab, // 0.166667 
@@ -5862,7 +5862,7 @@ static char SelectNextLetter(
             // bun
             case 0x006e7562:
             {
-                MKV_DATA char  data_chars[20]   = "aekgsojncidtbhpzymr";
+                MKV_DATA char  data_chars[20]   = "aekgosjcnditbzhrpmy";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x29a0, // 0.162602 
                     0x2577, // 0.146341 
@@ -5948,7 +5948,7 @@ static char SelectNextLetter(
             // but
             case 0x00747562:
             {
-                MKV_DATA char  data_chars[5]   = "oase";
+                MKV_DATA char  data_chars[5]   = "osae";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x53e6, // 0.327731 
                     0x51bf, // 0.319328 
@@ -5989,7 +5989,7 @@ static char SelectNextLetter(
             // buz
             case 0x007a7562:
             {
-                MKV_DATA char  data_chars[5]   = "ueao";
+                MKV_DATA char  data_chars[5]   = "euao";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -6015,7 +6015,7 @@ static char SelectNextLetter(
             // byo
             case 0x006f7962:
             {
-                MKV_DATA char  data_chars[10]   = "biudncehk";
+                MKV_DATA char  data_chars[10]   = "biudhncke";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x435e, // 0.263158 
                     0x35e5, // 0.210526 
@@ -6092,7 +6092,7 @@ static char SelectNextLetter(
             // cam
             case 0x006d6163:
             {
-                MKV_DATA char  data_chars[4]   = "pei";
+                MKV_DATA char  data_chars[4]   = "pie";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -6131,7 +6131,7 @@ static char SelectNextLetter(
             // car
             case 0x00726163:
             {
-                MKV_DATA char  data_chars[6]   = "elbir";
+                MKV_DATA char  data_chars[6]   = "elrbi";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -6170,7 +6170,7 @@ static char SelectNextLetter(
             // cch
             case 0x00686363:
             {
-                MKV_DATA char  data_chars[5]   = "iuao";
+                MKV_DATA char  data_chars[5]   = "ioua";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x999a, // 0.600000 
                     0x2222, // 0.133333 
@@ -6305,7 +6305,7 @@ static char SelectNextLetter(
             // cha
             case 0x00616863:
             {
-                MKV_DATA char  data_chars[17]   = "rnyksgpumbtcewij";
+                MKV_DATA char  data_chars[17]   = "rynkspugbtmcejwi";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x39ed, // 0.226277 
                     0x3095, // 0.189781 
@@ -6450,7 +6450,7 @@ static char SelectNextLetter(
             // chu
             case 0x00756863:
             {
-                MKV_DATA char  data_chars[21]   = "ougskrnbmdzjtyceawih";
+                MKV_DATA char  data_chars[21]   = "ougsknrbzjmdtycaewih";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x5231, // 0.321053 
                     0x2056, // 0.126316 
@@ -6613,7 +6613,7 @@ static char SelectNextLetter(
             // cla
             case 0x00616c63:
             {
-                MKV_DATA char  data_chars[3]   = "si";
+                MKV_DATA char  data_chars[3]   = "is";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -6697,7 +6697,7 @@ static char SelectNextLetter(
             // com
             case 0x006d6f63:
             {
-                MKV_DATA char  data_chars[3]   = "so";
+                MKV_DATA char  data_chars[3]   = "os";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -6709,7 +6709,7 @@ static char SelectNextLetter(
             // con
             case 0x006e6f63:
             {
-                MKV_DATA char  data_chars[7]   = "tcsdir";
+                MKV_DATA char  data_chars[7]   = "tcdirs";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4ccd, // 0.300000 
                     0x4ccd, // 0.300000 
@@ -6725,7 +6725,7 @@ static char SelectNextLetter(
             // cop
             case 0x00706f63:
             {
-                MKV_DATA char  data_chars[4]   = "epa";
+                MKV_DATA char  data_chars[4]   = "pae";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -6991,7 +6991,7 @@ static char SelectNextLetter(
             // dab
             case 0x00626164:
             {
-                MKV_DATA char  data_chars[6]   = "auioe";
+                MKV_DATA char  data_chars[6]   = "auoie";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xb13b, // 0.692308 
                     0x1d8a, // 0.115385 
@@ -7018,7 +7018,7 @@ static char SelectNextLetter(
             // dad
             case 0x00646164:
             {
-                MKV_DATA char  data_chars[6]   = "oarud";
+                MKV_DATA char  data_chars[6]   = "oadru";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6000, // 0.375000 
                     0x4000, // 0.250000 
@@ -7085,7 +7085,7 @@ static char SelectNextLetter(
             // dai
             case 0x00696164:
             {
-                MKV_DATA char  data_chars[23]   = "rskmnjgctbhdyziofaewul";
+                MKV_DATA char  data_chars[23]   = "rsmknjgctbhdyziofaeuwl";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x41b7, // 0.256705 
                     0x170d, // 0.090038 
@@ -7159,7 +7159,7 @@ static char SelectNextLetter(
             // dan
             case 0x006e6164:
             {
-                MKV_DATA char  data_chars[19]   = "ioancbsugktdjmyhzr";
+                MKV_DATA char  data_chars[19]   = "ioancbsugktdjmyzhr";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x9e2e, // 0.617886 
                     0x1dd5, // 0.116531 
@@ -7258,7 +7258,7 @@ static char SelectNextLetter(
             // dau
             case 0x00756164:
             {
-                MKV_DATA char  data_chars[4]   = "rec";
+                MKV_DATA char  data_chars[4]   = "erc";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6666, // 0.400000 
                     0x6666, // 0.400000 
@@ -7283,7 +7283,7 @@ static char SelectNextLetter(
             // day
             case 0x00796164:
             {
-                MKV_DATA char  data_chars[5]   = "auos";
+                MKV_DATA char  data_chars[5]   = "aous";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x9365, // 0.575758 
                     0x2e8c, // 0.181818 
@@ -7484,7 +7484,7 @@ static char SelectNextLetter(
             // dek
             case 0x006b6564:
             {
-                MKV_DATA char  data_chars[6]   = "iaoeu";
+                MKV_DATA char  data_chars[6]   = "iaoue";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x96f9, // 0.589744 
                     0x3483, // 0.205128 
@@ -7511,7 +7511,7 @@ static char SelectNextLetter(
             // dem
             case 0x006d6564:
             {
-                MKV_DATA char  data_chars[8]   = "aiouepm";
+                MKV_DATA char  data_chars[8]   = "aioupem";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x5c72, // 0.361111 
                     0x38e4, // 0.222222 
@@ -7528,7 +7528,7 @@ static char SelectNextLetter(
             // den
             case 0x006e6564:
             {
-                MKV_DATA char  data_chars[21]   = "osctmjpkwgabdeiryhun";
+                MKV_DATA char  data_chars[21]   = "osctmjkpwabgderihynu";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x2938, // 0.161017 
                     0x22b6, // 0.135593 
@@ -7558,7 +7558,7 @@ static char SelectNextLetter(
             // deo
             case 0x006f6564:
             {
-                MKV_DATA char  data_chars[5]   = "dkmt";
+                MKV_DATA char  data_chars[5]   = "mtdk";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -7883,7 +7883,7 @@ static char SelectNextLetter(
             // dob
             case 0x00626f64:
             {
-                MKV_DATA char  data_chars[6]   = "auioy";
+                MKV_DATA char  data_chars[6]   = "auiyo";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xb26d, // 0.696970 
                     0x2e8c, // 0.181818 
@@ -7898,7 +7898,7 @@ static char SelectNextLetter(
             // doc
             case 0x00636f64:
             {
-                MKV_DATA char  data_chars[5]   = "hcko";
+                MKV_DATA char  data_chars[5]   = "hkoc";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xee8c, // 0.931818 
                     0x05d1, // 0.022727 
@@ -8009,7 +8009,7 @@ static char SelectNextLetter(
             // dok
             case 0x006b6f64:
             {
-                MKV_DATA char  data_chars[8]   = "ouaiyek";
+                MKV_DATA char  data_chars[8]   = "ouaiyke";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x4b4b, // 0.294118 
                     0x39ba, // 0.225490 
@@ -8042,7 +8042,7 @@ static char SelectNextLetter(
             // don
             case 0x006e6f64:
             {
-                MKV_DATA char  data_chars[13]   = "oaindbemutyg";
+                MKV_DATA char  data_chars[13]   = "oaibdneygmtu";
                 MKV_DATA uint16_t data_weights[12] = {
                     0xa9c5, // 0.663158 
                     0x1841, // 0.094737 
@@ -8123,7 +8123,7 @@ static char SelectNextLetter(
             // dou
             case 0x00756f64:
             {
-                MKV_DATA char  data_chars[15]   = "scrdbtngijmyzk";
+                MKV_DATA char  data_chars[15]   = "scrdbzytiknmjg";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x3555, // 0.208333 
                     0x2000, // 0.125000 
@@ -8536,7 +8536,7 @@ static char SelectNextLetter(
             // ear
             case 0x00726165:
             {
-                MKV_DATA char  data_chars[6]   = "italm";
+                MKV_DATA char  data_chars[6]   = "itmal";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x745d, // 0.454545 
                     0x45d1, // 0.272727 
@@ -8551,7 +8551,7 @@ static char SelectNextLetter(
             // eas
             case 0x00736165:
             {
-                MKV_DATA char  data_chars[6]   = "ahoti";
+                MKV_DATA char  data_chars[6]   = "aohti";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -8566,7 +8566,7 @@ static char SelectNextLetter(
             // eat
             case 0x00746165:
             {
-                MKV_DATA char  data_chars[5]   = "esir";
+                MKV_DATA char  data_chars[5]   = "eirs";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -8616,7 +8616,7 @@ static char SelectNextLetter(
             // eba
             case 0x00616265:
             {
-                MKV_DATA char  data_chars[15]   = "rsytncimubkogd";
+                MKV_DATA char  data_chars[15]   = "rsytncmiubkogd";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x7989, // 0.474747 
                     0x26ca, // 0.151515 
@@ -8640,7 +8640,7 @@ static char SelectNextLetter(
             // ebe
             case 0x00656265:
             {
-                MKV_DATA char  data_chars[10]   = "trmoansck";
+                MKV_DATA char  data_chars[10]   = "trmosackn";
                 MKV_DATA uint16_t data_weights[9] = {
                     0xc7ce, // 0.780488 
                     0x0c7d, // 0.048780 
@@ -8659,7 +8659,7 @@ static char SelectNextLetter(
             // ebi
             case 0x00696265:
             {
-                MKV_DATA char  data_chars[13]   = "stnrkbgucehj";
+                MKV_DATA char  data_chars[13]   = "stnrkbcguehj";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x47dc, // 0.280702 
                     0x286c, // 0.157895 
@@ -8698,7 +8698,7 @@ static char SelectNextLetter(
             // ebu
             case 0x00756265:
             {
-                MKV_DATA char  data_chars[9]   = "nkrcetsg";
+                MKV_DATA char  data_chars[9]   = "nkrcetgs";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x430c, // 0.261905 
                     0x3cf4, // 0.238095 
@@ -8743,7 +8743,7 @@ static char SelectNextLetter(
             // eci
             case 0x00696365:
             {
-                MKV_DATA char  data_chars[3]   = "ap";
+                MKV_DATA char  data_chars[3]   = "pa";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -8804,7 +8804,7 @@ static char SelectNextLetter(
             // eda
             case 0x00616465:
             {
-                MKV_DATA char  data_chars[14]   = "inkcghstreoyb";
+                MKV_DATA char  data_chars[14]   = "inkcghstoreyb";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x5000, // 0.312500 
                     0x3e00, // 0.242188 
@@ -8839,7 +8839,7 @@ static char SelectNextLetter(
             // ede
             case 0x00656465:
             {
-                MKV_DATA char  data_chars[9]   = "mrnstcvw";
+                MKV_DATA char  data_chars[9]   = "mrstncvw";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x3333, // 0.200000 
                     0x3333, // 0.200000 
@@ -8870,7 +8870,7 @@ static char SelectNextLetter(
             // edo
             case 0x006f6465:
             {
-                MKV_DATA char  data_chars[15]   = "rmkngcbyisjoth";
+                MKV_DATA char  data_chars[15]   = "rmknbcgyishjot";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x4623, // 0.273973 
                     0x3b9e, // 0.232877 
@@ -8920,7 +8920,7 @@ static char SelectNextLetter(
             // eeb
             case 0x00626565:
             {
-                MKV_DATA char  data_chars[3]   = "ou";
+                MKV_DATA char  data_chars[3]   = "uo";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -8944,7 +8944,7 @@ static char SelectNextLetter(
             // eed
             case 0x00646565:
             {
-                MKV_DATA char  data_chars[3]   = "wo";
+                MKV_DATA char  data_chars[3]   = "ow";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -9104,7 +9104,7 @@ static char SelectNextLetter(
             // efu
             case 0x00756665:
             {
-                MKV_DATA char  data_chars[12]   = "krctdnmshje";
+                MKV_DATA char  data_chars[12]   = "krctdnsmhje";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4000, // 0.250000 
                     0x2aab, // 0.166667 
@@ -9125,7 +9125,7 @@ static char SelectNextLetter(
             // ega
             case 0x00616765:
             {
-                MKV_DATA char  data_chars[21]   = "wsmtohniykurfdceljga";
+                MKV_DATA char  data_chars[21]   = "wsmtohnikyurfdcelagj";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x4e31, // 0.305439 
                     0x2690, // 0.150628 
@@ -9167,7 +9167,7 @@ static char SelectNextLetter(
             // egi
             case 0x00696765:
             {
-                MKV_DATA char  data_chars[12]   = "snrmodtuyzb";
+                MKV_DATA char  data_chars[12]   = "snrbdmoutyz";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x599a, // 0.350000 
                     0x2666, // 0.150000 
@@ -9188,7 +9188,7 @@ static char SelectNextLetter(
             // ego
             case 0x006f6765:
             {
-                MKV_DATA char  data_chars[11]   = "ystnezcmor";
+                MKV_DATA char  data_chars[11]   = "ystnezmorc";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x435e, // 0.263158 
                     0x35e5, // 0.210526 
@@ -9223,7 +9223,7 @@ static char SelectNextLetter(
             // eha
             case 0x00616865:
             {
-                MKV_DATA char  data_chars[11]   = "rmntscgoyb";
+                MKV_DATA char  data_chars[11]   = "rmntscgbyo";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x6ae0, // 0.417476 
                     0x3e23, // 0.242718 
@@ -9255,7 +9255,7 @@ static char SelectNextLetter(
             // ehi
             case 0x00696865:
             {
-                MKV_DATA char  data_chars[9]   = "rgsktmce";
+                MKV_DATA char  data_chars[9]   = "rgskmtce";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x684c, // 0.407407 
                     0x3da1, // 0.240741 
@@ -9273,7 +9273,7 @@ static char SelectNextLetter(
             // eho
             case 0x006f6865:
             {
-                MKV_DATA char  data_chars[7]   = "nmrjkt";
+                MKV_DATA char  data_chars[7]   = "nmrtjk";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x9746, // 0.590909 
                     0x22e9, // 0.136364 
@@ -9398,7 +9398,7 @@ static char SelectNextLetter(
             // eii
             case 0x00696965:
             {
-                MKV_DATA char  data_chars[6]   = "cnowk";
+                MKV_DATA char  data_chars[6]   = "cknow";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xb13b, // 0.692308 
                     0x13b1, // 0.076923 
@@ -9426,7 +9426,7 @@ static char SelectNextLetter(
             // eik
             case 0x006b6965:
             {
-                MKV_DATA char  data_chars[7]   = "aeoyiu";
+                MKV_DATA char  data_chars[7]   = "aeoiyu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4a79, // 0.290909 
                     0x45d1, // 0.272727 
@@ -9606,7 +9606,7 @@ static char SelectNextLetter(
             // eji
             case 0x00696a65:
             {
-                MKV_DATA char  data_chars[11]   = "mrnbgtcdeo";
+                MKV_DATA char  data_chars[11]   = "mrnbegotdc";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x91a8, // 0.568965 
                     0x4235, // 0.258621 
@@ -9626,7 +9626,7 @@ static char SelectNextLetter(
             // ejo
             case 0x006f6a65:
             {
-                MKV_DATA char  data_chars[5]   = "nmsg";
+                MKV_DATA char  data_chars[5]   = "nmgs";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6db7, // 0.428571 
                     0x4925, // 0.285714 
@@ -9664,7 +9664,7 @@ static char SelectNextLetter(
             // eka
             case 0x00616b65:
             {
-                MKV_DATA char  data_chars[17]   = "wrmtndikgzsybaoc";
+                MKV_DATA char  data_chars[17]   = "wrmntdikgszyboac";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x5d4a, // 0.364407 
                     0x22b6, // 0.135593 
@@ -9704,7 +9704,7 @@ static char SelectNextLetter(
             // eki
             case 0x00696b65:
             {
-                MKV_DATA char  data_chars[20]   = "mtnsgyhjbkrdczafiwu";
+                MKV_DATA char  data_chars[20]   = "mtnsgyhjbkrcdzfawiu";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x2d4f, // 0.176991 
                     0x2561, // 0.146018 
@@ -9756,7 +9756,7 @@ static char SelectNextLetter(
             // eko
             case 0x006f6b65:
             {
-                MKV_DATA char  data_chars[19]   = "bmsztgojrdhkpucaey";
+                MKV_DATA char  data_chars[19]   = "bmsztogdrjuhpckeya";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x2400, // 0.140625 
                     0x1c00, // 0.109375 
@@ -9784,7 +9784,7 @@ static char SelectNextLetter(
             // eku
             case 0x00756b65:
             {
-                MKV_DATA char  data_chars[11]   = "rbsnyjmzut";
+                MKV_DATA char  data_chars[11]   = "rbsnymjztu";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x8000, // 0.500000 
                     0x25ed, // 0.148148 
@@ -9828,7 +9828,7 @@ static char SelectNextLetter(
             // elc
             case 0x00636c65:
             {
-                MKV_DATA char  data_chars[3]   = "ao";
+                MKV_DATA char  data_chars[3]   = "oa";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -9853,7 +9853,7 @@ static char SelectNextLetter(
             // eli
             case 0x00696c65:
             {
-                MKV_DATA char  data_chars[4]   = "ptm";
+                MKV_DATA char  data_chars[4]   = "pmt";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -9935,7 +9935,7 @@ static char SelectNextLetter(
             // ema
             case 0x00616d65:
             {
-                MKV_DATA char  data_chars[13]   = "csterniwkmhd";
+                MKV_DATA char  data_chars[13]   = "csterniwkmdh";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x9d63, // 0.614786 
                     0x25da, // 0.147860 
@@ -9957,7 +9957,7 @@ static char SelectNextLetter(
             // emb
             case 0x00626d65:
             {
-                MKV_DATA char  data_chars[7]   = "oaueir";
+                MKV_DATA char  data_chars[7]   = "oaeuir";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x684c, // 0.407407 
                     0x425f, // 0.259259 
@@ -9973,7 +9973,7 @@ static char SelectNextLetter(
             // eme
             case 0x00656d65:
             {
-                MKV_DATA char  data_chars[6]   = "nkgrt";
+                MKV_DATA char  data_chars[6]   = "nkrtg";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xc000, // 0.750000 
                     0x199a, // 0.100000 
@@ -9988,7 +9988,7 @@ static char SelectNextLetter(
             // emi
             case 0x00696d65:
             {
-                MKV_DATA char  data_chars[15]   = "nczstgykoedrum";
+                MKV_DATA char  data_chars[15]   = "nczstgykeomrud";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x542a, // 0.328767 
                     0x1c0e, // 0.109589 
@@ -10025,7 +10025,7 @@ static char SelectNextLetter(
             // emo
             case 0x006f6d65:
             {
-                MKV_DATA char  data_chars[8]   = "nrtcism";
+                MKV_DATA char  data_chars[8]   = "nrtcims";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x76c3, // 0.463918 
                     0x3f57, // 0.247423 
@@ -10042,7 +10042,7 @@ static char SelectNextLetter(
             // emp
             case 0x00706d65:
             {
-                MKV_DATA char  data_chars[7]   = "ouailt";
+                MKV_DATA char  data_chars[7]   = "outail";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -10087,7 +10087,7 @@ static char SelectNextLetter(
             // ena
             case 0x00616e65:
             {
-                MKV_DATA char  data_chars[16]   = "igskmtnwcrebyxp";
+                MKV_DATA char  data_chars[16]   = "igskmnctwrxepby";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x73e4, // 0.452703 
                     0x27c9, // 0.155405 
@@ -10154,7 +10154,7 @@ static char SelectNextLetter(
             // ene
             case 0x00656e65:
             {
-                MKV_DATA char  data_chars[12]   = "knbrgismcty";
+                MKV_DATA char  data_chars[12]   = "knrbsgimtyc";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x3333, // 0.200000 
                     0x2aab, // 0.166667 
@@ -10212,7 +10212,7 @@ static char SelectNextLetter(
             // eni
             case 0x00696e65:
             {
-                MKV_DATA char  data_chars[13]   = "snkcytbwghur";
+                MKV_DATA char  data_chars[13]   = "snkcytgwbruh";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x53ef, // 0.327869 
                     0x29f8, // 0.163934 
@@ -10304,7 +10304,7 @@ static char SelectNextLetter(
             // eno
             case 0x006f6e65:
             {
-                MKV_DATA char  data_chars[19]   = "ksmuhtbyocdgrjniwz";
+                MKV_DATA char  data_chars[19]   = "ksmuhtbyocdgrnjizw";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x39b4, // 0.225397 
                     0x2b13, // 0.168254 
@@ -10332,7 +10332,7 @@ static char SelectNextLetter(
             // enp
             case 0x00706e65:
             {
-                MKV_DATA char  data_chars[7]   = "ouiaey";
+                MKV_DATA char  data_chars[7]   = "ouiaye";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x6666, // 0.400000 
                     0x4000, // 0.250000 
@@ -10348,7 +10348,7 @@ static char SelectNextLetter(
             // enr
             case 0x00726e65:
             {
-                MKV_DATA char  data_chars[7]   = "yioaeu";
+                MKV_DATA char  data_chars[7]   = "yiaoeu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5ed1, // 0.370370 
                     0x5a13, // 0.351852 
@@ -10381,7 +10381,7 @@ static char SelectNextLetter(
             // ent
             case 0x00746e65:
             {
-                MKV_DATA char  data_chars[11]   = "aoesriulyh";
+                MKV_DATA char  data_chars[11]   = "aoesruihyl";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x525d, // 0.321739 
                     0x4dea, // 0.304348 
@@ -10401,7 +10401,7 @@ static char SelectNextLetter(
             // enu
             case 0x00756e65:
             {
-                MKV_DATA char  data_chars[11]   = "mpsknftuoe";
+                MKV_DATA char  data_chars[11]   = "mpknsefuot";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x70a4, // 0.440000 
                     0x1eb8, // 0.120000 
@@ -10508,7 +10508,7 @@ static char SelectNextLetter(
             // eok
             case 0x006b6f65:
             {
-                MKV_DATA char  data_chars[6]   = "aouei";
+                MKV_DATA char  data_chars[6]   = "aeiou";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xddde, // 0.866667 
                     0x0889, // 0.033333 
@@ -10560,7 +10560,7 @@ static char SelectNextLetter(
             // eor
             case 0x00726f65:
             {
-                MKV_DATA char  data_chars[5]   = "oiua";
+                MKV_DATA char  data_chars[5]   = "ouai";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x9249, // 0.571429 
                     0x2492, // 0.142857 
@@ -10599,7 +10599,7 @@ static char SelectNextLetter(
             // epa
             case 0x00617065:
             {
-                MKV_DATA char  data_chars[5]   = "ntal";
+                MKV_DATA char  data_chars[5]   = "alnt";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -10633,7 +10633,7 @@ static char SelectNextLetter(
             // epi
             case 0x00697065:
             {
-                MKV_DATA char  data_chars[5]   = "hsnr";
+                MKV_DATA char  data_chars[5]   = "shnr";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -10687,7 +10687,7 @@ static char SelectNextLetter(
             // era
             case 0x00617265:
             {
-                MKV_DATA char  data_chars[20]   = "mnoskzidbcgjthyrulp";
+                MKV_DATA char  data_chars[20]   = "nmsokzdbicgjhtyrulp";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x1a17, // 0.101911 
                     0x1a17, // 0.101911 
@@ -10729,7 +10729,7 @@ static char SelectNextLetter(
             // erc
             case 0x00637265:
             {
-                MKV_DATA char  data_chars[5]   = "hiou";
+                MKV_DATA char  data_chars[5]   = "uhio";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -10743,7 +10743,7 @@ static char SelectNextLetter(
             // ere
             case 0x00657265:
             {
-                MKV_DATA char  data_chars[9]   = "bkpotnyi";
+                MKV_DATA char  data_chars[9]   = "bkpotyin";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5d17, // 0.363636 
                     0x2e8c, // 0.181818 
@@ -10773,7 +10773,7 @@ static char SelectNextLetter(
             // erg
             case 0x00677265:
             {
-                MKV_DATA char  data_chars[4]   = "eay";
+                MKV_DATA char  data_chars[4]   = "eya";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -10798,7 +10798,7 @@ static char SelectNextLetter(
             // eri
             case 0x00697265:
             {
-                MKV_DATA char  data_chars[18]   = "kmnaygstdzbchuiwo";
+                MKV_DATA char  data_chars[18]   = "knamgystdzbchuowi";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x3950, // 0.223881 
                     0x1e91, // 0.119403 
@@ -10849,7 +10849,7 @@ static char SelectNextLetter(
             // ern
             case 0x006e7265:
             {
-                MKV_DATA char  data_chars[4]   = "amt";
+                MKV_DATA char  data_chars[4]   = "tam";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -10862,7 +10862,7 @@ static char SelectNextLetter(
             // ero
             case 0x006f7265:
             {
-                MKV_DATA char  data_chars[7]   = "kmxbot";
+                MKV_DATA char  data_chars[7]   = "kmtxbo";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x8000, // 0.500000 
                     0x2aab, // 0.166667 
@@ -10891,7 +10891,7 @@ static char SelectNextLetter(
             // ers
             case 0x00737265:
             {
-                MKV_DATA char  data_chars[5]   = "ieoa";
+                MKV_DATA char  data_chars[5]   = "eiao";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -10917,7 +10917,7 @@ static char SelectNextLetter(
             // eru
             case 0x00757265:
             {
-                MKV_DATA char  data_chars[16]   = "mgybtkohnspifua";
+                MKV_DATA char  data_chars[16]   = "mbgytksohnfpuia";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x2f28, // 0.184211 
                     0x1af3, // 0.105263 
@@ -10966,7 +10966,7 @@ static char SelectNextLetter(
             // esa
             case 0x00617365:
             {
-                MKV_DATA char  data_chars[12]   = "kwnstmodrji";
+                MKV_DATA char  data_chars[12]   = "kwnstmdorji";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x5271, // 0.322034 
                     0x363d, // 0.211864 
@@ -11028,7 +11028,7 @@ static char SelectNextLetter(
             // eso
             case 0x006f7365:
             {
-                MKV_DATA char  data_chars[10]   = "kmntrgjzl";
+                MKV_DATA char  data_chars[10]   = "kntmrgjlz";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x3333, // 0.200000 
                     0x2222, // 0.133333 
@@ -11088,7 +11088,7 @@ static char SelectNextLetter(
             // esu
             case 0x00757365:
             {
-                MKV_DATA char  data_chars[13]   = "ktgbmdhrensy";
+                MKV_DATA char  data_chars[13]   = "ktgmbrdesyhn";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x4000, // 0.250000 
                     0x3800, // 0.218750 
@@ -11110,7 +11110,7 @@ static char SelectNextLetter(
             // eta
             case 0x00617465:
             {
-                MKV_DATA char  data_chars[18]   = "knrmitbcgzsajduyo";
+                MKV_DATA char  data_chars[18]   = "knrmitbczgdasjyuo";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x3ac1, // 0.229508 
                     0x29f8, // 0.163934 
@@ -11144,7 +11144,7 @@ static char SelectNextLetter(
             // ete
             case 0x00657465:
             {
-                MKV_DATA char  data_chars[10]   = "mngiksrtd";
+                MKV_DATA char  data_chars[10]   = "gmnrsikdt";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x286c, // 0.157895 
                     0x286c, // 0.157895 
@@ -11163,7 +11163,7 @@ static char SelectNextLetter(
             // eth
             case 0x00687465:
             {
-                MKV_DATA char  data_chars[3]   = "ie";
+                MKV_DATA char  data_chars[3]   = "ei";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -11187,7 +11187,7 @@ static char SelectNextLetter(
             // eto
             case 0x006f7465:
             {
-                MKV_DATA char  data_chars[17]   = "rmksngbiucyjdtwh";
+                MKV_DATA char  data_chars[17]   = "rmksngbiuycjdhtw";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x2aab, // 0.166667 
                     0x25a6, // 0.147059 
@@ -11463,7 +11463,7 @@ static char SelectNextLetter(
             // eya
             case 0x00617965:
             {
-                MKV_DATA char  data_chars[13]   = "msctkngforub";
+                MKV_DATA char  data_chars[13]   = "msctknguborf";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x9581, // 0.584000 
                     0x1687, // 0.088000 
@@ -11523,7 +11523,7 @@ static char SelectNextLetter(
             // eza
             case 0x00617a65:
             {
-                MKV_DATA char  data_chars[10]   = "kwtminsar";
+                MKV_DATA char  data_chars[10]   = "kwmtinrsa";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x782a, // 0.469388 
                     0x6344, // 0.387755 
@@ -11561,7 +11561,7 @@ static char SelectNextLetter(
             // ezo
             case 0x006f7a65:
             {
-                MKV_DATA char  data_chars[8]   = "nkremag";
+                MKV_DATA char  data_chars[8]   = "nrkemag";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x4000, // 0.250000 
                     0x3000, // 0.187500 
@@ -11834,7 +11834,7 @@ static char SelectNextLetter(
             // fir
             case 0x00726966:
             {
-                MKV_DATA char  data_chars[3]   = "su";
+                MKV_DATA char  data_chars[3]   = "us";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -11954,7 +11954,7 @@ static char SelectNextLetter(
             // foo
             case 0x006f6f66:
             {
-                MKV_DATA char  data_chars[3]   = "tk";
+                MKV_DATA char  data_chars[3]   = "kt";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -11983,7 +11983,7 @@ static char SelectNextLetter(
             // fou
             case 0x00756f66:
             {
-                MKV_DATA char  data_chars[3]   = "rn";
+                MKV_DATA char  data_chars[3]   = "nr";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -12007,7 +12007,7 @@ static char SelectNextLetter(
             // fre
             case 0x00657266:
             {
-                MKV_DATA char  data_chars[4]   = "sni";
+                MKV_DATA char  data_chars[4]   = "sin";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -12068,7 +12068,7 @@ static char SelectNextLetter(
             // fub
             case 0x00627566:
             {
-                MKV_DATA char  data_chars[5]   = "ueao";
+                MKV_DATA char  data_chars[5]   = "ueoa";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -12107,7 +12107,7 @@ static char SelectNextLetter(
             // fue
             case 0x00657566:
             {
-                MKV_DATA char  data_chars[9]   = "nmfradgz";
+                MKV_DATA char  data_chars[9]   = "nmfradzg";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4b4b, // 0.294118 
                     0x2d2d, // 0.176471 
@@ -12151,7 +12151,7 @@ static char SelectNextLetter(
             // fuh
             case 0x00687566:
             {
-                MKV_DATA char  data_chars[3]   = "ai";
+                MKV_DATA char  data_chars[3]   = "ia";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -12222,7 +12222,7 @@ static char SelectNextLetter(
             // fun
             case 0x006e7566:
             {
-                MKV_DATA char  data_chars[13]   = "aeobykimctgn";
+                MKV_DATA char  data_chars[13]   = "aeobyikmtcgn";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x999a, // 0.600000 
                     0x44af, // 0.268293 
@@ -12315,7 +12315,7 @@ static char SelectNextLetter(
             // fuu
             case 0x00757566:
             {
-                MKV_DATA char  data_chars[5]   = "rfst";
+                MKV_DATA char  data_chars[5]   = "rstf";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -12341,7 +12341,7 @@ static char SelectNextLetter(
             // fuy
             case 0x00797566:
             {
-                MKV_DATA char  data_chars[4]   = "uoa";
+                MKV_DATA char  data_chars[4]   = "uao";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xcccd, // 0.800000 
                     0x199a, // 0.100000 
@@ -12376,7 +12376,7 @@ static char SelectNextLetter(
             // gaa
             case 0x00616167:
             {
-                MKV_DATA char  data_chars[4]   = "cdn";
+                MKV_DATA char  data_chars[4]   = "cnd";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -12489,7 +12489,7 @@ static char SelectNextLetter(
             // gai
             case 0x00696167:
             {
-                MKV_DATA char  data_chars[14]   = "tkmscnzdberhj";
+                MKV_DATA char  data_chars[14]   = "tkmscnzdbehjr";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x33d9, // 0.202532 
                     0x309c, // 0.189873 
@@ -12542,7 +12542,7 @@ static char SelectNextLetter(
             // gal
             case 0x006c6167:
             {
-                MKV_DATA char  data_chars[3]   = "la";
+                MKV_DATA char  data_chars[3]   = "al";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -12569,7 +12569,7 @@ static char SelectNextLetter(
             // gan
             case 0x006e6167:
             {
-                MKV_DATA char  data_chars[19]   = "oejakbudnsgtymcizp";
+                MKV_DATA char  data_chars[19]   = "oejakbudnstgmyczip";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x4e39, // 0.305556 
                     0x4aab, // 0.291667 
@@ -12597,7 +12597,7 @@ static char SelectNextLetter(
             // gao
             case 0x006f6167:
             {
-                MKV_DATA char  data_chars[10]   = "kgdnzbcmh";
+                MKV_DATA char  data_chars[10]   = "kgdmnbczh";
                 MKV_DATA uint16_t data_weights[9] = {
                     0xea90, // 0.916256 
                     0x03c9, // 0.014778 
@@ -12679,7 +12679,7 @@ static char SelectNextLetter(
             // gau
             case 0x00756167:
             {
-                MKV_DATA char  data_chars[6]   = "rctde";
+                MKV_DATA char  data_chars[6]   = "rtced";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xe38e, // 0.888889 
                     0x097b, // 0.037037 
@@ -12831,7 +12831,7 @@ static char SelectNextLetter(
             // gei
             case 0x00696567:
             {
-                MKV_DATA char  data_chars[11]   = "jnshdwybkt";
+                MKV_DATA char  data_chars[11]   = "njsdhtwybk";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x37a7, // 0.217391 
                     0x37a7, // 0.217391 
@@ -12878,7 +12878,7 @@ static char SelectNextLetter(
             // gem
             case 0x006d6567:
             {
-                MKV_DATA char  data_chars[8]   = "aoiuemp";
+                MKV_DATA char  data_chars[8]   = "aouiepm";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x739d, // 0.451613 
                     0x39ce, // 0.225806 
@@ -12895,7 +12895,7 @@ static char SelectNextLetter(
             // gen
             case 0x006e6567:
             {
-                MKV_DATA char  data_chars[20]   = "ojksdaytzbmncgreiup";
+                MKV_DATA char  data_chars[20]   = "ojksadtyzbcnmgireup";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x293c, // 0.161074 
                     0x1d35, // 0.114094 
@@ -12949,7 +12949,7 @@ static char SelectNextLetter(
             // ger
             case 0x00726567:
             {
-                MKV_DATA char  data_chars[6]   = "uiaom";
+                MKV_DATA char  data_chars[6]   = "uioam";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x9e7a, // 0.619048 
                     0x2492, // 0.142857 
@@ -12964,7 +12964,7 @@ static char SelectNextLetter(
             // ges
             case 0x00736567:
             {
-                MKV_DATA char  data_chars[6]   = "haues";
+                MKV_DATA char  data_chars[6]   = "hause";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x8788, // 0.529412 
                     0x3c3c, // 0.235294 
@@ -12979,7 +12979,7 @@ static char SelectNextLetter(
             // get
             case 0x00746567:
             {
-                MKV_DATA char  data_chars[6]   = "saoet";
+                MKV_DATA char  data_chars[6]   = "saote";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x8c9f, // 0.549296 
                     0x481d, // 0.281690 
@@ -13007,7 +13007,7 @@ static char SelectNextLetter(
             // gez
             case 0x007a6567:
             {
-                MKV_DATA char  data_chars[4]   = "uao";
+                MKV_DATA char  data_chars[4]   = "auo";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6db7, // 0.428571 
                     0x6db7, // 0.428571 
@@ -13039,7 +13039,7 @@ static char SelectNextLetter(
             // ght
             case 0x00746867:
             {
-                MKV_DATA char  data_chars[3]   = "os";
+                MKV_DATA char  data_chars[3]   = "so";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -13126,7 +13126,7 @@ static char SelectNextLetter(
             // gig
             case 0x00676967:
             {
-                MKV_DATA char  data_chars[4]   = "auo";
+                MKV_DATA char  data_chars[4]   = "aou";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xd70a, // 0.840000 
                     0x147b, // 0.080000 
@@ -13139,7 +13139,7 @@ static char SelectNextLetter(
             // gih
             case 0x00686967:
             {
-                MKV_DATA char  data_chars[5]   = "aieo";
+                MKV_DATA char  data_chars[5]   = "aioe";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xd174, // 0.818182 
                     0x1f08, // 0.121212 
@@ -13193,7 +13193,7 @@ static char SelectNextLetter(
             // gim
             case 0x006d6967:
             {
-                MKV_DATA char  data_chars[9]   = "aioempuy";
+                MKV_DATA char  data_chars[9]   = "aioeuymp";
                 MKV_DATA uint16_t data_weights[8] = {
                     0xad2d, // 0.676471 
                     0x25a6, // 0.147059 
@@ -13211,7 +13211,7 @@ static char SelectNextLetter(
             // gin
             case 0x006e6967:
             {
-                MKV_DATA char  data_chars[17]   = "oazuegksipryjnbd";
+                MKV_DATA char  data_chars[17]   = "oazueisgkjnpyrbd";
                 MKV_DATA uint16_t data_weights[16] = {
                     0xa0c8, // 0.628049 
                     0x2706, // 0.152439 
@@ -13394,7 +13394,7 @@ static char SelectNextLetter(
             // gli
             case 0x00696c67:
             {
-                MKV_DATA char  data_chars[3]   = "sc";
+                MKV_DATA char  data_chars[3]   = "cs";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -13495,7 +13495,7 @@ static char SelectNextLetter(
             // goe
             case 0x00656f67:
             {
-                MKV_DATA char  data_chars[9]   = "nmczsghk";
+                MKV_DATA char  data_chars[9]   = "nmcghksz";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5a5a, // 0.352941 
                     0x3c3c, // 0.235294 
@@ -13553,7 +13553,7 @@ static char SelectNextLetter(
             // goi
             case 0x00696f67:
             {
-                MKV_DATA char  data_chars[9]   = "sncwkgid";
+                MKV_DATA char  data_chars[9]   = "snwckgid";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4000, // 0.250000 
                     0x3333, // 0.200000 
@@ -13628,7 +13628,7 @@ static char SelectNextLetter(
             // gon
             case 0x006e6f67:
             {
-                MKV_DATA char  data_chars[16]   = "ogadinjstyrezbk";
+                MKV_DATA char  data_chars[16]   = "ogaidnjstyrezkb";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x7967, // 0.474227 
                     0x1fac, // 0.123711 
@@ -13653,7 +13653,7 @@ static char SelectNextLetter(
             // goo
             case 0x006f6f67:
             {
-                MKV_DATA char  data_chars[9]   = "dcntzkrs";
+                MKV_DATA char  data_chars[9]   = "dnrckstz";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x38e4, // 0.222222 
                     0x1c72, // 0.111111 
@@ -13730,7 +13730,7 @@ static char SelectNextLetter(
             // gou
             case 0x00756f67:
             {
-                MKV_DATA char  data_chars[8]   = "crkoszn";
+                MKV_DATA char  data_chars[8]   = "crkszno";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x6276, // 0.384615 
                     0x2762, // 0.153846 
@@ -13798,7 +13798,7 @@ static char SelectNextLetter(
             // gra
             case 0x00617267:
             {
-                MKV_DATA char  data_chars[4]   = "nsc";
+                MKV_DATA char  data_chars[4]   = "ncs";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xc000, // 0.750000 
                     0x2000, // 0.125000 
@@ -13859,7 +13859,7 @@ static char SelectNextLetter(
             // gua
             case 0x00617567:
             {
-                MKV_DATA char  data_chars[4]   = "inu";
+                MKV_DATA char  data_chars[4]   = "nui";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -14001,7 +14001,7 @@ static char SelectNextLetter(
             // gun
             case 0x006e7567:
             {
-                MKV_DATA char  data_chars[15]   = "imaoncjgtdzrbk";
+                MKV_DATA char  data_chars[15]   = "imaocnzdgtjkrb";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x5000, // 0.312500 
                     0x2000, // 0.125000 
@@ -14153,7 +14153,7 @@ static char SelectNextLetter(
             // gyo
             case 0x006f7967:
             {
-                MKV_DATA char  data_chars[15]   = "ukdjstnrmegzch";
+                MKV_DATA char  data_chars[15]   = "ukjdstemnrgzch";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x2fa1, // 0.186047 
                     0x2ca7, // 0.174419 
@@ -14189,7 +14189,7 @@ static char SelectNextLetter(
             // gyu
             case 0x00757967:
             {
-                MKV_DATA char  data_chars[10]   = "unckabdfo";
+                MKV_DATA char  data_chars[10]   = "uncabdfok";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x4444, // 0.266667 
                     0x3333, // 0.200000 
@@ -14297,7 +14297,7 @@ static char SelectNextLetter(
             // hag
             case 0x00676168:
             {
-                MKV_DATA char  data_chars[7]   = "iuaeoy";
+                MKV_DATA char  data_chars[7]   = "iaueoy";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x9679, // 0.587786 
                     0x1f44, // 0.122137 
@@ -14325,7 +14325,7 @@ static char SelectNextLetter(
             // hai
             case 0x00696168:
             {
-                MKV_DATA char  data_chars[16]   = "nkdrjbszmtgiywf";
+                MKV_DATA char  data_chars[16]   = "nkrdmbzsjtgwfiy";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x2aab, // 0.166667 
                     0x2000, // 0.125000 
@@ -14462,7 +14462,7 @@ static char SelectNextLetter(
             // har
             case 0x00726168:
             {
-                MKV_DATA char  data_chars[12]   = "auioebymdfg";
+                MKV_DATA char  data_chars[12]   = "auioebymgdf";
                 MKV_DATA uint16_t data_weights[11] = {
                     0xb294, // 0.697576 
                     0x308e, // 0.189673 
@@ -14616,7 +14616,7 @@ static char SelectNextLetter(
             // heb
             case 0x00626568:
             {
-                MKV_DATA char  data_chars[5]   = "iaou";
+                MKV_DATA char  data_chars[5]   = "ioau";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xaaab, // 0.666667 
                     0x2492, // 0.142857 
@@ -14630,7 +14630,7 @@ static char SelectNextLetter(
             // hed
             case 0x00646568:
             {
-                MKV_DATA char  data_chars[3]   = "oa";
+                MKV_DATA char  data_chars[3]   = "ao";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -14656,7 +14656,7 @@ static char SelectNextLetter(
             // hei
             case 0x00696568:
             {
-                MKV_DATA char  data_chars[18]   = "swkjcnrgzdatymhib";
+                MKV_DATA char  data_chars[18]   = "swkjcrngzdtaymbih";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x3513, // 0.207317 
                     0x1f38, // 0.121951 
@@ -14695,7 +14695,7 @@ static char SelectNextLetter(
             // hek
             case 0x006b6568:
             {
-                MKV_DATA char  data_chars[6]   = "ikuoa";
+                MKV_DATA char  data_chars[6]   = "ikuao";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x8000, // 0.500000 
                     0x2aab, // 0.166667 
@@ -14734,7 +14734,7 @@ static char SelectNextLetter(
             // hen
             case 0x006e6568:
             {
-                MKV_DATA char  data_chars[13]   = "ajnkszdopgtm";
+                MKV_DATA char  data_chars[13]   = "ajnzkosdgtmp";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x34f7, // 0.206897 
                     0x2c23, // 0.172414 
@@ -14859,7 +14859,7 @@ static char SelectNextLetter(
             // hia
             case 0x00616968:
             {
-                MKV_DATA char  data_chars[17]   = "irsgktwmcznodbyu";
+                MKV_DATA char  data_chars[17]   = "irskgwtmzcnobdyu";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3019, // 0.187879 
                     0x2b71, // 0.169697 
@@ -14928,7 +14928,7 @@ static char SelectNextLetter(
             // hie
             case 0x00656968:
             {
-                MKV_DATA char  data_chars[14]   = "nkidmbrhsoczg";
+                MKV_DATA char  data_chars[14]   = "nkidmbrhsozcg";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x3ef3, // 0.245902 
                     0x2e2a, // 0.180328 
@@ -14996,7 +14996,7 @@ static char SelectNextLetter(
             // hii
             case 0x00696968:
             {
-                MKV_DATA char  data_chars[18]   = "snkwcmdbztrgjheay";
+                MKV_DATA char  data_chars[18]   = "snkwcbmdtzrgjehay";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x2e48, // 0.180791 
                     0x2428, // 0.141243 
@@ -15023,7 +15023,7 @@ static char SelectNextLetter(
             // hij
             case 0x006a6968:
             {
-                MKV_DATA char  data_chars[7]   = "iouayh";
+                MKV_DATA char  data_chars[7]   = "iouahy";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x7e45, // 0.493243 
                     0x5bad, // 0.358108 
@@ -15056,7 +15056,7 @@ static char SelectNextLetter(
             // hil
             case 0x006c6968:
             {
-                MKV_DATA char  data_chars[5]   = "loti";
+                MKV_DATA char  data_chars[5]   = "liot";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x9249, // 0.571429 
                     0x2492, // 0.142857 
@@ -15088,7 +15088,7 @@ static char SelectNextLetter(
             // hin
             case 0x006e6968:
             {
-                MKV_DATA char  data_chars[23]   = "oakmsdtinjgyezuhcbfprw";
+                MKV_DATA char  data_chars[23]   = "oakmsdtinjgyzeuhcbfprw";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x5103, // 0.316448 
                     0x31fa, // 0.195219 
@@ -15120,7 +15120,7 @@ static char SelectNextLetter(
             // hio
             case 0x006f6968:
             {
-                MKV_DATA char  data_chars[22]   = "kgnmditjhybzcrsewupaf";
+                MKV_DATA char  data_chars[22]   = "kgnmditjhybzcrsewufpa";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2b11, // 0.168224 
                     0x17ed, // 0.093458 
@@ -15151,7 +15151,7 @@ static char SelectNextLetter(
             // hip
             case 0x00706968:
             {
-                MKV_DATA char  data_chars[6]   = "poeua";
+                MKV_DATA char  data_chars[6]   = "pouea";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xb426, // 0.703704 
                     0x1c72, // 0.111111 
@@ -15182,7 +15182,7 @@ static char SelectNextLetter(
             // his
             case 0x00736968:
             {
-                MKV_DATA char  data_chars[12]   = "ahueosckymt";
+                MKV_DATA char  data_chars[12]   = "ahueoskycmt";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x6dff, // 0.429668 
                     0x5c51, // 0.360614 
@@ -15220,7 +15220,7 @@ static char SelectNextLetter(
             // hiu
             case 0x00756968:
             {
-                MKV_DATA char  data_chars[14]   = "rcsnmedtwzbog";
+                MKV_DATA char  data_chars[14]   = "rcsnmedtwgobz";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x5333, // 0.325000 
                     0x3000, // 0.187500 
@@ -15367,7 +15367,7 @@ static char SelectNextLetter(
             // hoa
             case 0x00616f68:
             {
-                MKV_DATA char  data_chars[5]   = "ngsl";
+                MKV_DATA char  data_chars[5]   = "ngls";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xaaab, // 0.666667 
                     0x2aab, // 0.166667 
@@ -15477,7 +15477,7 @@ static char SelectNextLetter(
             // hoi
             case 0x00696f68:
             {
-                MKV_DATA char  data_chars[7]   = "nckgrs";
+                MKV_DATA char  data_chars[7]   = "nckrsg";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x7627, // 0.461538 
                     0x2762, // 0.153846 
@@ -15524,7 +15524,7 @@ static char SelectNextLetter(
             // hol
             case 0x006c6f68:
             {
-                MKV_DATA char  data_chars[4]   = "iel";
+                MKV_DATA char  data_chars[4]   = "ile";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -15537,7 +15537,7 @@ static char SelectNextLetter(
             // hom
             case 0x006d6f68:
             {
-                MKV_DATA char  data_chars[9]   = "ameiyubo";
+                MKV_DATA char  data_chars[9]   = "ameiuybo";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4a46, // 0.290123 
                     0x4588, // 0.271605 
@@ -15586,7 +15586,7 @@ static char SelectNextLetter(
             // hoo
             case 0x006f6f68:
             {
-                MKV_DATA char  data_chars[6]   = "njlck";
+                MKV_DATA char  data_chars[6]   = "nljkc";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -15663,7 +15663,7 @@ static char SelectNextLetter(
             // hou
             case 0x00756f68:
             {
-                MKV_DATA char  data_chars[17]   = "ksgrhnjbdmctoyza";
+                MKV_DATA char  data_chars[17]   = "ksgrhnjbdtcmyazo";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3885, // 0.220779 
                     0x2b39, // 0.168831 
@@ -15948,7 +15948,7 @@ static char SelectNextLetter(
             // huk
             case 0x006b7568:
             {
-                MKV_DATA char  data_chars[8]   = "uaoeyik";
+                MKV_DATA char  data_chars[8]   = "uaoeiyk";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xbc61, // 0.735849 
                     0x1a91, // 0.103774 
@@ -15981,7 +15981,7 @@ static char SelectNextLetter(
             // hun
             case 0x006e7568:
             {
-                MKV_DATA char  data_chars[17]   = "akbitoszdpyujgcn";
+                MKV_DATA char  data_chars[17]   = "akbtoiszdgcpyjnu";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3878, // 0.220588 
                     0x34b5, // 0.205882 
@@ -16007,7 +16007,7 @@ static char SelectNextLetter(
             // huo
             case 0x006f7568:
             {
-                MKV_DATA char  data_chars[12]   = "mkrhncdstgi";
+                MKV_DATA char  data_chars[12]   = "mkrhcdnstgi";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x3b14, // 0.230769 
                     0x2762, // 0.153846 
@@ -16041,7 +16041,7 @@ static char SelectNextLetter(
             // hur
             case 0x00727568:
             {
-                MKV_DATA char  data_chars[7]   = "uaiceo";
+                MKV_DATA char  data_chars[7]   = "auiceo";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4ccd, // 0.300000 
                     0x4ccd, // 0.300000 
@@ -16088,7 +16088,7 @@ static char SelectNextLetter(
             // huu
             case 0x00757568:
             {
-                MKV_DATA char  data_chars[14]   = "skrmngdoczbhi";
+                MKV_DATA char  data_chars[14]   = "skrdngmhibzco";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x4000, // 0.250000 
                     0x238e, // 0.138889 
@@ -16199,7 +16199,7 @@ static char SelectNextLetter(
             // hyo
             case 0x006f7968:
             {
-                MKV_DATA char  data_chars[11]   = "gutkndsrem";
+                MKV_DATA char  data_chars[11]   = "gutknsdrme";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x3a84, // 0.228571 
                     0x3a84, // 0.228571 
@@ -16219,7 +16219,7 @@ static char SelectNextLetter(
             // hyu
             case 0x00757968:
             {
-                MKV_DATA char  data_chars[4]   = "gdu";
+                MKV_DATA char  data_chars[4]   = "gud";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xcccd, // 0.800000 
                     0x199a, // 0.100000 
@@ -16303,7 +16303,7 @@ static char SelectNextLetter(
             // iai
             case 0x00696169:
             {
-                MKV_DATA char  data_chars[9]   = "ndmzgkoc";
+                MKV_DATA char  data_chars[9]   = "ndmgkzco";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4ccd, // 0.300000 
                     0x2222, // 0.133333 
@@ -16374,7 +16374,7 @@ static char SelectNextLetter(
             // ian
             case 0x006e6169:
             {
-                MKV_DATA char  data_chars[12]   = "ajbdoszgnrc";
+                MKV_DATA char  data_chars[12]   = "ajbdocgnrsz";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x590b, // 0.347826 
                     0x2c86, // 0.173913 
@@ -16437,7 +16437,7 @@ static char SelectNextLetter(
             // ias
             case 0x00736169:
             {
-                MKV_DATA char  data_chars[7]   = "ahousk";
+                MKV_DATA char  data_chars[7]   = "ahouks";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x86bd, // 0.526316 
                     0x435e, // 0.263158 
@@ -16453,7 +16453,7 @@ static char SelectNextLetter(
             // iat
             case 0x00746169:
             {
-                MKV_DATA char  data_chars[6]   = "saeou";
+                MKV_DATA char  data_chars[6]   = "saeuo";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6666, // 0.400000 
                     0x4ccd, // 0.300000 
@@ -16504,7 +16504,7 @@ static char SelectNextLetter(
             // iba
             case 0x00616269:
             {
-                MKV_DATA char  data_chars[21]   = "rnstymckhbudjgzoifaw";
+                MKV_DATA char  data_chars[21]   = "rnstymckhbdujgzoifaw";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x564c, // 0.337104 
                     0x291f, // 0.160633 
@@ -16534,7 +16534,7 @@ static char SelectNextLetter(
             // ibe
             case 0x00656269:
             {
-                MKV_DATA char  data_chars[16]   = "tnscpidrfomyeha";
+                MKV_DATA char  data_chars[16]   = "tnscpidrfeaomyh";
                 MKV_DATA uint16_t data_weights[15] = {
                     0xbf31, // 0.746835 
                     0x0e95, // 0.056962 
@@ -16559,7 +16559,7 @@ static char SelectNextLetter(
             // ibi
             case 0x00696269:
             {
-                MKV_DATA char  data_chars[17]   = "rtknsywjghciabfu";
+                MKV_DATA char  data_chars[17]   = "rktnsyjwicbafhgu";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x64f5, // 0.394366 
                     0x240e, // 0.140845 
@@ -16585,7 +16585,7 @@ static char SelectNextLetter(
             // ibo
             case 0x006f6269:
             {
-                MKV_DATA char  data_chars[16]   = "rkstnujigzdbyew";
+                MKV_DATA char  data_chars[16]   = "rktsnujgidewzby";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x56b6, // 0.338710 
                     0x1ce7, // 0.112903 
@@ -16610,7 +16610,7 @@ static char SelectNextLetter(
             // ibu
             case 0x00756269:
             {
-                MKV_DATA char  data_chars[13]   = "knctsrymueid";
+                MKV_DATA char  data_chars[13]   = "knctsrymdeiu";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x2fe3, // 0.187050 
                     0x2c34, // 0.172662 
@@ -16752,7 +16752,7 @@ static char SelectNextLetter(
             // ida
             case 0x00616469:
             {
-                MKV_DATA char  data_chars[21]   = "inkrtcsghybfwjdazoml";
+                MKV_DATA char  data_chars[21]   = "inkrtcsghybjdfwzmaol";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x7632, // 0.461702 
                     0x2caa, // 0.174468 
@@ -16794,7 +16794,7 @@ static char SelectNextLetter(
             // ide
             case 0x00656469:
             {
-                MKV_DATA char  data_chars[18]   = "nsrmtkyghocabjiuw";
+                MKV_DATA char  data_chars[18]   = "nsrmtkyghocabwjiu";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x3d82, // 0.240260 
                     0x3885, // 0.220779 
@@ -16866,7 +16866,7 @@ static char SelectNextLetter(
             // ido
             case 0x006f6469:
             {
-                MKV_DATA char  data_chars[20]   = "rmnksgbcuhjizdtayef";
+                MKV_DATA char  data_chars[20]   = "rmnksgcbujihzdtyefa";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x731a, // 0.449612 
                     0x29ad, // 0.162791 
@@ -16983,7 +16983,7 @@ static char SelectNextLetter(
             // iei
             case 0x00696569:
             {
-                MKV_DATA char  data_chars[9]   = "tfzcdkgj";
+                MKV_DATA char  data_chars[9]   = "tfzckdgj";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4000, // 0.250000 
                     0x2aab, // 0.166667 
@@ -17053,7 +17053,7 @@ static char SelectNextLetter(
             // ien
             case 0x006e6569:
             {
-                MKV_DATA char  data_chars[12]   = "aocgtimbsud";
+                MKV_DATA char  data_chars[12]   = "aocgtdisbmu";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x469f, // 0.275862 
                     0x3dcb, // 0.241379 
@@ -17126,7 +17126,7 @@ static char SelectNextLetter(
             // ieu
             case 0x00756569:
             {
-                MKV_DATA char  data_chars[4]   = "esr";
+                MKV_DATA char  data_chars[4]   = "ser";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6666, // 0.400000 
                     0x6666, // 0.400000 
@@ -17199,7 +17199,7 @@ static char SelectNextLetter(
             // ifu
             case 0x00756669:
             {
-                MKV_DATA char  data_chars[13]   = "knrjtscmgdhu";
+                MKV_DATA char  data_chars[13]   = "knrjtscmdguh";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x5800, // 0.343750 
                     0x2d55, // 0.177083 
@@ -17221,7 +17221,7 @@ static char SelectNextLetter(
             // iga
             case 0x00616769:
             {
-                MKV_DATA char  data_chars[20]   = "swotkmnhyiruedajzfb";
+                MKV_DATA char  data_chars[20]   = "swotkmnhyiruedfabjz";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x46b1, // 0.276134 
                     0x2c2e, // 0.172584 
@@ -17250,7 +17250,7 @@ static char SelectNextLetter(
             // ige
             case 0x00656769:
             {
-                MKV_DATA char  data_chars[18]   = "ntmkhydorjiszfabc";
+                MKV_DATA char  data_chars[18]   = "ntmkyhodzjirscbfa";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x428f, // 0.260000 
                     0x3852, // 0.220000 
@@ -17289,7 +17289,7 @@ static char SelectNextLetter(
             // igi
             case 0x00696769:
             {
-                MKV_DATA char  data_chars[20]   = "srnmtwgckjybfihpdao";
+                MKV_DATA char  data_chars[20]   = "rsnmtwbgcyjkdhiofpa";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3119, // 0.191781 
                     0x3119, // 0.191781 
@@ -17330,7 +17330,7 @@ static char SelectNextLetter(
             // igo
             case 0x006f6769:
             {
-                MKV_DATA char  data_chars[21]   = "srctkmenyzbhdijogual";
+                MKV_DATA char  data_chars[21]   = "srtckmenyzbdhijougal";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x24c6, // 0.143646 
                     0x1f1e, // 0.121547 
@@ -17396,7 +17396,7 @@ static char SelectNextLetter(
             // iha
             case 0x00616869:
             {
-                MKV_DATA char  data_chars[17]   = "rmtsncgkyzdibejp";
+                MKV_DATA char  data_chars[17]   = "rmtsnckgyzdibepj";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x5ec6, // 0.370203 
                     0x3402, // 0.203160 
@@ -17422,7 +17422,7 @@ static char SelectNextLetter(
             // ihe
             case 0x00656869:
             {
-                MKV_DATA char  data_chars[8]   = "inmybet";
+                MKV_DATA char  data_chars[8]   = "inmtybe";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xaaab, // 0.666667 
                     0x1c72, // 0.111111 
@@ -17451,7 +17451,7 @@ static char SelectNextLetter(
             // ihi
             case 0x00696869:
             {
-                MKV_DATA char  data_chars[16]   = "rgknstdmyoebjuc";
+                MKV_DATA char  data_chars[16]   = "rgknstdmyebojuc";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x4f68, // 0.310185 
                     0x484c, // 0.282407 
@@ -17476,7 +17476,7 @@ static char SelectNextLetter(
             // iho
             case 0x006f6869:
             {
-                MKV_DATA char  data_chars[17]   = "nrmkstuzdgbjiyca";
+                MKV_DATA char  data_chars[17]   = "nrmkstugdzbjiacy";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x66ea, // 0.402010 
                     0x34be, // 0.206030 
@@ -17502,7 +17502,7 @@ static char SelectNextLetter(
             // ihy
             case 0x00796869:
             {
-                MKV_DATA char  data_chars[4]   = "oua";
+                MKV_DATA char  data_chars[4]   = "oau";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -17515,7 +17515,7 @@ static char SelectNextLetter(
             // iia
             case 0x00616969:
             {
-                MKV_DATA char  data_chars[4]   = "rcp";
+                MKV_DATA char  data_chars[4]   = "cpr";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -17607,7 +17607,7 @@ static char SelectNextLetter(
             // iii
             case 0x00696969:
             {
-                MKV_DATA char  data_chars[6]   = "dzcjn";
+                MKV_DATA char  data_chars[6]   = "dzjnc";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6000, // 0.375000 
                     0x4000, // 0.250000 
@@ -17651,7 +17651,7 @@ static char SelectNextLetter(
             // iim
             case 0x006d6969:
             {
-                MKV_DATA char  data_chars[5]   = "aiou";
+                MKV_DATA char  data_chars[5]   = "aoui";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xacf9, // 0.675676 
                     0x1bad, // 0.108108 
@@ -17694,7 +17694,7 @@ static char SelectNextLetter(
             // iir
             case 0x00726969:
             {
-                MKV_DATA char  data_chars[6]   = "iaoue";
+                MKV_DATA char  data_chars[6]   = "aioue";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x45d1, // 0.272727 
                     0x45d1, // 0.272727 
@@ -17740,7 +17740,7 @@ static char SelectNextLetter(
             // iiu
             case 0x00756969:
             {
-                MKV_DATA char  data_chars[3]   = "rc";
+                MKV_DATA char  data_chars[3]   = "cr";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -17764,7 +17764,7 @@ static char SelectNextLetter(
             // iiy
             case 0x00796969:
             {
-                MKV_DATA char  data_chars[4]   = "auo";
+                MKV_DATA char  data_chars[4]   = "aou";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xd174, // 0.818182 
                     0x1746, // 0.090909 
@@ -17821,7 +17821,7 @@ static char SelectNextLetter(
             // iji
             case 0x00696a69:
             {
-                MKV_DATA char  data_chars[16]   = "mnrkygtcdbswfho";
+                MKV_DATA char  data_chars[16]   = "mnrkygtcbdswofh";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x5df2, // 0.366972 
                     0x3026, // 0.188073 
@@ -17846,7 +17846,7 @@ static char SelectNextLetter(
             // ijo
             case 0x006f6a69:
             {
-                MKV_DATA char  data_chars[17]   = "unmdjgchksozbyir";
+                MKV_DATA char  data_chars[17]   = "unmdjgckhszbiory";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3cbf, // 0.237288 
                     0x1e5f, // 0.118644 
@@ -17872,7 +17872,7 @@ static char SelectNextLetter(
             // iju
             case 0x00756a69:
             {
-                MKV_DATA char  data_chars[16]   = "kntisyjuhbmgrdw";
+                MKV_DATA char  data_chars[16]   = "kntisyjuhbmrgwd";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x3c0d, // 0.234568 
                     0x2916, // 0.160494 
@@ -17909,7 +17909,7 @@ static char SelectNextLetter(
             // ika
             case 0x00616b69:
             {
-                MKV_DATA char  data_chars[21]   = "wnmtriksgdbzpceujyoh";
+                MKV_DATA char  data_chars[21]   = "wnmtriksgdbzpecujyoh";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x3b1e, // 0.230924 
                     0x1fdf, // 0.124498 
@@ -17939,7 +17939,7 @@ static char SelectNextLetter(
             // ike
             case 0x00656b69:
             {
-                MKV_DATA char  data_chars[21]   = "ncgmsbidhjkturyzpeaw";
+                MKV_DATA char  data_chars[21]   = "ncgmsibdjhktruzypwae";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x5432, // 0.328889 
                     0x1908, // 0.097778 
@@ -18005,7 +18005,7 @@ static char SelectNextLetter(
             // ikk
             case 0x006b6b69:
             {
-                MKV_DATA char  data_chars[7]   = "oaueiy";
+                MKV_DATA char  data_chars[7]   = "ouaeiy";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5a24, // 0.352113 
                     0x39b1, // 0.225352 
@@ -18021,7 +18021,7 @@ static char SelectNextLetter(
             // iko
             case 0x006f6b69:
             {
-                MKV_DATA char  data_chars[22]   = "smknijtbgerzychduapof";
+                MKV_DATA char  data_chars[22]   = "smknijtbgerzycdhupafo";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2098, // 0.127321 
                     0x1f3c, // 0.122016 
@@ -18052,7 +18052,7 @@ static char SelectNextLetter(
             // iku
             case 0x00756b69:
             {
-                MKV_DATA char  data_chars[20]   = "rmbsnzctgikdjyehwuo";
+                MKV_DATA char  data_chars[20]   = "rmbsnzctgikjdeyhuwo";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3b1e, // 0.230932 
                     0x21a1, // 0.131356 
@@ -18132,7 +18132,7 @@ static char SelectNextLetter(
             // ilo
             case 0x006f6c69:
             {
-                MKV_DATA char  data_chars[3]   = "st";
+                MKV_DATA char  data_chars[3]   = "ts";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -18215,7 +18215,7 @@ static char SelectNextLetter(
             // ime
             case 0x00656d69:
             {
-                MKV_DATA char  data_chars[18]   = "nitmgkrjdschyboue";
+                MKV_DATA char  data_chars[18]   = "nitmgkrjdschyuebo";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x51ec, // 0.320000 
                     0x1cac, // 0.112000 
@@ -18242,7 +18242,7 @@ static char SelectNextLetter(
             // imi
             case 0x00696d69:
             {
-                MKV_DATA char  data_chars[20]   = "nzyctkgsmdhowiujbar";
+                MKV_DATA char  data_chars[20]   = "nzyctkgsmdhiworuabj";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x448f, // 0.267806 
                     0x43d4, // 0.264957 
@@ -18286,7 +18286,7 @@ static char SelectNextLetter(
             // imo
             case 0x006f6d69:
             {
-                MKV_DATA char  data_chars[23]   = "tnksmhrioygaufbdcjzewp";
+                MKV_DATA char  data_chars[23]   = "tnksmhrioygaufbcdjzewp";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x27b3, // 0.155071 
                     0x22c3, // 0.135792 
@@ -18331,7 +18331,7 @@ static char SelectNextLetter(
             // imu
             case 0x00756d69:
             {
-                MKV_DATA char  data_chars[12]   = "rktsnimzagj";
+                MKV_DATA char  data_chars[12]   = "rktsnimajzg";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x7b86, // 0.482517 
                     0x3220, // 0.195804 
@@ -18364,7 +18364,7 @@ static char SelectNextLetter(
             // ina
             case 0x00616e69:
             {
-                MKV_DATA char  data_chars[23]   = "mkigtrnsbdzowchyuefplj";
+                MKV_DATA char  data_chars[23]   = "mkigtrnsbdzowychuefplj";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x8051, // 0.501238 
                     0x1721, // 0.090347 
@@ -18410,7 +18410,7 @@ static char SelectNextLetter(
             // inc
             case 0x00636e69:
             {
-                MKV_DATA char  data_chars[6]   = "heoil";
+                MKV_DATA char  data_chars[6]   = "heilo";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xe148, // 0.880000 
                     0x0f5c, // 0.060000 
@@ -18438,7 +18438,7 @@ static char SelectNextLetter(
             // ine
             case 0x00656e69:
             {
-                MKV_DATA char  data_chars[23]   = "nkgmtoicshpbzuydrjwaxe";
+                MKV_DATA char  data_chars[23]   = "nkgmotsicphubzydrjaexw";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x345d, // 0.204545 
                     0x1746, // 0.090909 
@@ -18477,7 +18477,7 @@ static char SelectNextLetter(
             // ing
             case 0x00676e69:
             {
-                MKV_DATA char  data_chars[10]   = "auoyesitd";
+                MKV_DATA char  data_chars[10]   = "auoyesidt";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x6925, // 0.410714 
                     0x4000, // 0.250000 
@@ -18509,7 +18509,7 @@ static char SelectNextLetter(
             // ini
             case 0x00696e69:
             {
-                MKV_DATA char  data_chars[21]   = "scniktgjwmhrpbaudzoe";
+                MKV_DATA char  data_chars[21]   = "scnkitgjwhmrbupaeodz";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x79c6, // 0.475676 
                     0x1bad, // 0.108108 
@@ -18592,7 +18592,7 @@ static char SelectNextLetter(
             // inn
             case 0x006e6e69:
             {
-                MKV_DATA char  data_chars[9]   = "oaiyenus";
+                MKV_DATA char  data_chars[9]   = "oaieysnu";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x60a7, // 0.377551 
                     0x5398, // 0.326531 
@@ -18610,7 +18610,7 @@ static char SelectNextLetter(
             // ino
             case 0x006f6e69:
             {
-                MKV_DATA char  data_chars[24]   = "ksmhutyndbcgozwerijafpv";
+                MKV_DATA char  data_chars[24]   = "ksmhutydnbcgozwerijafvp";
                 MKV_DATA uint16_t data_weights[23] = {
                     0x28eb, // 0.159836 
                     0x2483, // 0.142623 
@@ -18643,7 +18643,7 @@ static char SelectNextLetter(
             // inp
             case 0x00706e69:
             {
-                MKV_DATA char  data_chars[5]   = "auoe";
+                MKV_DATA char  data_chars[5]   = "uaoe";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5a5a, // 0.352941 
                     0x5a5a, // 0.352941 
@@ -18705,7 +18705,7 @@ static char SelectNextLetter(
             // inu
             case 0x00756e69:
             {
-                MKV_DATA char  data_chars[20]   = "mkbngpytiojrzdwsueh";
+                MKV_DATA char  data_chars[20]   = "mkbngpytiojrudswzhe";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3a6b, // 0.228188 
                     0x2cac, // 0.174497 
@@ -18797,7 +18797,7 @@ static char SelectNextLetter(
             // iob
             case 0x00626f69:
             {
-                MKV_DATA char  data_chars[6]   = "aueio";
+                MKV_DATA char  data_chars[6]   = "aeuio";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x90b2, // 0.565217 
                     0x2164, // 0.130435 
@@ -18888,7 +18888,7 @@ static char SelectNextLetter(
             // ioi
             case 0x00696f69:
             {
-                MKV_DATA char  data_chars[13]   = "kdcztwmrbgns";
+                MKV_DATA char  data_chars[13]   = "kdczmrtwbngs";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x364e, // 0.212121 
                     0x26ca, // 0.151515 
@@ -18952,7 +18952,7 @@ static char SelectNextLetter(
             // ion
             case 0x006e6f69:
             {
-                MKV_DATA char  data_chars[13]   = "oasjeubnckmi";
+                MKV_DATA char  data_chars[13]   = "oasjebukmcin";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x846a, // 0.517241 
                     0x1ee6, // 0.120690 
@@ -19027,7 +19027,7 @@ static char SelectNextLetter(
             // iot
             case 0x00746f69:
             {
-                MKV_DATA char  data_chars[6]   = "oaset";
+                MKV_DATA char  data_chars[6]   = "aoset";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x537a, // 0.326087 
                     0x537a, // 0.326087 
@@ -19091,7 +19091,7 @@ static char SelectNextLetter(
             // ipa
             case 0x00617069:
             {
-                MKV_DATA char  data_chars[5]   = "nord";
+                MKV_DATA char  data_chars[5]   = "nodr";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6db7, // 0.428571 
                     0x4925, // 0.285714 
@@ -19129,7 +19129,7 @@ static char SelectNextLetter(
             // ipi
             case 0x00697069:
             {
-                MKV_DATA char  data_chars[4]   = "aep";
+                MKV_DATA char  data_chars[4]   = "epa";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -19142,7 +19142,7 @@ static char SelectNextLetter(
             // ipo
             case 0x006f7069:
             {
-                MKV_DATA char  data_chars[4]   = "rkn";
+                MKV_DATA char  data_chars[4]   = "krn";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6000, // 0.375000 
                     0x6000, // 0.375000 
@@ -19155,7 +19155,7 @@ static char SelectNextLetter(
             // ipp
             case 0x00707069:
             {
-                MKV_DATA char  data_chars[6]   = "ouaie";
+                MKV_DATA char  data_chars[6]   = "ouaei";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5e86, // 0.369231 
                     0x52b5, // 0.323077 
@@ -19251,7 +19251,7 @@ static char SelectNextLetter(
             // ire
             case 0x00657269:
             {
-                MKV_DATA char  data_chars[16]   = "nitrgjhudpskbcf";
+                MKV_DATA char  data_chars[16]   = "nitrguhjdbskcpf";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x3b6e, // 0.232143 
                     0x2db7, // 0.178571 
@@ -19276,7 +19276,7 @@ static char SelectNextLetter(
             // iri
             case 0x00697269:
             {
-                MKV_DATA char  data_chars[22]   = "kngmstybczhdueapfiojw";
+                MKV_DATA char  data_chars[22]   = "kngmstycbhzdeuapfiojw";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2189, // 0.130990 
                     0x1f14, // 0.121406 
@@ -19307,7 +19307,7 @@ static char SelectNextLetter(
             // iro
             case 0x006f7269:
             {
-                MKV_DATA char  data_chars[23]   = "ksmntygchidubzojewrafp";
+                MKV_DATA char  data_chars[23]   = "kmsntygihcdubzojewrafp";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x226e, // 0.134490 
                     0x1bc4, // 0.108460 
@@ -19351,7 +19351,7 @@ static char SelectNextLetter(
             // iru
             case 0x00757269:
             {
-                MKV_DATA char  data_chars[18]   = "mkgbsdniryzchfwot";
+                MKV_DATA char  data_chars[18]   = "mkgbsdinrtcwzofyh";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x2f43, // 0.184615 
                     0x2b53, // 0.169231 
@@ -19391,7 +19391,7 @@ static char SelectNextLetter(
             // isa
             case 0x00617369:
             {
-                MKV_DATA char  data_chars[21]   = "kwntigsmrdbcyhzpoaje";
+                MKV_DATA char  data_chars[21]   = "kwntigsmrbdychzpoaje";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x51e7, // 0.319930 
                     0x369a, // 0.213287 
@@ -19421,7 +19421,7 @@ static char SelectNextLetter(
             // isc
             case 0x00637369:
             {
-                MKV_DATA char  data_chars[4]   = "hoa";
+                MKV_DATA char  data_chars[4]   = "hao";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -19434,7 +19434,7 @@ static char SelectNextLetter(
             // ise
             case 0x00657369:
             {
-                MKV_DATA char  data_chars[19]   = "niktmgydrcsjzhbuop";
+                MKV_DATA char  data_chars[19]   = "niktmgydrjczshoupb";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x5ef8, // 0.370968 
                     0x39ce, // 0.225806 
@@ -19462,7 +19462,7 @@ static char SelectNextLetter(
             // ish
             case 0x00687369:
             {
-                MKV_DATA char  data_chars[7]   = "ioauwh";
+                MKV_DATA char  data_chars[7]   = "ioauhw";
                 MKV_DATA uint16_t data_weights[6] = {
                     0xeb56, // 0.919286 
                     0x0b34, // 0.043755 
@@ -19533,7 +19533,7 @@ static char SelectNextLetter(
             // iso
             case 0x006f7369:
             {
-                MKV_DATA char  data_chars[20]   = "ngukmbsdhzyrcitojpe";
+                MKV_DATA char  data_chars[20]   = "ngkumsbzhydrcitoepj";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3569, // 0.208633 
                     0x1f4f, // 0.122302 
@@ -19592,7 +19592,7 @@ static char SelectNextLetter(
             // isu
             case 0x00757369:
             {
-                MKV_DATA char  data_chars[18]   = "kigmnrztjdebchwyo";
+                MKV_DATA char  data_chars[18]   = "kigmnrtzjdbehcwyo";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x2bee, // 0.171598 
                     0x245b, // 0.142012 
@@ -19671,7 +19671,7 @@ static char SelectNextLetter(
             // ite
             case 0x00657469:
             {
-                MKV_DATA char  data_chars[14]   = "nirktsgmljdho";
+                MKV_DATA char  data_chars[14]   = "nirktsgmjlhod";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x4814, // 0.281553 
                     0x3e23, // 0.242718 
@@ -19713,7 +19713,7 @@ static char SelectNextLetter(
             // ito
             case 0x006f7469:
             {
-                MKV_DATA char  data_chars[23]   = "mksrytngbdicuzhjaeopfl";
+                MKV_DATA char  data_chars[23]   = "mksrytngbdicuzhjaepofl";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x2898, // 0.158568 
                     0x2749, // 0.153453 
@@ -19859,7 +19859,7 @@ static char SelectNextLetter(
             // iuk
             case 0x006b7569:
             {
-                MKV_DATA char  data_chars[4]   = "iea";
+                MKV_DATA char  data_chars[4]   = "iae";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -19886,7 +19886,7 @@ static char SelectNextLetter(
             // iun
             case 0x006e7569:
             {
-                MKV_DATA char  data_chars[11]   = "ejgotdkabc";
+                MKV_DATA char  data_chars[11]   = "ejadgktbco";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x2aab, // 0.166667 
                     0x2aab, // 0.166667 
@@ -20031,7 +20031,7 @@ static char SelectNextLetter(
             // iwa
             case 0x00617769:
             {
-                MKV_DATA char  data_chars[20]   = "krtsnidgmybzchojfuw";
+                MKV_DATA char  data_chars[20]   = "krstnigdmyzbchojfwu";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x272d, // 0.153025 
                     0x1c3e, // 0.110320 
@@ -20091,7 +20091,7 @@ static char SelectNextLetter(
             // iya
             case 0x00617969:
             {
-                MKV_DATA char  data_chars[22]   = "mnkstgczdjbhuoyrwiafe";
+                MKV_DATA char  data_chars[22]   = "mnkstgczjdbhuorywiafe";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x6452, // 0.391876 
                     0x19ff, // 0.101553 
@@ -20122,7 +20122,7 @@ static char SelectNextLetter(
             // iyo
             case 0x006f7969:
             {
-                MKV_DATA char  data_chars[22]   = "sknmtgudhrzbcifayopwj";
+                MKV_DATA char  data_chars[22]   = "sknmtgudhrzbcofyaiwjp";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x4e8e, // 0.306859 
                     0x2059, // 0.126354 
@@ -20153,7 +20153,7 @@ static char SelectNextLetter(
             // iyu
             case 0x00757969:
             {
-                MKV_DATA char  data_chars[17]   = "knbgsrudmhczfpte";
+                MKV_DATA char  data_chars[17]   = "knbsrgdhumczptef";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x4d35, // 0.301587 
                     0x2cb3, // 0.174603 
@@ -20179,7 +20179,7 @@ static char SelectNextLetter(
             // iza
             case 0x00617a69:
             {
-                MKV_DATA char  data_chars[14]   = "wkntirobsgmce";
+                MKV_DATA char  data_chars[14]   = "wkntirobscmeg";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x71b0, // 0.444089 
                     0x5fb1, // 0.373802 
@@ -20202,7 +20202,7 @@ static char SelectNextLetter(
             // ize
             case 0x00657a69:
             {
-                MKV_DATA char  data_chars[7]   = "nkmicr";
+                MKV_DATA char  data_chars[7]   = "nkmirc";
                 MKV_DATA uint16_t data_weights[6] = {
                     0xaaab, // 0.666667 
                     0x35e5, // 0.210526 
@@ -20225,7 +20225,7 @@ static char SelectNextLetter(
             // izo
             case 0x006f7a69:
             {
-                MKV_DATA char  data_chars[18]   = "nmebgdkjtisrzhoyu";
+                MKV_DATA char  data_chars[18]   = "nmegbkdsjtriyzuoh";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5dbf, // 0.366197 
                     0x1cd8, // 0.112676 
@@ -20252,7 +20252,7 @@ static char SelectNextLetter(
             // izu
             case 0x00757a69:
             {
-                MKV_DATA char  data_chars[22]   = "mknrsghtceyodbiuawjfz";
+                MKV_DATA char  data_chars[22]   = "mknrsghtceyodbiawujfz";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x4f56, // 0.309910 
                     0x366e, // 0.212613 
@@ -20464,7 +20464,7 @@ static char SelectNextLetter(
             // jat
             case 0x0074616a:
             {
-                MKV_DATA char  data_chars[3]   = "oc";
+                MKV_DATA char  data_chars[3]   = "co";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -20548,7 +20548,7 @@ static char SelectNextLetter(
             // jia
             case 0x0061696a:
             {
-                MKV_DATA char  data_chars[5]   = "okmn";
+                MKV_DATA char  data_chars[5]   = "mnok";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -20601,7 +20601,7 @@ static char SelectNextLetter(
             // jie
             case 0x0065696a:
             {
-                MKV_DATA char  data_chars[6]   = "idkst";
+                MKV_DATA char  data_chars[6]   = "itdks";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6db7, // 0.428571 
                     0x2492, // 0.142857 
@@ -20658,7 +20658,7 @@ static char SelectNextLetter(
             // jii
             case 0x0069696a:
             {
-                MKV_DATA char  data_chars[11]   = "ncgkdmehsw";
+                MKV_DATA char  data_chars[11]   = "nmdkcgsehw";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x2d2d, // 0.176471 
                     0x1e1e, // 0.117647 
@@ -20709,7 +20709,7 @@ static char SelectNextLetter(
             // jim
             case 0x006d696a:
             {
-                MKV_DATA char  data_chars[9]   = "aieoubmy";
+                MKV_DATA char  data_chars[9]   = "aieobuym";
                 MKV_DATA uint16_t data_weights[8] = {
                     0xd07c, // 0.814385 
                     0x100a, // 0.062645 
@@ -20727,7 +20727,7 @@ static char SelectNextLetter(
             // jin
             case 0x006e696a:
             {
-                MKV_DATA char  data_chars[20]   = "oganbzmdjykecistrup";
+                MKV_DATA char  data_chars[20]   = "oganbzdmjykesicrtup";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3fbf, // 0.249012 
                     0x1e5b, // 0.118577 
@@ -20867,7 +20867,7 @@ static char SelectNextLetter(
             // jiz
             case 0x007a696a:
             {
-                MKV_DATA char  data_chars[5]   = "oaue";
+                MKV_DATA char  data_chars[5]   = "oaeu";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xcec5, // 0.807692 
                     0x1d8a, // 0.115385 
@@ -21040,7 +21040,7 @@ static char SelectNextLetter(
             // jom
             case 0x006d6f6a:
             {
-                MKV_DATA char  data_chars[7]   = "aioeyu";
+                MKV_DATA char  data_chars[7]   = "aieoyu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0xb7a7, // 0.717391 
                     0x1643, // 0.086957 
@@ -21056,7 +21056,7 @@ static char SelectNextLetter(
             // jon
             case 0x006e6f6a:
             {
-                MKV_DATA char  data_chars[6]   = "oaiue";
+                MKV_DATA char  data_chars[6]   = "oaieu";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6186, // 0.380952 
                     0x4f3d, // 0.309524 
@@ -21112,7 +21112,7 @@ static char SelectNextLetter(
             // jot
             case 0x00746f6a:
             {
-                MKV_DATA char  data_chars[5]   = "oase";
+                MKV_DATA char  data_chars[5]   = "osae";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6000, // 0.375000 
                     0x4000, // 0.250000 
@@ -21126,7 +21126,7 @@ static char SelectNextLetter(
             // jou
             case 0x00756f6a:
             {
-                MKV_DATA char  data_chars[12]   = "bgdsknthizr";
+                MKV_DATA char  data_chars[12]   = "bgsdktnhirz";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x38e4, // 0.222222 
                     0x25ed, // 0.148148 
@@ -21345,7 +21345,7 @@ static char SelectNextLetter(
             // jun
             case 0x006e756a:
             {
-                MKV_DATA char  data_chars[18]   = "iaokrtbscenzwjpdy";
+                MKV_DATA char  data_chars[18]   = "iaokbrstcejpwyzdn";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x7b03, // 0.480519 
                     0x213f, // 0.129870 
@@ -21384,7 +21384,7 @@ static char SelectNextLetter(
             // jur
             case 0x0072756a:
             {
-                MKV_DATA char  data_chars[5]   = "oiua";
+                MKV_DATA char  data_chars[5]   = "oiau";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xa529, // 0.645161 
                     0x4a53, // 0.290323 
@@ -21398,7 +21398,7 @@ static char SelectNextLetter(
             // jus
             case 0x0073756a:
             {
-                MKV_DATA char  data_chars[7]   = "ahosue";
+                MKV_DATA char  data_chars[7]   = "ahoseu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x9aab, // 0.604167 
                     0x4000, // 0.250000 
@@ -21429,7 +21429,7 @@ static char SelectNextLetter(
             // juu
             case 0x0075756a:
             {
-                MKV_DATA char  data_chars[14]   = "ndsjirgbfkmty";
+                MKV_DATA char  data_chars[14]   = "nditbgmjsyrfk";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x3c3c, // 0.235294 
                     0x1e1e, // 0.117647 
@@ -21476,7 +21476,7 @@ static char SelectNextLetter(
             // juz
             case 0x007a756a:
             {
-                MKV_DATA char  data_chars[4]   = "aoe";
+                MKV_DATA char  data_chars[4]   = "aeo";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -21502,7 +21502,7 @@ static char SelectNextLetter(
             // jyu
             case 0x0075796a:
             {
-                MKV_DATA char  data_chars[4]   = "kjs";
+                MKV_DATA char  data_chars[4]   = "ksj";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -21524,7 +21524,7 @@ static char SelectNextLetter(
             // kaa
             case 0x0061616b:
             {
-                MKV_DATA char  data_chars[12]   = "ircskodjtzm";
+                MKV_DATA char  data_chars[12]   = "icrskodmtjz";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x3b14, // 0.230769 
                     0x2762, // 0.153846 
@@ -21589,7 +21589,7 @@ static char SelectNextLetter(
             // kae
             case 0x0065616b:
             {
-                MKV_DATA char  data_chars[17]   = "mrnscdkbtfhigyuo";
+                MKV_DATA char  data_chars[17]   = "mrnscdkbtfihgyuo";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x2f4e, // 0.184783 
                     0x2c86, // 0.173913 
@@ -21627,7 +21627,7 @@ static char SelectNextLetter(
             // kag
             case 0x0067616b:
             {
-                MKV_DATA char  data_chars[8]   = "aeuoiyw";
+                MKV_DATA char  data_chars[8]   = "aeuoiwy";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x63f9, // 0.390511 
                     0x3452, // 0.204380 
@@ -21658,7 +21658,7 @@ static char SelectNextLetter(
             // kai
             case 0x0069616b:
             {
-                MKV_DATA char  data_chars[23]   = "sdcgkmtnzhybjwrfiuoeap";
+                MKV_DATA char  data_chars[23]   = "sdcgkmtnzhybjwrfioueap";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x1e1e, // 0.117647 
                     0x1d99, // 0.115619 
@@ -21739,7 +21739,7 @@ static char SelectNextLetter(
             // kan
             case 0x006e616b:
             {
-                MKV_DATA char  data_chars[21]   = "oaeinsbdkugmtzjrpych";
+                MKV_DATA char  data_chars[21]   = "oaeinbsdkugtmzjrpych";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x421c, // 0.258236 
                     0x39ad, // 0.225292 
@@ -21769,7 +21769,7 @@ static char SelectNextLetter(
             // kao
             case 0x006f616b:
             {
-                MKV_DATA char  data_chars[14]   = "kmrsgnticydbz";
+                MKV_DATA char  data_chars[14]   = "kmrsngtiycdbz";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x40e7, // 0.253521 
                     0x2b45, // 0.169014 
@@ -21824,7 +21824,7 @@ static char SelectNextLetter(
             // kas
             case 0x0073616b:
             {
-                MKV_DATA char  data_chars[10]   = "haueosmti";
+                MKV_DATA char  data_chars[10]   = "haueostmi";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x6988, // 0.412238 
                     0x5136, // 0.317230 
@@ -21859,7 +21859,7 @@ static char SelectNextLetter(
             // kau
             case 0x0075616b:
             {
-                MKV_DATA char  data_chars[12]   = "rscednjptmw";
+                MKV_DATA char  data_chars[12]   = "rscednjmtwp";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -21931,7 +21931,7 @@ static char SelectNextLetter(
             // kea
             case 0x0061656b:
             {
-                MKV_DATA char  data_chars[9]   = "inscgrkm";
+                MKV_DATA char  data_chars[9]   = "ignsckmr";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x36db, // 0.214286 
                     0x2492, // 0.142857 
@@ -22042,7 +22042,7 @@ static char SelectNextLetter(
             // kei
             case 0x0069656b:
             {
-                MKV_DATA char  data_chars[21]   = "skjtdgnzmchbyreiaouw";
+                MKV_DATA char  data_chars[21]   = "skjtdgzmnrbhyceiwauo";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x37db, // 0.218182 
                     0x2c38, // 0.172727 
@@ -22116,7 +22116,7 @@ static char SelectNextLetter(
             // ken
             case 0x006e656b:
             {
-                MKV_DATA char  data_chars[22]   = "oaksgjcmyebdiznturphw";
+                MKV_DATA char  data_chars[22]   = "oaskgjcmyebidznturpwh";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x55eb, // 0.335616 
                     0x17ac, // 0.092466 
@@ -22161,7 +22161,7 @@ static char SelectNextLetter(
             // kep
             case 0x0070656b:
             {
-                MKV_DATA char  data_chars[6]   = "puioc";
+                MKV_DATA char  data_chars[6]   = "piuco";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -22222,7 +22222,7 @@ static char SelectNextLetter(
             // keu
             case 0x0075656b:
             {
-                MKV_DATA char  data_chars[7]   = "rscomn";
+                MKV_DATA char  data_chars[7]   = "rsocmn";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x7878, // 0.470588 
                     0x2d2d, // 0.176471 
@@ -22300,7 +22300,7 @@ static char SelectNextLetter(
             // kia
             case 0x0061696b:
             {
-                MKV_DATA char  data_chars[9]   = "gitknrsu";
+                MKV_DATA char  data_chars[9]   = "gitkrnus";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5a5a, // 0.352941 
                     0x4b4b, // 0.294118 
@@ -22360,7 +22360,7 @@ static char SelectNextLetter(
             // kie
             case 0x0065696b:
             {
-                MKV_DATA char  data_chars[6]   = "krbdn";
+                MKV_DATA char  data_chars[6]   = "knrbd";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -22417,7 +22417,7 @@ static char SelectNextLetter(
             // kii
             case 0x0069696b:
             {
-                MKV_DATA char  data_chars[18]   = "stnrihcmuykajbgow";
+                MKV_DATA char  data_chars[18]   = "stnrihkcmyujaobgw";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x28ba, // 0.159091 
                     0x22e9, // 0.136364 
@@ -22474,7 +22474,7 @@ static char SelectNextLetter(
             // kim
             case 0x006d696b:
             {
-                MKV_DATA char  data_chars[10]   = "aiouebymp";
+                MKV_DATA char  data_chars[10]   = "aiouempby";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x7f21, // 0.496599 
                     0x3dd3, // 0.241497 
@@ -22493,7 +22493,7 @@ static char SelectNextLetter(
             // kin
             case 0x006e696b:
             {
-                MKV_DATA char  data_chars[20]   = "oaueikdsnztbyjrcgmp";
+                MKV_DATA char  data_chars[20]   = "oaueiksdznbtyjrmcgp";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x875a, // 0.528713 
                     0x23fe, // 0.140594 
@@ -22522,7 +22522,7 @@ static char SelectNextLetter(
             // kio
             case 0x006f696b:
             {
-                MKV_DATA char  data_chars[9]   = "kntrcijs";
+                MKV_DATA char  data_chars[9]   = "kntrscji";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5ed1, // 0.370370 
                     0x2f68, // 0.185185 
@@ -22540,7 +22540,7 @@ static char SelectNextLetter(
             // kip
             case 0x0070696b:
             {
-                MKV_DATA char  data_chars[4]   = "pou";
+                MKV_DATA char  data_chars[4]   = "puo";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -22569,7 +22569,7 @@ static char SelectNextLetter(
             // kis
             case 0x0073696b:
             {
-                MKV_DATA char  data_chars[9]   = "haoeusyt";
+                MKV_DATA char  data_chars[9]   = "haoeusty";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x7810, // 0.468992 
                     0x427b, // 0.259690 
@@ -22587,7 +22587,7 @@ static char SelectNextLetter(
             // kit
             case 0x0074696b:
             {
-                MKV_DATA char  data_chars[8]   = "asotecf";
+                MKV_DATA char  data_chars[8]   = "asoetcf";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xe36f, // 0.888412 
                     0x0e8f, // 0.056867 
@@ -22604,7 +22604,7 @@ static char SelectNextLetter(
             // kiu
             case 0x0075696b:
             {
-                MKV_DATA char  data_chars[11]   = "rscezkmntw";
+                MKV_DATA char  data_chars[11]   = "rcsentwzkm";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x72c2, // 0.448276 
                     0x234f, // 0.137931 
@@ -22675,7 +22675,7 @@ static char SelectNextLetter(
             // kka
             case 0x00616b6b:
             {
-                MKV_DATA char  data_chars[13]   = "irnkmwsbtuae";
+                MKV_DATA char  data_chars[13]   = "inrkwmsbtaue";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x345d, // 0.204545 
                     0x3174, // 0.193182 
@@ -22715,7 +22715,7 @@ static char SelectNextLetter(
             // kki
             case 0x00696b6b:
             {
-                MKV_DATA char  data_chars[8]   = "rbntiuy";
+                MKV_DATA char  data_chars[8]   = "rntbuyi";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x5b6e, // 0.357143 
                     0x2492, // 0.142857 
@@ -22732,7 +22732,7 @@ static char SelectNextLetter(
             // kko
             case 0x006f6b6b:
             {
-                MKV_DATA char  data_chars[16]   = "kndumcsbtrihegj";
+                MKV_DATA char  data_chars[16]   = "kndumscbtriehjg";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x3532, // 0.207792 
                     0x213f, // 0.129870 
@@ -22757,7 +22757,7 @@ static char SelectNextLetter(
             // kku
             case 0x00756b6b:
             {
-                MKV_DATA char  data_chars[12]   = "rmsbcfhyino";
+                MKV_DATA char  data_chars[12]   = "rmscbfhnoiy";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x6969, // 0.411765 
                     0x34b5, // 0.205882 
@@ -22803,7 +22803,7 @@ static char SelectNextLetter(
             // koa
             case 0x00616f6b:
             {
-                MKV_DATA char  data_chars[14]   = "nmrsjcitkzydo";
+                MKV_DATA char  data_chars[14]   = "nmrsjctkizody";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x3832, // 0.219512 
                     0x2577, // 0.146341 
@@ -22867,7 +22867,7 @@ static char SelectNextLetter(
             // koe
             case 0x00656f6b:
             {
-                MKV_DATA char  data_chars[12]   = "nitdsbrjcmh";
+                MKV_DATA char  data_chars[12]   = "nitdsjrbhmc";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x9d42, // 0.614286 
                     0x15f1, // 0.085714 
@@ -22932,7 +22932,7 @@ static char SelectNextLetter(
             // koi
             case 0x00696f6b:
             {
-                MKV_DATA char  data_chars[20]   = "nswzktcgdybopfaijrm";
+                MKV_DATA char  data_chars[20]   = "nswzktcgdbymajriofp";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x2d6b, // 0.177419 
                     0x2b5b, // 0.169355 
@@ -23011,7 +23011,7 @@ static char SelectNextLetter(
             // kon
             case 0x006e6f6b:
             {
-                MKV_DATA char  data_chars[19]   = "oaebisnydpzukjgtmc";
+                MKV_DATA char  data_chars[19]   = "oaebisndyupzkgjtmc";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x5b3b, // 0.356364 
                     0x37db, // 0.218182 
@@ -23039,7 +23039,7 @@ static char SelectNextLetter(
             // koo
             case 0x006f6f6b:
             {
-                MKV_DATA char  data_chars[11]   = "krcdtnbejg";
+                MKV_DATA char  data_chars[11]   = "krtdcnjbeg";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x2c86, // 0.173913 
                     0x2c86, // 0.173913 
@@ -23122,7 +23122,7 @@ static char SelectNextLetter(
             // kou
             case 0x00756f6b:
             {
-                MKV_DATA char  data_chars[15]   = "krsctgmnedjbzh";
+                MKV_DATA char  data_chars[15]   = "krsctgmndehjzb";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x29ad, // 0.162791 
                     0x29ad, // 0.162791 
@@ -23233,7 +23233,7 @@ static char SelectNextLetter(
             // kua
             case 0x0061756b:
             {
-                MKV_DATA char  data_chars[9]   = "nsickmtg";
+                MKV_DATA char  data_chars[9]   = "niscmgkt";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4000, // 0.250000 
                     0x3000, // 0.187500 
@@ -23291,7 +23291,7 @@ static char SelectNextLetter(
             // kue
             case 0x0065756b:
             {
-                MKV_DATA char  data_chars[12]   = "nimtcksdpaf";
+                MKV_DATA char  data_chars[12]   = "nimtcksfpad";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x98b4, // 0.596491 
                     0x286c, // 0.157895 
@@ -23355,7 +23355,7 @@ static char SelectNextLetter(
             // kui
             case 0x0069756b:
             {
-                MKV_DATA char  data_chars[14]   = "nckzsmbdrghuo";
+                MKV_DATA char  data_chars[14]   = "nckszmbdrghuo";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x6666, // 0.400000 
                     0x17a1, // 0.092308 
@@ -23441,7 +23441,7 @@ static char SelectNextLetter(
             // kun
             case 0x006e756b:
             {
-                MKV_DATA char  data_chars[15]   = "ioaenubrjgtsmd";
+                MKV_DATA char  data_chars[15]   = "ioaenubrjgmtsd";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x5450, // 0.329341 
                     0x4fb6, // 0.311377 
@@ -23465,7 +23465,7 @@ static char SelectNextLetter(
             // kuo
             case 0x006f756b:
             {
-                MKV_DATA char  data_chars[12]   = "knjmsizdrbc";
+                MKV_DATA char  data_chars[12]   = "knjsmirbdzc";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4925, // 0.285714 
                     0x3333, // 0.200000 
@@ -23515,7 +23515,7 @@ static char SelectNextLetter(
             // kus
             case 0x0073756b:
             {
-                MKV_DATA char  data_chars[9]   = "haueosiy";
+                MKV_DATA char  data_chars[9]   = "haueosyi";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x74df, // 0.456522 
                     0x4946, // 0.286232 
@@ -23550,7 +23550,7 @@ static char SelectNextLetter(
             // kuu
             case 0x0075756b:
             {
-                MKV_DATA char  data_chars[7]   = "rnkcbj";
+                MKV_DATA char  data_chars[7]   = "rnckbj";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x8000, // 0.500000 
                     0x3333, // 0.200000 
@@ -23656,7 +23656,7 @@ static char SelectNextLetter(
             // kyo
             case 0x006f796b:
             {
-                MKV_DATA char  data_chars[20]   = "kusnrmegztdibjhcwoy";
+                MKV_DATA char  data_chars[20]   = "kusnrmzegtdibjhcwoy";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x2df3, // 0.179487 
                     0x2a03, // 0.164103 
@@ -23685,7 +23685,7 @@ static char SelectNextLetter(
             // kyu
             case 0x0075796b:
             {
-                MKV_DATA char  data_chars[20]   = "ushkjtbrdmnyczogiea";
+                MKV_DATA char  data_chars[20]   = "ushkjtbrdcnymzoegai";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3127, // 0.192000 
                     0x2d0e, // 0.176000 
@@ -24148,7 +24148,7 @@ static char SelectNextLetter(
             // lit
             case 0x0074696c:
             {
-                MKV_DATA char  data_chars[6]   = "hoyae";
+                MKV_DATA char  data_chars[6]   = "ehoya";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x3333, // 0.200000 
                     0x3333, // 0.200000 
@@ -24175,7 +24175,7 @@ static char SelectNextLetter(
             // lla
             case 0x00616c6c:
             {
-                MKV_DATA char  data_chars[4]   = "rsg";
+                MKV_DATA char  data_chars[4]   = "grs";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -24188,7 +24188,7 @@ static char SelectNextLetter(
             // lle
             case 0x00656c6c:
             {
-                MKV_DATA char  data_chars[6]   = "rygns";
+                MKV_DATA char  data_chars[6]   = "rysgn";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -24203,7 +24203,7 @@ static char SelectNextLetter(
             // lli
             case 0x00696c6c:
             {
-                MKV_DATA char  data_chars[3]   = "go";
+                MKV_DATA char  data_chars[3]   = "og";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -24552,7 +24552,7 @@ static char SelectNextLetter(
             // maa
             case 0x0061616d:
             {
-                MKV_DATA char  data_chars[12]   = "crksgimnoty";
+                MKV_DATA char  data_chars[12]   = "ckrsgmnoyit";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x38e4, // 0.222222 
                     0x1c72, // 0.111111 
@@ -24573,7 +24573,7 @@ static char SelectNextLetter(
             // mab
             case 0x0062616d:
             {
-                MKV_DATA char  data_chars[7]   = "uaeioy";
+                MKV_DATA char  data_chars[7]   = "aueioy";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -24614,7 +24614,7 @@ static char SelectNextLetter(
             // mae
             case 0x0065616d:
             {
-                MKV_DATA char  data_chars[20]   = "dkbnmghstzcyjirowfu";
+                MKV_DATA char  data_chars[20]   = "dbknmghstzcyjirowfu";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x2666, // 0.150000 
                     0x1b06, // 0.105556 
@@ -24684,7 +24684,7 @@ static char SelectNextLetter(
             // mai
             case 0x0069616d:
             {
-                MKV_DATA char  data_chars[20]   = "zstkcnbdgmohrayifpw";
+                MKV_DATA char  data_chars[20]   = "ztskncbdgmorhyawpfi";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x1f59, // 0.122449 
                     0x1d9b, // 0.115646 
@@ -24713,7 +24713,7 @@ static char SelectNextLetter(
             // maj
             case 0x006a616d:
             {
-                MKV_DATA char  data_chars[6]   = "iuoea";
+                MKV_DATA char  data_chars[6]   = "iuoae";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x9697, // 0.588235 
                     0x4141, // 0.254902 
@@ -24764,7 +24764,7 @@ static char SelectNextLetter(
             // man
             case 0x006e616d:
             {
-                MKV_DATA char  data_chars[23]   = "oaeidbjgnztcsumyprkwfh";
+                MKV_DATA char  data_chars[23]   = "oaeidbjgnztcsumyprkfhw";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x60ae, // 0.377649 
                     0x3cac, // 0.236994 
@@ -24796,7 +24796,7 @@ static char SelectNextLetter(
             // mao
             case 0x006f616d:
             {
-                MKV_DATA char  data_chars[10]   = "kintdmrgj";
+                MKV_DATA char  data_chars[10]   = "knidmrtgj";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x5555, // 0.333333 
                     0x25ed, // 0.148148 
@@ -24845,7 +24845,7 @@ static char SelectNextLetter(
             // mas
             case 0x0073616d:
             {
-                MKV_DATA char  data_chars[8]   = "ahueost";
+                MKV_DATA char  data_chars[8]   = "auheost";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x53cd, // 0.327345 
                     0x4a9a, // 0.291417 
@@ -24935,7 +24935,7 @@ static char SelectNextLetter(
             // mba
             case 0x0061626d:
             {
-                MKV_DATA char  data_chars[7]   = "srncgy";
+                MKV_DATA char  data_chars[7]   = "srncyg";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x64d9, // 0.393939 
                     0x45d1, // 0.272727 
@@ -24979,7 +24979,7 @@ static char SelectNextLetter(
             // mbo
             case 0x006f626d:
             {
-                MKV_DATA char  data_chars[9]   = "nkmrocdi";
+                MKV_DATA char  data_chars[9]   = "nkmrcdio";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x599a, // 0.350000 
                     0x3333, // 0.200000 
@@ -25009,7 +25009,7 @@ static char SelectNextLetter(
             // mbu
             case 0x0075626d:
             {
-                MKV_DATA char  data_chars[7]   = "tcijmr";
+                MKV_DATA char  data_chars[7]   = "jmrtci";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x2aab, // 0.166667 
                     0x2aab, // 0.166667 
@@ -25037,7 +25037,7 @@ static char SelectNextLetter(
             // mea
             case 0x0061656d:
             {
-                MKV_DATA char  data_chars[5]   = "rnck";
+                MKV_DATA char  data_chars[5]   = "rckn";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -25129,7 +25129,7 @@ static char SelectNextLetter(
             // meh
             case 0x0068656d:
             {
-                MKV_DATA char  data_chars[4]   = "aoi";
+                MKV_DATA char  data_chars[4]   = "aio";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xc71c, // 0.777778 
                     0x1c72, // 0.111111 
@@ -25142,7 +25142,7 @@ static char SelectNextLetter(
             // mei
             case 0x0069656d:
             {
-                MKV_DATA char  data_chars[18]   = "kscjntrdwmbgehyzi";
+                MKV_DATA char  data_chars[18]   = "kscjntrdwgmbehyiz";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x323e, // 0.196262 
                     0x2648, // 0.149533 
@@ -25208,7 +25208,7 @@ static char SelectNextLetter(
             // mem
             case 0x006d656d:
             {
-                MKV_DATA char  data_chars[7]   = "auoieb";
+                MKV_DATA char  data_chars[7]   = "auoeib";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x9249, // 0.571429 
                     0x2492, // 0.142857 
@@ -25224,7 +25224,7 @@ static char SelectNextLetter(
             // men
             case 0x006e656d:
             {
-                MKV_DATA char  data_chars[16]   = "oatdkunimjsghyb";
+                MKV_DATA char  data_chars[16]   = "oatduknijmsghyb";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x7e39, // 0.493056 
                     0x371c, // 0.215278 
@@ -25274,7 +25274,7 @@ static char SelectNextLetter(
             // mer
             case 0x0072656d:
             {
-                MKV_DATA char  data_chars[9]   = "uiacelos";
+                MKV_DATA char  data_chars[9]   = "uiaclseo";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x8000, // 0.500000 
                     0x3da1, // 0.240741 
@@ -25292,7 +25292,7 @@ static char SelectNextLetter(
             // mes
             case 0x0073656d:
             {
-                MKV_DATA char  data_chars[7]   = "aheuos";
+                MKV_DATA char  data_chars[7]   = "ahueso";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x6000, // 0.375000 
                     0x6000, // 0.375000 
@@ -25308,7 +25308,7 @@ static char SelectNextLetter(
             // met
             case 0x0074656d:
             {
-                MKV_DATA char  data_chars[7]   = "aosert";
+                MKV_DATA char  data_chars[7]   = "aosetr";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x61bf, // 0.381818 
                     0x4a79, // 0.290909 
@@ -25324,7 +25324,7 @@ static char SelectNextLetter(
             // meu
             case 0x0075656d:
             {
-                MKV_DATA char  data_chars[4]   = "rtc";
+                MKV_DATA char  data_chars[4]   = "rct";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xaaab, // 0.666667 
                     0x2aab, // 0.166667 
@@ -25375,7 +25375,7 @@ static char SelectNextLetter(
             // mia
             case 0x0061696d:
             {
-                MKV_DATA char  data_chars[15]   = "ksirogtcnwmjzd";
+                MKV_DATA char  data_chars[15]   = "ksriogtncmwzjd";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x3cf4, // 0.238095 
                     0x2db7, // 0.178571 
@@ -25427,7 +25427,7 @@ static char SelectNextLetter(
             // mid
             case 0x0064696d:
             {
-                MKV_DATA char  data_chars[9]   = "aoeudhlt";
+                MKV_DATA char  data_chars[9]   = "aoehultd";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x8b10, // 0.543210 
                     0x5ed1, // 0.370370 
@@ -25445,7 +25445,7 @@ static char SelectNextLetter(
             // mie
             case 0x0065696d:
             {
-                MKV_DATA char  data_chars[13]   = "gkmrbdnizclj";
+                MKV_DATA char  data_chars[13]   = "mgkrdizbnjcl";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x1eb8, // 0.120000 
                     0x1eb8, // 0.120000 
@@ -25510,7 +25510,7 @@ static char SelectNextLetter(
             // mii
             case 0x0069696d:
             {
-                MKV_DATA char  data_chars[17]   = "skcmnztwridbgoej";
+                MKV_DATA char  data_chars[17]   = "skcmwntzridbgeoj";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3111, // 0.191667 
                     0x2000, // 0.125000 
@@ -25568,7 +25568,7 @@ static char SelectNextLetter(
             // mil
             case 0x006c696d:
             {
-                MKV_DATA char  data_chars[6]   = "eikty";
+                MKV_DATA char  data_chars[6]   = "tyeik";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x3333, // 0.200000 
                     0x3333, // 0.200000 
@@ -25599,7 +25599,7 @@ static char SelectNextLetter(
             // min
             case 0x006e696d:
             {
-                MKV_DATA char  data_chars[16]   = "aoeiugyksbnhtjm";
+                MKV_DATA char  data_chars[16]   = "aoeiugysknbjmth";
                 MKV_DATA uint16_t data_weights[15] = {
                     0xafa7, // 0.686147 
                     0x2a7b, // 0.165945 
@@ -25624,7 +25624,7 @@ static char SelectNextLetter(
             // mio
             case 0x006f696d:
             {
-                MKV_DATA char  data_chars[18]   = "ktsnmgizbdyrcaohj";
+                MKV_DATA char  data_chars[18]   = "ktmsngizbdrycaojh";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x30f1, // 0.191176 
                     0x21e2, // 0.132353 
@@ -25663,7 +25663,7 @@ static char SelectNextLetter(
             // mir
             case 0x0072696d:
             {
-                MKV_DATA char  data_chars[7]   = "aouiye";
+                MKV_DATA char  data_chars[7]   = "aouiey";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x46cf, // 0.276596 
                     0x3678, // 0.212766 
@@ -25712,7 +25712,7 @@ static char SelectNextLetter(
             // miu
             case 0x0075696d:
             {
-                MKV_DATA char  data_chars[13]   = "rctsemwknobd";
+                MKV_DATA char  data_chars[13]   = "rctsemkwnbod";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x3cbf, // 0.237288 
                     0x2fbb, // 0.186441 
@@ -25774,7 +25774,7 @@ static char SelectNextLetter(
             // mma
             case 0x00616d6d:
             {
-                MKV_DATA char  data_chars[8]   = "ctiekbn";
+                MKV_DATA char  data_chars[8]   = "ctieknb";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xc87b, // 0.783132 
                     0x18ad, // 0.096386 
@@ -25854,7 +25854,7 @@ static char SelectNextLetter(
             // moa
             case 0x00616f6d:
             {
-                MKV_DATA char  data_chars[13]   = "krswiobmnyzj";
+                MKV_DATA char  data_chars[13]   = "krsoiwmnbyzj";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x3b14, // 0.230769 
                     0x3483, // 0.205128 
@@ -25917,7 +25917,7 @@ static char SelectNextLetter(
             // moe
             case 0x00656f6d:
             {
-                MKV_DATA char  data_chars[13]   = "krzcdgtbinsm";
+                MKV_DATA char  data_chars[13]   = "krcgzdimstbn";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x3a2f, // 0.227273 
                     0x22e9, // 0.136364 
@@ -25982,7 +25982,7 @@ static char SelectNextLetter(
             // moi
             case 0x00696f6d:
             {
-                MKV_DATA char  data_chars[16]   = "kscmnwrtdziguba";
+                MKV_DATA char  data_chars[16]   = "ksmcnwrtdizguba";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x299a, // 0.162500 
                     0x2333, // 0.137500 
@@ -26068,7 +26068,7 @@ static char SelectNextLetter(
             // mon
             case 0x006e6f6d:
             {
-                MKV_DATA char  data_chars[20]   = "oaijdtezubcknsgpmyh";
+                MKV_DATA char  data_chars[20]   = "oaijdtezubcnkgspmyh";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x63dd, // 0.390093 
                     0x27a1, // 0.154799 
@@ -26097,7 +26097,7 @@ static char SelectNextLetter(
             // moo
             case 0x006f6f6d:
             {
-                MKV_DATA char  data_chars[15]   = "ktgnzmridsbyac";
+                MKV_DATA char  data_chars[15]   = "ktgnzmrdsibyca";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x3777, // 0.216667 
                     0x2222, // 0.133333 
@@ -26182,7 +26182,7 @@ static char SelectNextLetter(
             // mou
             case 0x00756f6d:
             {
-                MKV_DATA char  data_chars[16]   = "scrtnkjbdmgwozf";
+                MKV_DATA char  data_chars[16]   = "srctknjgbwmdzfo";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x428f, // 0.260000 
                     0x1eb8, // 0.120000 
@@ -26246,7 +26246,7 @@ static char SelectNextLetter(
             // mpa
             case 0x0061706d:
             {
-                MKV_DATA char  data_chars[5]   = "sckm";
+                MKV_DATA char  data_chars[5]   = "ckms";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -26335,7 +26335,7 @@ static char SelectNextLetter(
             // mpu
             case 0x0075706d:
             {
-                MKV_DATA char  data_chars[5]   = "dkrs";
+                MKV_DATA char  data_chars[5]   = "rsdk";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -26385,7 +26385,7 @@ static char SelectNextLetter(
             // mub
             case 0x0062756d:
             {
-                MKV_DATA char  data_chars[4]   = "eoi";
+                MKV_DATA char  data_chars[4]   = "eio";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -26460,7 +26460,7 @@ static char SelectNextLetter(
             // mui
             case 0x0069756d:
             {
-                MKV_DATA char  data_chars[11]   = "kwndersgtu";
+                MKV_DATA char  data_chars[11]   = "kwndrsegtu";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x4aab, // 0.291667 
                     0x2000, // 0.125000 
@@ -26561,7 +26561,7 @@ static char SelectNextLetter(
             // mur
             case 0x0072756d:
             {
-                MKV_DATA char  data_chars[8]   = "aoeiuym";
+                MKV_DATA char  data_chars[8]   = "aoieuym";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x9b04, // 0.605528 
                     0x46c1, // 0.276382 
@@ -26675,7 +26675,7 @@ static char SelectNextLetter(
             // myo
             case 0x006f796d:
             {
-                MKV_DATA char  data_chars[19]   = "jkgsdhoruizctnabef";
+                MKV_DATA char  data_chars[19]   = "jkgsdhriouzctnbaef";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x4345, // 0.262774 
                     0x21a3, // 0.131387 
@@ -26749,7 +26749,7 @@ static char SelectNextLetter(
             // naa
             case 0x0061616e:
             {
-                MKV_DATA char  data_chars[5]   = "ckrs";
+                MKV_DATA char  data_chars[5]   = "krcs";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -26803,7 +26803,7 @@ static char SelectNextLetter(
             // nae
             case 0x0065616e:
             {
-                MKV_DATA char  data_chars[13]   = "bnsfhmcizgtw";
+                MKV_DATA char  data_chars[13]   = "bnsfhmwzcgti";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x2c86, // 0.173913 
                     0x2164, // 0.130435 
@@ -26867,7 +26867,7 @@ static char SelectNextLetter(
             // nai
             case 0x0069616e:
             {
-                MKV_DATA char  data_chars[21]   = "dszckgtnmbrjhyiepwfu";
+                MKV_DATA char  data_chars[21]   = "dszckgtnbmrhjyiuwfpe";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x2a68, // 0.165644 
                     0x1f69, // 0.122699 
@@ -26946,7 +26946,7 @@ static char SelectNextLetter(
             // nan
             case 0x006e616e:
             {
-                MKV_DATA char  data_chars[22]   = "aoikbdtsgjcpurzemnyfw";
+                MKV_DATA char  data_chars[22]   = "aoikbdtgsjcpuzrmenywf";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x4c6e, // 0.298551 
                     0x33f1, // 0.202899 
@@ -26977,7 +26977,7 @@ static char SelectNextLetter(
             // nao
             case 0x006f616e:
             {
-                MKV_DATA char  data_chars[18]   = "ksmthrnyiejguzbfc";
+                MKV_DATA char  data_chars[18]   = "ksmthrneiyfczugbj";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x4f0f, // 0.308824 
                     0x2969, // 0.161765 
@@ -27016,7 +27016,7 @@ static char SelectNextLetter(
             // nar
             case 0x0072616e:
             {
-                MKV_DATA char  data_chars[8]   = "iaueoyd";
+                MKV_DATA char  data_chars[8]   = "iuaeoyd";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x6dd9, // 0.429091 
                     0x3e5f, // 0.243636 
@@ -27066,7 +27066,7 @@ static char SelectNextLetter(
             // nau
             case 0x0075616e:
             {
-                MKV_DATA char  data_chars[8]   = "srkcemn";
+                MKV_DATA char  data_chars[8]   = "srkmnce";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x7878, // 0.470588 
                     0x2d2d, // 0.176471 
@@ -27122,7 +27122,7 @@ static char SelectNextLetter(
             // nba
             case 0x0061626e:
             {
-                MKV_DATA char  data_chars[16]   = "rnsiytkcbdgmuoa";
+                MKV_DATA char  data_chars[16]   = "rnsiytkcdgbmauo";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x4f09, // 0.308725 
                     0x36fb, // 0.214765 
@@ -27147,7 +27147,7 @@ static char SelectNextLetter(
             // nbe
             case 0x0065626e:
             {
-                MKV_DATA char  data_chars[15]   = "tnicuzoarhjkle";
+                MKV_DATA char  data_chars[15]   = "tcniualzehrjko";
                 MKV_DATA uint16_t data_weights[14] = {
                     0xd660, // 0.837398 
                     0x063e, // 0.024390 
@@ -27184,7 +27184,7 @@ static char SelectNextLetter(
             // nbo
             case 0x006f626e:
             {
-                MKV_DATA char  data_chars[14]   = "nkrucmhsgjwdt";
+                MKV_DATA char  data_chars[14]   = "nkrcusmhgjdwt";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x4874, // 0.283019 
                     0x26a4, // 0.150943 
@@ -27207,7 +27207,7 @@ static char SelectNextLetter(
             // nbu
             case 0x0075626e:
             {
-                MKV_DATA char  data_chars[13]   = "tncmdkrzshiy";
+                MKV_DATA char  data_chars[13]   = "tncmdrszkhyi";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x3a84, // 0.228571 
                     0x3333, // 0.200000 
@@ -27316,7 +27316,7 @@ static char SelectNextLetter(
             // nct
             case 0x0074636e:
             {
-                MKV_DATA char  data_chars[3]   = "ui";
+                MKV_DATA char  data_chars[3]   = "iu";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -27328,7 +27328,7 @@ static char SelectNextLetter(
             // nda
             case 0x0061646e:
             {
-                MKV_DATA char  data_chars[16]   = "incgtkbsrwyzaho";
+                MKV_DATA char  data_chars[16]   = "incgtkbsrwyaohz";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x7ae1, // 0.480000 
                     0x2ed0, // 0.182857 
@@ -27353,7 +27353,7 @@ static char SelectNextLetter(
             // nde
             case 0x0065646e:
             {
-                MKV_DATA char  data_chars[8]   = "nskmrbc";
+                MKV_DATA char  data_chars[8]   = "nskmbcr";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xd134, // 0.817204 
                     0x18c6, // 0.096774 
@@ -27370,7 +27370,7 @@ static char SelectNextLetter(
             // ndo
             case 0x006f646e:
             {
-                MKV_DATA char  data_chars[17]   = "rjmkncuhbigdzayo";
+                MKV_DATA char  data_chars[17]   = "rjmkncuhbigaoyzd";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x4211, // 0.258065 
                     0x294a, // 0.161290 
@@ -27420,7 +27420,7 @@ static char SelectNextLetter(
             // nea
             case 0x0061656e:
             {
-                MKV_DATA char  data_chars[6]   = "gnibc";
+                MKV_DATA char  data_chars[6]   = "ngibc";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -27530,7 +27530,7 @@ static char SelectNextLetter(
             // nei
             case 0x0069656e:
             {
-                MKV_DATA char  data_chars[7]   = "csrmnb";
+                MKV_DATA char  data_chars[7]   = "csmrnb";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x7943, // 0.473684 
                     0x35e5, // 0.210526 
@@ -27575,7 +27575,7 @@ static char SelectNextLetter(
             // nem
             case 0x006d656e:
             {
-                MKV_DATA char  data_chars[8]   = "aouiebm";
+                MKV_DATA char  data_chars[8]   = "aouiemb";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x6c2b, // 0.422535 
                     0x4482, // 0.267606 
@@ -27592,7 +27592,7 @@ static char SelectNextLetter(
             // nen
             case 0x006e656e:
             {
-                MKV_DATA char  data_chars[18]   = "oaigtkjdubmcnrhse";
+                MKV_DATA char  data_chars[18]   = "oagiktjdubmcnerhs";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5e72, // 0.368932 
                     0x1dd3, // 0.116505 
@@ -27619,7 +27619,7 @@ static char SelectNextLetter(
             // neo
             case 0x006f656e:
             {
-                MKV_DATA char  data_chars[5]   = "kmrb";
+                MKV_DATA char  data_chars[5]   = "kbmr";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xc4ec, // 0.769231 
                     0x13b1, // 0.076923 
@@ -27693,7 +27693,7 @@ static char SelectNextLetter(
             // neu
             case 0x0075656e:
             {
-                MKV_DATA char  data_chars[6]   = "srcmp";
+                MKV_DATA char  data_chars[6]   = "scrmp";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x745d, // 0.454545 
                     0x2e8c, // 0.181818 
@@ -27775,7 +27775,7 @@ static char SelectNextLetter(
             // nga
             case 0x0061676e:
             {
-                MKV_DATA char  data_chars[20]   = "nwikmtroseychpufzdg";
+                MKV_DATA char  data_chars[20]   = "niwktmorsecyphuzgfd";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x240e, // 0.140845 
                     0x2241, // 0.133803 
@@ -27811,7 +27811,7 @@ static char SelectNextLetter(
             // nge
             case 0x0065676e:
             {
-                MKV_DATA char  data_chars[10]   = "ntijpmrdk";
+                MKV_DATA char  data_chars[10]   = "ntijprdkm";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x989e, // 0.596154 
                     0x2c4f, // 0.173077 
@@ -27830,7 +27830,7 @@ static char SelectNextLetter(
             // ngi
             case 0x0069676e:
             {
-                MKV_DATA char  data_chars[7]   = "rjnswg";
+                MKV_DATA char  data_chars[7]   = "rgjnsw";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4925, // 0.285714 
                     0x2492, // 0.142857 
@@ -27858,7 +27858,7 @@ static char SelectNextLetter(
             // ngo
             case 0x006f676e:
             {
-                MKV_DATA char  data_chars[17]   = "kcsnmdjrtuhiolzf";
+                MKV_DATA char  data_chars[17]   = "kcsnjmdrtuhoiflz";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x438e, // 0.263889 
                     0x238e, // 0.138889 
@@ -27891,7 +27891,7 @@ static char SelectNextLetter(
             // ngu
             case 0x0075676e:
             {
-                MKV_DATA char  data_chars[15]   = "cmnrsdbkhtyajg";
+                MKV_DATA char  data_chars[15]   = "cmnrsdtjhgaybk";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x4925, // 0.285714 
                     0x3249, // 0.196429 
@@ -27940,7 +27940,7 @@ static char SelectNextLetter(
             // nha
             case 0x0061686e:
             {
-                MKV_DATA char  data_chars[9]   = "mrnstcyi";
+                MKV_DATA char  data_chars[9]   = "mrsnctiy";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x45d1, // 0.272727 
                     0x3e10, // 0.242424 
@@ -27970,7 +27970,7 @@ static char SelectNextLetter(
             // nhi
             case 0x0069686e:
             {
-                MKV_DATA char  data_chars[9]   = "grkmsdty";
+                MKV_DATA char  data_chars[9]   = "grkmstdy";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5555, // 0.333333 
                     0x3333, // 0.200000 
@@ -28112,7 +28112,7 @@ static char SelectNextLetter(
             // nii
             case 0x0069696e:
             {
-                MKV_DATA char  data_chars[17]   = "ktshzndgjmybwroc";
+                MKV_DATA char  data_chars[17]   = "ktshzndgbmyjwrco";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x2121, // 0.129412 
                     0x1e1e, // 0.117647 
@@ -28185,7 +28185,7 @@ static char SelectNextLetter(
             // nin
             case 0x006e696e:
             {
-                MKV_DATA char  data_chars[15]   = "oagikznjucdste";
+                MKV_DATA char  data_chars[15]   = "oagizknjucdets";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x7657, // 0.462264 
                     0x290e, // 0.160377 
@@ -28209,7 +28209,7 @@ static char SelectNextLetter(
             // nio
             case 0x006f696e:
             {
-                MKV_DATA char  data_chars[13]   = "nzbisdjkrcgm";
+                MKV_DATA char  data_chars[13]   = "zbinrscdgjkm";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x2000, // 0.125000 
                     0x2000, // 0.125000 
@@ -28292,7 +28292,7 @@ static char SelectNextLetter(
             // niu
             case 0x0075696e:
             {
-                MKV_DATA char  data_chars[8]   = "spmbcnr";
+                MKV_DATA char  data_chars[8]   = "spmnrbc";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -28360,7 +28360,7 @@ static char SelectNextLetter(
             // nja
             case 0x00616a6e:
             {
-                MKV_DATA char  data_chars[9]   = "kmnypdgi";
+                MKV_DATA char  data_chars[9]   = "kmnyidgp";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x599a, // 0.350000 
                     0x3333, // 0.200000 
@@ -28378,7 +28378,7 @@ static char SelectNextLetter(
             // nji
             case 0x00696a6e:
             {
-                MKV_DATA char  data_chars[18]   = "nmcrtkgydbujhoias";
+                MKV_DATA char  data_chars[18]   = "nmcrtkgydahijbosu";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5b27, // 0.356061 
                     0x2e8c, // 0.181818 
@@ -28412,7 +28412,7 @@ static char SelectNextLetter(
             // njo
             case 0x006f6a6e:
             {
-                MKV_DATA char  data_chars[16]   = "umjgnchkdyofsbw";
+                MKV_DATA char  data_chars[16]   = "ujmgcnhkydfbswo";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x28a3, // 0.158730 
                     0x2492, // 0.142857 
@@ -28437,7 +28437,7 @@ static char SelectNextLetter(
             // nju
             case 0x00756a6e:
             {
-                MKV_DATA char  data_chars[16]   = "knguyidscomatrh";
+                MKV_DATA char  data_chars[16]   = "kngusiydamhroct";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x69bd, // 0.413043 
                     0x26f5, // 0.152174 
@@ -28474,7 +28474,7 @@ static char SelectNextLetter(
             // nka
             case 0x00616b6e:
             {
-                MKV_DATA char  data_chars[16]   = "niwkmtsdrjcepzy";
+                MKV_DATA char  data_chars[16]   = "niwkmtsdrjeczyp";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x41a4, // 0.256410 
                     0x313b, // 0.192308 
@@ -28499,7 +28499,7 @@ static char SelectNextLetter(
             // nke
             case 0x00656b6e:
             {
-                MKV_DATA char  data_chars[18]   = "intsapkbocumegyfw";
+                MKV_DATA char  data_chars[18]   = "intspabkoucgmfwye";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x3939, // 0.223529 
                     0x3636, // 0.211765 
@@ -28526,7 +28526,7 @@ static char SelectNextLetter(
             // nki
             case 0x00696b6e:
             {
-                MKV_DATA char  data_chars[12]   = "tcnsybdrkmw";
+                MKV_DATA char  data_chars[12]   = "tcnsybdrmwk";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x3b89, // 0.232558 
                     0x3595, // 0.209302 
@@ -28547,7 +28547,7 @@ static char SelectNextLetter(
             // nko
             case 0x006f6b6e:
             {
-                MKV_DATA char  data_chars[21]   = "jutkcsdmngrbyiehzapw";
+                MKV_DATA char  data_chars[21]   = "jtukscdmngrbyiehazpw";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x2000, // 0.125000 
                     0x1777, // 0.091667 
@@ -28577,7 +28577,7 @@ static char SelectNextLetter(
             // nku
             case 0x00756b6e:
             {
-                MKV_DATA char  data_chars[10]   = "rmsbntckg";
+                MKV_DATA char  data_chars[10]   = "rmsbnctgk";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x5555, // 0.333333 
                     0x1f08, // 0.121212 
@@ -28620,7 +28620,7 @@ static char SelectNextLetter(
             // nma
             case 0x00616d6e:
             {
-                MKV_DATA char  data_chars[18]   = "cetrinyksdgbuwfhm";
+                MKV_DATA char  data_chars[18]   = "cetrinkydsufhgbmw";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x6f97, // 0.435897 
                     0x3093, // 0.189744 
@@ -28668,7 +28668,7 @@ static char SelectNextLetter(
             // nmi
             case 0x00696d6e:
             {
-                MKV_DATA char  data_chars[8]   = "nyzscdk";
+                MKV_DATA char  data_chars[8]   = "nyzdsck";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x6b5b, // 0.419355 
                     0x39ce, // 0.225806 
@@ -28685,7 +28685,7 @@ static char SelectNextLetter(
             // nmo
             case 0x006f6d6e:
             {
-                MKV_DATA char  data_chars[9]   = "nrkisbje";
+                MKV_DATA char  data_chars[9]   = "nrksibej";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x650d, // 0.394737 
                     0x435e, // 0.263158 
@@ -28703,7 +28703,7 @@ static char SelectNextLetter(
             // nmu
             case 0x00756d6e:
             {
-                MKV_DATA char  data_chars[6]   = "rtsjk";
+                MKV_DATA char  data_chars[6]   = "rtjks";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xc30c, // 0.761905 
                     0x1862, // 0.095238 
@@ -28730,7 +28730,7 @@ static char SelectNextLetter(
             // nna
             case 0x00616e6e:
             {
-                MKV_DATA char  data_chars[15]   = "inkrgmswbpyztj";
+                MKV_DATA char  data_chars[15]   = "inkrgmsbwpyjzt";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x6529, // 0.395161 
                     0x273a, // 0.153226 
@@ -28766,7 +28766,7 @@ static char SelectNextLetter(
             // nne
             case 0x00656e6e:
             {
-                MKV_DATA char  data_chars[16]   = "nbstrapumkzyxcl";
+                MKV_DATA char  data_chars[16]   = "nbstrapumkyclzx";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x52d3, // 0.323529 
                     0x2969, // 0.161765 
@@ -28791,7 +28791,7 @@ static char SelectNextLetter(
             // nni
             case 0x00696e6e:
             {
-                MKV_DATA char  data_chars[11]   = "scnkehjtwg";
+                MKV_DATA char  data_chars[11]   = "scnkhejgtw";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x4c41, // 0.297872 
                     0x3678, // 0.212766 
@@ -28824,7 +28824,7 @@ static char SelectNextLetter(
             // nno
             case 0x006f6e6e:
             {
-                MKV_DATA char  data_chars[21]   = "snmkhudjzcybrgiwftao";
+                MKV_DATA char  data_chars[21]   = "snmkhudjzcbyrgwitafo";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x46bd, // 0.276316 
                     0x2000, // 0.125000 
@@ -28866,7 +28866,7 @@ static char SelectNextLetter(
             // nnu
             case 0x00756e6e:
             {
-                MKV_DATA char  data_chars[6]   = "mpski";
+                MKV_DATA char  data_chars[6]   = "mkpsi";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6aab, // 0.416667 
                     0x2aab, // 0.166667 
@@ -28894,7 +28894,7 @@ static char SelectNextLetter(
             // noa
             case 0x00616f6e:
             {
-                MKV_DATA char  data_chars[8]   = "simcrkn";
+                MKV_DATA char  data_chars[8]   = "ismrckn";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x3c3c, // 0.235294 
                     0x3c3c, // 0.235294 
@@ -28911,7 +28911,7 @@ static char SelectNextLetter(
             // nob
             case 0x00626f6e:
             {
-                MKV_DATA char  data_chars[7]   = "uoeail";
+                MKV_DATA char  data_chars[7]   = "ueoail";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x60f4, // 0.378723 
                     0x3105, // 0.191489 
@@ -28953,7 +28953,7 @@ static char SelectNextLetter(
             // noe
             case 0x00656f6e:
             {
-                MKV_DATA char  data_chars[10]   = "cmndkrzhu";
+                MKV_DATA char  data_chars[10]   = "cnmdkhrzu";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x5555, // 0.333333 
                     0x2492, // 0.142857 
@@ -29015,7 +29015,7 @@ static char SelectNextLetter(
             // noi
             case 0x00696f6e:
             {
-                MKV_DATA char  data_chars[12]   = "ckrnsdewmbo";
+                MKV_DATA char  data_chars[12]   = "ckrsndwembo";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4116, // 0.254237 
                     0x3868, // 0.220339 
@@ -29095,7 +29095,7 @@ static char SelectNextLetter(
             // non
             case 0x006e6f6e:
             {
-                MKV_DATA char  data_chars[15]   = "oaiebjdmnzpsuy";
+                MKV_DATA char  data_chars[15]   = "oaiebjdmnpzsuy";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x70a4, // 0.440000 
                     0x34e8, // 0.206667 
@@ -29119,7 +29119,7 @@ static char SelectNextLetter(
             // noo
             case 0x006f6f6e:
             {
-                MKV_DATA char  data_chars[8]   = "kmtcgnz";
+                MKV_DATA char  data_chars[8]   = "kmtcgzn";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x7287, // 0.447368 
                     0x2f28, // 0.184211 
@@ -29148,7 +29148,7 @@ static char SelectNextLetter(
             // nor
             case 0x00726f6e:
             {
-                MKV_DATA char  data_chars[9]   = "ioatueyf";
+                MKV_DATA char  data_chars[9]   = "ioaetufy";
                 MKV_DATA uint16_t data_weights[8] = {
                     0xc409, // 0.765766 
                     0x1bad, // 0.108108 
@@ -29196,7 +29196,7 @@ static char SelectNextLetter(
             // nou
             case 0x00756f6e:
             {
-                MKV_DATA char  data_chars[13]   = "recsmgjtyzid";
+                MKV_DATA char  data_chars[13]   = "recsmgtjdyzi";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x8765, // 0.528889 
                     0x3456, // 0.204444 
@@ -29269,7 +29269,7 @@ static char SelectNextLetter(
             // npa
             case 0x0061706e:
             {
-                MKV_DATA char  data_chars[9]   = "ciknmslr";
+                MKV_DATA char  data_chars[9]   = "cikmnsrl";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x45d1, // 0.272727 
                     0x3a2f, // 0.227273 
@@ -29317,7 +29317,7 @@ static char SelectNextLetter(
             // npo
             case 0x006f706e:
             {
-                MKV_DATA char  data_chars[13]   = "rjuznsckpbdi";
+                MKV_DATA char  data_chars[13]   = "rjuscznpkbdi";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x4ccd, // 0.300000 
                     0x2aab, // 0.166667 
@@ -29339,7 +29339,7 @@ static char SelectNextLetter(
             // npu
             case 0x0075706e:
             {
-                MKV_DATA char  data_chars[9]   = "krijntuz";
+                MKV_DATA char  data_chars[9]   = "krzjtinu";
                 MKV_DATA uint16_t data_weights[8] = {
                     0xa2e9, // 0.636364 
                     0x1746, // 0.090909 
@@ -29396,7 +29396,7 @@ static char SelectNextLetter(
             // nri
             case 0x0069726e:
             {
-                MKV_DATA char  data_chars[12]   = "nkgtovycfmz";
+                MKV_DATA char  data_chars[12]   = "nkgtoycfmvz";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4000, // 0.250000 
                     0x2aab, // 0.166667 
@@ -29417,7 +29417,7 @@ static char SelectNextLetter(
             // nro
             case 0x006f726e:
             {
-                MKV_DATA char  data_chars[4]   = "kuj";
+                MKV_DATA char  data_chars[4]   = "kju";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xd555, // 0.833333 
                     0x1555, // 0.083333 
@@ -29458,7 +29458,7 @@ static char SelectNextLetter(
             // nsa
             case 0x0061736e:
             {
-                MKV_DATA char  data_chars[12]   = "wkintrgapsy";
+                MKV_DATA char  data_chars[12]   = "wkintgrasyp";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4e0c, // 0.304878 
                     0x3b51, // 0.231707 
@@ -29558,7 +29558,7 @@ static char SelectNextLetter(
             // nso
             case 0x006f736e:
             {
-                MKV_DATA char  data_chars[7]   = "nukjmd";
+                MKV_DATA char  data_chars[7]   = "unkjdm";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -29574,7 +29574,7 @@ static char SelectNextLetter(
             // nst
             case 0x0074736e:
             {
-                MKV_DATA char  data_chars[3]   = "ia";
+                MKV_DATA char  data_chars[3]   = "ai";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -29586,7 +29586,7 @@ static char SelectNextLetter(
             // nsu
             case 0x0075736e:
             {
-                MKV_DATA char  data_chars[12]   = "igklrtensuy";
+                MKV_DATA char  data_chars[12]   = "igktrelnsuy";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x8000, // 0.500000 
                     0x2492, // 0.142857 
@@ -29619,7 +29619,7 @@ static char SelectNextLetter(
             // nta
             case 0x0061746e:
             {
-                MKV_DATA char  data_chars[17]   = "kinrtmldghwcjzba";
+                MKV_DATA char  data_chars[17]   = "kirntmlgwhdbjzca";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3e63, // 0.243697 
                     0x317b, // 0.193277 
@@ -29645,7 +29645,7 @@ static char SelectNextLetter(
             // nte
             case 0x0065746e:
             {
-                MKV_DATA char  data_chars[9]   = "nirtksml";
+                MKV_DATA char  data_chars[9]   = "nirtkmsl";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5b6e, // 0.357143 
                     0x36db, // 0.214286 
@@ -29675,7 +29675,7 @@ static char SelectNextLetter(
             // nti
             case 0x0069746e:
             {
-                MKV_DATA char  data_chars[5]   = "naqk";
+                MKV_DATA char  data_chars[5]   = "nakq";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6db7, // 0.428571 
                     0x4925, // 0.285714 
@@ -29696,7 +29696,7 @@ static char SelectNextLetter(
             // nto
             case 0x006f746e:
             {
-                MKV_DATA char  data_chars[15]   = "kmynustgrcdbez";
+                MKV_DATA char  data_chars[15]   = "kmnuystrgdcbze";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x414e, // 0.255102 
                     0x2492, // 0.142857 
@@ -29782,7 +29782,7 @@ static char SelectNextLetter(
             // nuc
             case 0x0063756e:
             {
-                MKV_DATA char  data_chars[3]   = "hl";
+                MKV_DATA char  data_chars[3]   = "lh";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -29794,7 +29794,7 @@ static char SelectNextLetter(
             // nud
             case 0x0064756e:
             {
-                MKV_DATA char  data_chars[5]   = "aode";
+                MKV_DATA char  data_chars[5]   = "adeo";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x8000, // 0.500000 
                     0x2aab, // 0.166667 
@@ -29883,7 +29883,7 @@ static char SelectNextLetter(
             // nuk
             case 0x006b756e:
             {
-                MKV_DATA char  data_chars[7]   = "aiueko";
+                MKV_DATA char  data_chars[7]   = "aiueok";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x685f, // 0.407692 
                     0x646e, // 0.392308 
@@ -29930,7 +29930,7 @@ static char SelectNextLetter(
             // nuo
             case 0x006f756e:
             {
-                MKV_DATA char  data_chars[5]   = "nzrt";
+                MKV_DATA char  data_chars[5]   = "nrtz";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -29956,7 +29956,7 @@ static char SelectNextLetter(
             // nur
             case 0x0072756e:
             {
-                MKV_DATA char  data_chars[6]   = "uaeio";
+                MKV_DATA char  data_chars[6]   = "uaieo";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6aab, // 0.416667 
                     0x4aab, // 0.291667 
@@ -29984,7 +29984,7 @@ static char SelectNextLetter(
             // nut
             case 0x0074756e:
             {
-                MKV_DATA char  data_chars[5]   = "astc";
+                MKV_DATA char  data_chars[5]   = "asct";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xaaab, // 0.666667 
                     0x2aab, // 0.166667 
@@ -30070,7 +30070,7 @@ static char SelectNextLetter(
             // nwa
             case 0x0061776e:
             {
-                MKV_DATA char  data_chars[7]   = "rkmncf";
+                MKV_DATA char  data_chars[7]   = "rkcfmn";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x8000, // 0.500000 
                     0x2aab, // 0.166667 
@@ -30110,7 +30110,7 @@ static char SelectNextLetter(
             // nya
             case 0x0061796e:
             {
-                MKV_DATA char  data_chars[15]   = "mcnsrkbhoztjdp";
+                MKV_DATA char  data_chars[15]   = "mcnsrbkhojpdtz";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x7b60, // 0.481928 
                     0x1bc2, // 0.108434 
@@ -30134,7 +30134,7 @@ static char SelectNextLetter(
             // nyo
             case 0x006f796e:
             {
-                MKV_DATA char  data_chars[16]   = "strkuhijadnbomy";
+                MKV_DATA char  data_chars[16]   = "srtkuihdajmboyn";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x45d1, // 0.272727 
                     0x1746, // 0.090909 
@@ -30171,7 +30171,7 @@ static char SelectNextLetter(
             // nyu
             case 0x0075796e:
             {
-                MKV_DATA char  data_chars[20]   = "dugknzcyrsmtbfijoap";
+                MKV_DATA char  data_chars[20]   = "dugkcznyrsmbtoapijf";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x2e8c, // 0.181818 
                     0x26ca, // 0.151515 
@@ -30200,7 +30200,7 @@ static char SelectNextLetter(
             // nza
             case 0x00617a6e:
             {
-                MKV_DATA char  data_chars[14]   = "wkniebtdscrmh";
+                MKV_DATA char  data_chars[14]   = "wkniebdmchrst";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x3c8a, // 0.236486 
                     0x3ad0, // 0.229730 
@@ -30223,7 +30223,7 @@ static char SelectNextLetter(
             // nze
             case 0x00657a6e:
             {
-                MKV_DATA char  data_chars[8]   = "niotgjm";
+                MKV_DATA char  data_chars[8]   = "nimotgj";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xba2f, // 0.727273 
                     0x1f08, // 0.121212 
@@ -30240,7 +30240,7 @@ static char SelectNextLetter(
             // nzo
             case 0x006f7a6e:
             {
-                MKV_DATA char  data_chars[9]   = "kjgumiwe";
+                MKV_DATA char  data_chars[9]   = "kjgueimw";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x8f5c, // 0.560000 
                     0x1eb8, // 0.120000 
@@ -30258,7 +30258,7 @@ static char SelectNextLetter(
             // nzu
             case 0x00757a6e:
             {
-                MKV_DATA char  data_chars[11]   = "ksirtmuydh";
+                MKV_DATA char  data_chars[11]   = "kirsdhtymu";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x745d, // 0.454545 
                     0x1746, // 0.090909 
@@ -30338,7 +30338,7 @@ static char SelectNextLetter(
             // oai
             case 0x0069616f:
             {
-                MKV_DATA char  data_chars[9]   = "knrdmbch";
+                MKV_DATA char  data_chars[9]   = "kmnrdbch";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x36db, // 0.214286 
                     0x2492, // 0.142857 
@@ -30414,7 +30414,7 @@ static char SelectNextLetter(
             // oao
             case 0x006f616f:
             {
-                MKV_DATA char  data_chars[6]   = "tkmni";
+                MKV_DATA char  data_chars[6]   = "tmnik";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6db7, // 0.428571 
                     0x2492, // 0.142857 
@@ -30504,7 +30504,7 @@ static char SelectNextLetter(
             // oba
             case 0x0061626f:
             {
-                MKV_DATA char  data_chars[20]   = "rstnymcbikgdezajowl";
+                MKV_DATA char  data_chars[20]   = "rstnymcbkigdezajowl";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x4f4e, // 0.309783 
                     0x2a6f, // 0.165761 
@@ -30545,7 +30545,7 @@ static char SelectNextLetter(
             // obe
             case 0x0065626f:
             {
-                MKV_DATA char  data_chars[18]   = "tcniosrkhdjgbzmly";
+                MKV_DATA char  data_chars[18]   = "tcniokrshdzbmlygj";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x9e41, // 0.618182 
                     0x129e, // 0.072727 
@@ -30572,7 +30572,7 @@ static char SelectNextLetter(
             // obi
             case 0x0069626f:
             {
-                MKV_DATA char  data_chars[21]   = "rtksihnymgodazwjebcu";
+                MKV_DATA char  data_chars[21]   = "rtksihngoymdabzejwcu";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x459d, // 0.271930 
                     0x23ee, // 0.140351 
@@ -30621,7 +30621,7 @@ static char SelectNextLetter(
             // obo
             case 0x006f626f:
             {
-                MKV_DATA char  data_chars[14]   = "rksnetdcjgmub";
+                MKV_DATA char  data_chars[14]   = "rksentcjdmubg";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x8b3a, // 0.543860 
                     0x1d31, // 0.114035 
@@ -30656,7 +30656,7 @@ static char SelectNextLetter(
             // obu
             case 0x0075626f:
             {
-                MKV_DATA char  data_chars[19]   = "ksntcdgihmyezraujo";
+                MKV_DATA char  data_chars[19]   = "ksntcdighmyzreaujo";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x33b4, // 0.201970 
                     0x299e, // 0.162562 
@@ -30684,7 +30684,7 @@ static char SelectNextLetter(
             // oby
             case 0x0079626f:
             {
-                MKV_DATA char  data_chars[4]   = "oau";
+                MKV_DATA char  data_chars[4]   = "oua";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -30766,7 +30766,7 @@ static char SelectNextLetter(
             // oda
             case 0x0061646f:
             {
-                MKV_DATA char  data_chars[21]   = "inkctsgwbyhrojmuzeap";
+                MKV_DATA char  data_chars[21]   = "inkctsgwybhorjmuazpe";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x79cc, // 0.475771 
                     0x2537, // 0.145374 
@@ -30796,7 +30796,7 @@ static char SelectNextLetter(
             // ode
             case 0x0065646f:
             {
-                MKV_DATA char  data_chars[16]   = "nrskgoyltacdjmw";
+                MKV_DATA char  data_chars[16]   = "nrskgoydlmctwja";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x61e2, // 0.382353 
                     0x2d2d, // 0.176471 
@@ -30833,7 +30833,7 @@ static char SelectNextLetter(
             // odo
             case 0x006f646f:
             {
-                MKV_DATA char  data_chars[20]   = "rmkngsjciubytwhedzx";
+                MKV_DATA char  data_chars[20]   = "rmkngsjciutybwehxdz";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x6d62, // 0.427273 
                     0x253d, // 0.145455 
@@ -30981,7 +30981,7 @@ static char SelectNextLetter(
             // oek
             case 0x006b656f:
             {
-                MKV_DATA char  data_chars[6]   = "iouae";
+                MKV_DATA char  data_chars[6]   = "ioaue";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x7000, // 0.437500 
                     0x4000, // 0.250000 
@@ -31010,7 +31010,7 @@ static char SelectNextLetter(
             // oen
             case 0x006e656f:
             {
-                MKV_DATA char  data_chars[17]   = "ojmbadsecgipzknh";
+                MKV_DATA char  data_chars[17]   = "ojmbdasgnkzhipec";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x38e4, // 0.222222 
                     0x2aab, // 0.166667 
@@ -31088,7 +31088,7 @@ static char SelectNextLetter(
             // oeu
             case 0x0075656f:
             {
-                MKV_DATA char  data_chars[4]   = "rcs";
+                MKV_DATA char  data_chars[4]   = "rsc";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -31132,7 +31132,7 @@ static char SelectNextLetter(
             // ofu
             case 0x0075666f:
             {
-                MKV_DATA char  data_chars[16]   = "ktnrjmsedgicybp";
+                MKV_DATA char  data_chars[16]   = "kntrjmsedgibpyc";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x5829, // 0.344371 
                     0x254c, // 0.145695 
@@ -31157,7 +31157,7 @@ static char SelectNextLetter(
             // oga
             case 0x0061676f:
             {
-                MKV_DATA char  data_chars[20]   = "wnsmktyriohbdeugcjz";
+                MKV_DATA char  data_chars[20]   = "wnsmktyriohbduegczj";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x51a0, // 0.318841 
                     0x1c72, // 0.111111 
@@ -31186,7 +31186,7 @@ static char SelectNextLetter(
             // oge
             case 0x0065676f:
             {
-                MKV_DATA char  data_chars[14]   = "ntscihkryjzmd";
+                MKV_DATA char  data_chars[14]   = "ntsickrhymdjz";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x8421, // 0.516129 
                     0x1ce7, // 0.112903 
@@ -31209,7 +31209,7 @@ static char SelectNextLetter(
             // ogi
             case 0x0069676f:
             {
-                MKV_DATA char  data_chars[20]   = "nsmrtdkhwgzojcybfui";
+                MKV_DATA char  data_chars[20]   = "nsmrtdkhowgzcyjfbiu";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x33f8, // 0.203008 
                     0x1cdf, // 0.112782 
@@ -31238,7 +31238,7 @@ static char SelectNextLetter(
             // ogo
             case 0x006f676f:
             {
-                MKV_DATA char  data_chars[17]   = "smecrtyndkujhbgz";
+                MKV_DATA char  data_chars[17]   = "smcertyndkuhjzbg";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x2993, // 0.162393 
                     0x1ea2, // 0.119658 
@@ -31264,7 +31264,7 @@ static char SelectNextLetter(
             // ogu
             case 0x0075676f:
             {
-                MKV_DATA char  data_chars[11]   = "rcsnmktawi";
+                MKV_DATA char  data_chars[11]   = "rcsnmktwai";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x4fe3, // 0.312057 
                     0x4e12, // 0.304965 
@@ -31296,7 +31296,7 @@ static char SelectNextLetter(
             // oha
             case 0x0061686f:
             {
-                MKV_DATA char  data_chars[18]   = "rmntsckiyzgejbdhp";
+                MKV_DATA char  data_chars[18]   = "rmntsckigzyedjbph";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x6a95, // 0.416335 
                     0x3487, // 0.205179 
@@ -31323,7 +31323,7 @@ static char SelectNextLetter(
             // ohe
             case 0x0065686f:
             {
-                MKV_DATA char  data_chars[9]   = "ijndtbkr";
+                MKV_DATA char  data_chars[9]   = "ijntdbkr";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x5d17, // 0.363636 
                     0x2e8c, // 0.181818 
@@ -31353,7 +31353,7 @@ static char SelectNextLetter(
             // ohi
             case 0x0069686f:
             {
-                MKV_DATA char  data_chars[14]   = "rgksdtnmybeja";
+                MKV_DATA char  data_chars[14]   = "rgksdtnmyjeba";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x7582, // 0.459016 
                     0x3ef3, // 0.245902 
@@ -31407,7 +31407,7 @@ static char SelectNextLetter(
             // oho
             case 0x006f686f:
             {
-                MKV_DATA char  data_chars[14]   = "rnksjgmtydbzu";
+                MKV_DATA char  data_chars[14]   = "rknsjgmtydbzu";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x5050, // 0.313726 
                     0x34b5, // 0.205882 
@@ -31492,7 +31492,7 @@ static char SelectNextLetter(
             // oib
             case 0x0062696f:
             {
-                MKV_DATA char  data_chars[6]   = "uaieo";
+                MKV_DATA char  data_chars[6]   = "uaioe";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5b6e, // 0.357143 
                     0x5b6e, // 0.357143 
@@ -31569,7 +31569,7 @@ static char SelectNextLetter(
             // oih
             case 0x0068696f:
             {
-                MKV_DATA char  data_chars[4]   = "aoi";
+                MKV_DATA char  data_chars[4]   = "aio";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -31582,7 +31582,7 @@ static char SelectNextLetter(
             // oii
             case 0x0069696f:
             {
-                MKV_DATA char  data_chars[6]   = "dzcnr";
+                MKV_DATA char  data_chars[6]   = "dcnrz";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -31650,7 +31650,7 @@ static char SelectNextLetter(
             // oin
             case 0x006e696f:
             {
-                MKV_DATA char  data_chars[11]   = "oaemucitnz";
+                MKV_DATA char  data_chars[11]   = "oaemiutcnz";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x76fc, // 0.464789 
                     0x3d4c, // 0.239437 
@@ -31816,7 +31816,7 @@ static char SelectNextLetter(
             // oji
             case 0x00696a6f:
             {
-                MKV_DATA char  data_chars[18]   = "mnrckgyiszdubtehj";
+                MKV_DATA char  data_chars[18]   = "mnrcgykisztbudjhe";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5465, // 0.329670 
                     0x32a3, // 0.197802 
@@ -31843,7 +31843,7 @@ static char SelectNextLetter(
             // ojo
             case 0x006f6a6f:
             {
-                MKV_DATA char  data_chars[14]   = "mcnjkdghurezi";
+                MKV_DATA char  data_chars[14]   = "mcnjhkgdieruz";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x4000, // 0.250000 
                     0x2ccd, // 0.175000 
@@ -31866,7 +31866,7 @@ static char SelectNextLetter(
             // oju
             case 0x00756a6f:
             {
-                MKV_DATA char  data_chars[15]   = "ksntrgmbdhijea";
+                MKV_DATA char  data_chars[15]   = "ksntgrhejmibda";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x5000, // 0.312500 
                     0x2800, // 0.156250 
@@ -31890,7 +31890,7 @@ static char SelectNextLetter(
             // oka
             case 0x00616b6f:
             {
-                MKV_DATA char  data_chars[22]   = "wmnictksrzdgbyjhepauf";
+                MKV_DATA char  data_chars[22]   = "wmnictksrzdgbyjhepafu";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3c1e, // 0.234829 
                     0x25d3, // 0.147757 
@@ -31921,7 +31921,7 @@ static char SelectNextLetter(
             // oke
             case 0x00656b6f:
             {
-                MKV_DATA char  data_chars[17]   = "nitzgrsmubyjkhec";
+                MKV_DATA char  data_chars[17]   = "nitzsmrgubyjcekh";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x58d1, // 0.346939 
                     0x3978, // 0.224490 
@@ -31959,7 +31959,7 @@ static char SelectNextLetter(
             // oki
             case 0x00696b6f:
             {
-                MKV_DATA char  data_chars[22]   = "ntdmcsbzygwrkhaijuepo";
+                MKV_DATA char  data_chars[22]   = "ntdmczsbygwrkhiajuepo";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2dcf, // 0.178947 
                     0x2918, // 0.160526 
@@ -32006,7 +32006,7 @@ static char SelectNextLetter(
             // oko
             case 0x006f6b6f:
             {
-                MKV_DATA char  data_chars[23]   = "rsnmtbgdjkcyiehzpuaowf";
+                MKV_DATA char  data_chars[23]   = "rsnmtbgdjkcyihezpuaowf";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x220a, // 0.132959 
                     0x1db9, // 0.116105 
@@ -32038,7 +32038,7 @@ static char SelectNextLetter(
             // oku
             case 0x00756b6f:
             {
-                MKV_DATA char  data_chars[23]   = "rsbcnmtjgdykhizeoawfup";
+                MKV_DATA char  data_chars[23]   = "rsbcnmtjgdyhkizeoawfup";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x2982, // 0.162133 
                     0x24c5, // 0.143634 
@@ -32119,7 +32119,7 @@ static char SelectNextLetter(
             // oli
             case 0x00696c6f:
             {
-                MKV_DATA char  data_chars[6]   = "dtnvc";
+                MKV_DATA char  data_chars[6]   = "tdnvc";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -32177,7 +32177,7 @@ static char SelectNextLetter(
             // oly
             case 0x00796c6f:
             {
-                MKV_DATA char  data_chars[4]   = "pmo";
+                MKV_DATA char  data_chars[4]   = "mop";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -32190,7 +32190,7 @@ static char SelectNextLetter(
             // oma
             case 0x00616d6f:
             {
-                MKV_DATA char  data_chars[22]   = "crtnekgismpbdzyowhjua";
+                MKV_DATA char  data_chars[22]   = "crtnekgismpbdzoyhaujw";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x5427, // 0.328713 
                     0x25c4, // 0.147525 
@@ -32260,7 +32260,7 @@ static char SelectNextLetter(
             // omi
             case 0x00696d6f:
             {
-                MKV_DATA char  data_chars[21]   = "nyczstgkjmodhaubiewr";
+                MKV_DATA char  data_chars[21]   = "nyczstgkjmdohaubiewr";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x3ea9, // 0.244770 
                     0x3d0e, // 0.238494 
@@ -32290,7 +32290,7 @@ static char SelectNextLetter(
             // omm
             case 0x006d6d6f:
             {
-                MKV_DATA char  data_chars[7]   = "aoueiy";
+                MKV_DATA char  data_chars[7]   = "aouyei";
                 MKV_DATA uint16_t data_weights[6] = {
                     0xd61c, // 0.836364 
                     0x0df7, // 0.054545 
@@ -32306,7 +32306,7 @@ static char SelectNextLetter(
             // omo
             case 0x006f6d6f:
             {
-                MKV_DATA char  data_chars[22]   = "rtngsicdykehmzubojwaf";
+                MKV_DATA char  data_chars[22]   = "rtngsidcykehmzubojwaf";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3d9f, // 0.240700 
                     0x3804, // 0.218818 
@@ -32356,7 +32356,7 @@ static char SelectNextLetter(
             // omu
             case 0x00756d6f:
             {
-                MKV_DATA char  data_chars[10]   = "rktsnigmo";
+                MKV_DATA char  data_chars[10]   = "rktsnigom";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x8113, // 0.504202 
                     0x28e0, // 0.159664 
@@ -32387,7 +32387,7 @@ static char SelectNextLetter(
             // ona
             case 0x00616e6f:
             {
-                MKV_DATA char  data_chars[21]   = "ikgnrmsbetwdhulczajo";
+                MKV_DATA char  data_chars[21]   = "ikgnrmsbtedwhluacojz";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x409f, // 0.252427 
                     0x3432, // 0.203883 
@@ -32461,7 +32461,7 @@ static char SelectNextLetter(
             // one
             case 0x00656e6f:
             {
-                MKV_DATA char  data_chars[22]   = "gnscmztydkojbirhwepau";
+                MKV_DATA char  data_chars[22]   = "gnsmzctydkjobireawuhp";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2993, // 0.162393 
                     0x1ea2, // 0.119658 
@@ -32528,7 +32528,7 @@ static char SelectNextLetter(
             // oni
             case 0x00696e6f:
             {
-                MKV_DATA char  data_chars[21]   = "sngkitwymoczderfhbaj";
+                MKV_DATA char  data_chars[21]   = "snkgitwymoczderjbfah";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x625c, // 0.384211 
                     0x1c4b, // 0.110526 
@@ -32558,7 +32558,7 @@ static char SelectNextLetter(
             // onj
             case 0x006a6e6f:
             {
-                MKV_DATA char  data_chars[7]   = "iouajy";
+                MKV_DATA char  data_chars[7]   = "iouayj";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x751b, // 0.457447 
                     0x546d, // 0.329787 
@@ -32590,7 +32590,7 @@ static char SelectNextLetter(
             // onm
             case 0x006d6e6f:
             {
-                MKV_DATA char  data_chars[8]   = "auoyeci";
+                MKV_DATA char  data_chars[8]   = "aouyeci";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xa38e, // 0.638889 
                     0x2000, // 0.125000 
@@ -32607,7 +32607,7 @@ static char SelectNextLetter(
             // onn
             case 0x006e6e6f:
             {
-                MKV_DATA char  data_chars[8]   = "eaoiyun";
+                MKV_DATA char  data_chars[8]   = "eaoiynu";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x53a5, // 0.326733 
                     0x46f8, // 0.277228 
@@ -32624,7 +32624,7 @@ static char SelectNextLetter(
             // ono
             case 0x006f6e6f:
             {
-                MKV_DATA char  data_chars[24]   = "smkhgucbdityneojzrawflp";
+                MKV_DATA char  data_chars[24]   = "smkhgucbdityneojzrwafpl";
                 MKV_DATA uint16_t data_weights[23] = {
                     0x2466, // 0.142180 
                     0x2466, // 0.142180 
@@ -32657,7 +32657,7 @@ static char SelectNextLetter(
             // onp
             case 0x00706e6f:
             {
-                MKV_DATA char  data_chars[7]   = "oieauy";
+                MKV_DATA char  data_chars[7]   = "oieuya";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x6666, // 0.400000 
                     0x3d71, // 0.240000 
@@ -32788,7 +32788,7 @@ static char SelectNextLetter(
             // oob
             case 0x00626f6f:
             {
-                MKV_DATA char  data_chars[4]   = "aiu";
+                MKV_DATA char  data_chars[4]   = "aui";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xaaab, // 0.666667 
                     0x2aab, // 0.166667 
@@ -32813,7 +32813,7 @@ static char SelectNextLetter(
             // ood
             case 0x00646f6f:
             {
-                MKV_DATA char  data_chars[5]   = "aoes";
+                MKV_DATA char  data_chars[5]   = "aose";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x745d, // 0.454545 
                     0x5d17, // 0.363636 
@@ -32839,7 +32839,7 @@ static char SelectNextLetter(
             // oog
             case 0x00676f6f:
             {
-                MKV_DATA char  data_chars[6]   = "aieou";
+                MKV_DATA char  data_chars[6]   = "aioeu";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6666, // 0.400000 
                     0x4444, // 0.266667 
@@ -32922,7 +32922,7 @@ static char SelectNextLetter(
             // oon
             case 0x006e6f6f:
             {
-                MKV_DATA char  data_chars[9]   = "ojbnsdae";
+                MKV_DATA char  data_chars[9]   = "ojbnsaed";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x7943, // 0.473684 
                     0x286c, // 0.157895 
@@ -32965,7 +32965,7 @@ static char SelectNextLetter(
             // oos
             case 0x00736f6f:
             {
-                MKV_DATA char  data_chars[5]   = "ehou";
+                MKV_DATA char  data_chars[5]   = "ehuo";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -33043,7 +33043,7 @@ static char SelectNextLetter(
             // ope
             case 0x0065706f:
             {
-                MKV_DATA char  data_chars[6]   = "knrpw";
+                MKV_DATA char  data_chars[6]   = "rknpw";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -33131,7 +33131,7 @@ static char SelectNextLetter(
             // opr
             case 0x0072706f:
             {
-                MKV_DATA char  data_chars[3]   = "ao";
+                MKV_DATA char  data_chars[3]   = "oa";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -33156,7 +33156,7 @@ static char SelectNextLetter(
             // ora
             case 0x0061726f:
             {
-                MKV_DATA char  data_chars[21]   = "ikngrmcstwuphloyjedb";
+                MKV_DATA char  data_chars[21]   = "ikngrmscwtuphylodejb";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x3d71, // 0.240000 
                     0x2b02, // 0.168000 
@@ -33210,7 +33210,7 @@ static char SelectNextLetter(
             // ore
             case 0x0065726f:
             {
-                MKV_DATA char  data_chars[16]   = "nirsktmdagzpceu";
+                MKV_DATA char  data_chars[16]   = "nristkmdgaepuzc";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x46e4, // 0.276923 
                     0x1f82, // 0.123077 
@@ -33302,7 +33302,7 @@ static char SelectNextLetter(
             // orm
             case 0x006d726f:
             {
-                MKV_DATA char  data_chars[3]   = "ey";
+                MKV_DATA char  data_chars[3]   = "ye";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -33314,7 +33314,7 @@ static char SelectNextLetter(
             // oro
             case 0x006f726f:
             {
-                MKV_DATA char  data_chars[22]   = "knsmbgitdrhcyupozfjew";
+                MKV_DATA char  data_chars[22]   = "knmsbgitdrhycupozfjew";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2aab, // 0.166667 
                     0x228a, // 0.134921 
@@ -33378,7 +33378,7 @@ static char SelectNextLetter(
             // oru
             case 0x0075726f:
             {
-                MKV_DATA char  data_chars[12]   = "bdimpsfnktu";
+                MKV_DATA char  data_chars[12]   = "bnsfimpdtuk";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4aab, // 0.291667 
                     0x1555, // 0.083333 
@@ -33399,7 +33399,7 @@ static char SelectNextLetter(
             // orv
             case 0x0076726f:
             {
-                MKV_DATA char  data_chars[3]   = "ai";
+                MKV_DATA char  data_chars[3]   = "ia";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -33424,7 +33424,7 @@ static char SelectNextLetter(
             // osa
             case 0x0061736f:
             {
-                MKV_DATA char  data_chars[21]   = "wktnbsgmridpyczufhje";
+                MKV_DATA char  data_chars[21]   = "wktnbrmgsidpyuzcfhje";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x71dd, // 0.444776 
                     0x3b39, // 0.231343 
@@ -33466,7 +33466,7 @@ static char SelectNextLetter(
             // ose
             case 0x0065736f:
             {
-                MKV_DATA char  data_chars[17]   = "nkimcgdtupybjrsh";
+                MKV_DATA char  data_chars[17]   = "nkimcdgtpyubjrhs";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x55d4, // 0.335260 
                     0x2aea, // 0.167630 
@@ -33530,7 +33530,7 @@ static char SelectNextLetter(
             // oso
             case 0x006f736f:
             {
-                MKV_DATA char  data_chars[21]   = "nkrybgtzmiesdujwohcp";
+                MKV_DATA char  data_chars[21]   = "nkrybgmtzesidujowhcp";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x319a, // 0.193750 
                     0x24cd, // 0.143750 
@@ -33572,7 +33572,7 @@ static char SelectNextLetter(
             // oss
             case 0x0073736f:
             {
-                MKV_DATA char  data_chars[7]   = "ahoeiu";
+                MKV_DATA char  data_chars[7]   = "haoeiu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -33600,7 +33600,7 @@ static char SelectNextLetter(
             // osu
             case 0x0075736f:
             {
-                MKV_DATA char  data_chars[17]   = "kgmientjdwzbrhcs";
+                MKV_DATA char  data_chars[17]   = "kgmientdjwzrbshc";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x4963, // 0.286667 
                     0x2741, // 0.153333 
@@ -33626,7 +33626,7 @@ static char SelectNextLetter(
             // ota
             case 0x0061746f:
             {
-                MKV_DATA char  data_chars[23]   = "nkirmtgcdbsohwejzypfua";
+                MKV_DATA char  data_chars[23]   = "nkirmtgcbdshowejpyzfua";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x532c, // 0.324894 
                     0x34ee, // 0.206751 
@@ -33672,7 +33672,7 @@ static char SelectNextLetter(
             // ote
             case 0x0065746f:
             {
-                MKV_DATA char  data_chars[22]   = "nimrgstckhlbydzaupewj";
+                MKV_DATA char  data_chars[22]   = "nimrgtsckhlyzbdejpawu";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x41a4, // 0.256410 
                     0x2532, // 0.145299 
@@ -33715,7 +33715,7 @@ static char SelectNextLetter(
             // oti
             case 0x0069746f:
             {
-                MKV_DATA char  data_chars[3]   = "vs";
+                MKV_DATA char  data_chars[3]   = "sv";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -33727,7 +33727,7 @@ static char SelectNextLetter(
             // oto
             case 0x006f746f:
             {
-                MKV_DATA char  data_chars[23]   = "mksngycrbhdituzjfwoape";
+                MKV_DATA char  data_chars[23]   = "mksngycrbhditufjzwoaep";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x235a, // 0.138088 
                     0x2105, // 0.128983 
@@ -33894,7 +33894,7 @@ static char SelectNextLetter(
             // oui
             case 0x0069756f:
             {
-                MKV_DATA char  data_chars[7]   = "klntei";
+                MKV_DATA char  data_chars[7]   = "iklnte";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x2aab, // 0.166667 
                     0x2aab, // 0.166667 
@@ -33953,7 +33953,7 @@ static char SelectNextLetter(
             // oun
             case 0x006e756f:
             {
-                MKV_DATA char  data_chars[14]   = "itebadocknzpy";
+                MKV_DATA char  data_chars[14]   = "tieobdankpcyz";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x2db7, // 0.178571 
                     0x2db7, // 0.178571 
@@ -33976,7 +33976,7 @@ static char SelectNextLetter(
             // ouo
             case 0x006f756f:
             {
-                MKV_DATA char  data_chars[5]   = "nkuz";
+                MKV_DATA char  data_chars[5]   = "nuzk";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -33990,7 +33990,7 @@ static char SelectNextLetter(
             // our
             case 0x0072756f:
             {
-                MKV_DATA char  data_chars[10]   = "aoiytusev";
+                MKV_DATA char  data_chars[10]   = "aoiysutev";
                 MKV_DATA uint16_t data_weights[9] = {
                     0xd521, // 0.832536 
                     0x0b06, // 0.043062 
@@ -34115,7 +34115,7 @@ static char SelectNextLetter(
             // owa
             case 0x0061776f:
             {
-                MKV_DATA char  data_chars[16]   = "rktdscingbmzuaj";
+                MKV_DATA char  data_chars[16]   = "rktdscingmbuazj";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x3e7a, // 0.244048 
                     0x39e8, // 0.226190 
@@ -34159,7 +34159,7 @@ static char SelectNextLetter(
             // oya
             case 0x0061796f:
             {
-                MKV_DATA char  data_chars[18]   = "mstkngdcbiuhzjwyl";
+                MKV_DATA char  data_chars[18]   = "mstkngdcbiuhzwjyl";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x75ea, // 0.460606 
                     0x1c72, // 0.111111 
@@ -34193,7 +34193,7 @@ static char SelectNextLetter(
             // oyo
             case 0x006f796f:
             {
-                MKV_DATA char  data_chars[22]   = "sktnhdmgrcubzofjyiaew";
+                MKV_DATA char  data_chars[22]   = "sktndhmgrcubzfoijyaew";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3146, // 0.192469 
                     0x2022, // 0.125523 
@@ -34236,7 +34236,7 @@ static char SelectNextLetter(
             // oyu
             case 0x0075796f:
             {
-                MKV_DATA char  data_chars[15]   = "kmbirngdczjteu";
+                MKV_DATA char  data_chars[15]   = "kbmrniczgdejut";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x4f3d, // 0.309524 
                     0x1862, // 0.095238 
@@ -34282,7 +34282,7 @@ static char SelectNextLetter(
             // oze
             case 0x00657a6f:
             {
-                MKV_DATA char  data_chars[8]   = "nkgitcr";
+                MKV_DATA char  data_chars[8]   = "nkgirtc";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xc11f, // 0.754386 
                     0x1af3, // 0.105263 
@@ -34299,7 +34299,7 @@ static char SelectNextLetter(
             // ozo
             case 0x006f7a6f:
             {
-                MKV_DATA char  data_chars[11]   = "nekrmijwcz";
+                MKV_DATA char  data_chars[11]   = "nekmricjwz";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x53dd, // 0.327586 
                     0x2c23, // 0.172414 
@@ -34319,7 +34319,7 @@ static char SelectNextLetter(
             // ozu
             case 0x00757a6f:
             {
-                MKV_DATA char  data_chars[16]   = "kmrcnehtigbdsyu";
+                MKV_DATA char  data_chars[16]   = "kmrcneithgsdybu";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x6bca, // 0.421053 
                     0x35e5, // 0.210526 
@@ -34378,7 +34378,7 @@ static char SelectNextLetter(
             // pai
             case 0x00696170:
             {
-                MKV_DATA char  data_chars[5]   = "mnzd";
+                MKV_DATA char  data_chars[5]   = "mndz";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -34441,7 +34441,7 @@ static char SelectNextLetter(
             // pan
             case 0x006e6170:
             {
-                MKV_DATA char  data_chars[10]   = "kaeomntbi";
+                MKV_DATA char  data_chars[10]   = "kaeobimnt";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x8d79, // 0.552632 
                     0x2f28, // 0.184211 
@@ -34500,7 +34500,7 @@ static char SelectNextLetter(
             // pas
             case 0x00736170:
             {
-                MKV_DATA char  data_chars[6]   = "ouhse";
+                MKV_DATA char  data_chars[6]   = "oushe";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x45d1, // 0.272727 
                     0x45d1, // 0.272727 
@@ -34515,7 +34515,7 @@ static char SelectNextLetter(
             // pat
             case 0x00746170:
             {
-                MKV_DATA char  data_chars[6]   = "osahi";
+                MKV_DATA char  data_chars[6]   = "oshia";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x71c7, // 0.444444 
                     0x38e4, // 0.222222 
@@ -34592,7 +34592,7 @@ static char SelectNextLetter(
             // pei
             case 0x00696570:
             {
-                MKV_DATA char  data_chars[7]   = "ntdjpc";
+                MKV_DATA char  data_chars[7]   = "djntcp";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x3333, // 0.200000 
                     0x3333, // 0.200000 
@@ -34645,7 +34645,7 @@ static char SelectNextLetter(
             // pen
             case 0x006e6570:
             {
-                MKV_DATA char  data_chars[10]   = "kaopsbciu";
+                MKV_DATA char  data_chars[10]   = "kaopscuib";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x94a5, // 0.580645 
                     0x18c6, // 0.096774 
@@ -34688,7 +34688,7 @@ static char SelectNextLetter(
             // per
             case 0x00726570:
             {
-                MKV_DATA char  data_chars[6]   = "aesiu";
+                MKV_DATA char  data_chars[6]   = "aeisu";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6276, // 0.384615 
                     0x3b14, // 0.230769 
@@ -34703,7 +34703,7 @@ static char SelectNextLetter(
             // pes
             case 0x00736570:
             {
-                MKV_DATA char  data_chars[6]   = "ouaeh";
+                MKV_DATA char  data_chars[6]   = "oaehu";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -34924,7 +34924,7 @@ static char SelectNextLetter(
             // pin
             case 0x006e6970:
             {
-                MKV_DATA char  data_chars[6]   = "agnek";
+                MKV_DATA char  data_chars[6]   = "agnke";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6aab, // 0.416667 
                     0x4000, // 0.250000 
@@ -34963,7 +34963,7 @@ static char SelectNextLetter(
             // pis
             case 0x00736970:
             {
-                MKV_DATA char  data_chars[7]   = "tuceos";
+                MKV_DATA char  data_chars[7]   = "uceost";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x2aab, // 0.166667 
                     0x2aab, // 0.166667 
@@ -35029,7 +35029,7 @@ static char SelectNextLetter(
             // pla
             case 0x00616c70:
             {
-                MKV_DATA char  data_chars[7]   = "nsyzci";
+                MKV_DATA char  data_chars[7]   = "ncisyz";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4925, // 0.285714 
                     0x2492, // 0.142857 
@@ -35180,7 +35180,7 @@ static char SelectNextLetter(
             // pol
             case 0x006c6f70:
             {
-                MKV_DATA char  data_chars[4]   = "yai";
+                MKV_DATA char  data_chars[4]   = "yia";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -35208,7 +35208,7 @@ static char SelectNextLetter(
             // pon
             case 0x006e6f70:
             {
-                MKV_DATA char  data_chars[21]   = "skpmtnoaybircuhdgfwe";
+                MKV_DATA char  data_chars[21]   = "kspmtnaoybcridghuwef";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x1bed, // 0.109091 
                     0x1bed, // 0.109091 
@@ -35278,7 +35278,7 @@ static char SelectNextLetter(
             // pos
             case 0x00736f70:
             {
-                MKV_DATA char  data_chars[5]   = "huta";
+                MKV_DATA char  data_chars[5]   = "huat";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x8000, // 0.500000 
                     0x4000, // 0.250000 
@@ -35341,7 +35341,7 @@ static char SelectNextLetter(
             // ppa
             case 0x00617070:
             {
-                MKV_DATA char  data_chars[10]   = "rnimtcosk";
+                MKV_DATA char  data_chars[10]   = "rnimtscko";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x5847, // 0.344828 
                     0x34f7, // 0.206897 
@@ -35360,7 +35360,7 @@ static char SelectNextLetter(
             // ppe
             case 0x00657070:
             {
-                MKV_DATA char  data_chars[8]   = "itznrsm";
+                MKV_DATA char  data_chars[8]   = "intzrsm";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x5b6e, // 0.357143 
                     0x2492, // 0.142857 
@@ -35377,7 +35377,7 @@ static char SelectNextLetter(
             // ppi
             case 0x00697070:
             {
-                MKV_DATA char  data_chars[7]   = "nzkrst";
+                MKV_DATA char  data_chars[7]   = "nkrstz";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x8000, // 0.500000 
                     0x199a, // 0.100000 
@@ -35393,7 +35393,7 @@ static char SelectNextLetter(
             // ppo
             case 0x006f7070:
             {
-                MKV_DATA char  data_chars[13]   = "rnmcsdiuzbhj";
+                MKV_DATA char  data_chars[13]   = "rnmcsbhzdiju";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x521d, // 0.320755 
                     0x4874, // 0.283019 
@@ -35415,7 +35415,7 @@ static char SelectNextLetter(
             // ppu
             case 0x00757070:
             {
-                MKV_DATA char  data_chars[13]   = "snrbckpdwitu";
+                MKV_DATA char  data_chars[13]   = "snrcbkpdituw";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x4c1c, // 0.297297 
                     0x2983, // 0.162162 
@@ -35646,7 +35646,7 @@ static char SelectNextLetter(
             // pun
             case 0x006e7570:
             {
-                MKV_DATA char  data_chars[5]   = "aeni";
+                MKV_DATA char  data_chars[5]   = "anei";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5555, // 0.333333 
                     0x4000, // 0.250000 
@@ -35673,7 +35673,7 @@ static char SelectNextLetter(
             // pur
             case 0x00727570:
             {
-                MKV_DATA char  data_chars[6]   = "iaeuo";
+                MKV_DATA char  data_chars[6]   = "iaueo";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x8925, // 0.535714 
                     0x2492, // 0.142857 
@@ -35976,7 +35976,7 @@ static char SelectNextLetter(
             // rai
             case 0x00696172:
             {
-                MKV_DATA char  data_chars[22]   = "scdktbmgnjzwhrlyfiuop";
+                MKV_DATA char  data_chars[22]   = "sckdtbjnmgzwhrylfipou";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3400, // 0.203125 
                     0x1800, // 0.093750 
@@ -36036,7 +36036,7 @@ static char SelectNextLetter(
             // ral
             case 0x006c6172:
             {
-                MKV_DATA char  data_chars[3]   = "di";
+                MKV_DATA char  data_chars[3]   = "id";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -36065,7 +36065,7 @@ static char SelectNextLetter(
             // ran
             case 0x006e6172:
             {
-                MKV_DATA char  data_chars[19]   = "oadiuekbstcgzjnprv";
+                MKV_DATA char  data_chars[19]   = "oadiuekbsctgjznpvr";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x6f89, // 0.435685 
                     0x20ee, // 0.128631 
@@ -36093,7 +36093,7 @@ static char SelectNextLetter(
             // rao
             case 0x006f6172:
             {
-                MKV_DATA char  data_chars[12]   = "knmgichdrtb";
+                MKV_DATA char  data_chars[12]   = "knmgcidhrbt";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x5e9c, // 0.369565 
                     0x26f5, // 0.152174 
@@ -36160,7 +36160,7 @@ static char SelectNextLetter(
             // rat
             case 0x00746172:
             {
-                MKV_DATA char  data_chars[10]   = "aosetikun";
+                MKV_DATA char  data_chars[10]   = "aosetkuin";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x7f2d, // 0.496774 
                     0x3d1c, // 0.238710 
@@ -36179,7 +36179,7 @@ static char SelectNextLetter(
             // rau
             case 0x00756172:
             {
-                MKV_DATA char  data_chars[11]   = "scntjrmoze";
+                MKV_DATA char  data_chars[11]   = "scntrjmoez";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x5307, // 0.324324 
                     0x306f, // 0.189189 
@@ -36250,7 +36250,7 @@ static char SelectNextLetter(
             // rba
             case 0x00616272:
             {
-                MKV_DATA char  data_chars[4]   = "iny";
+                MKV_DATA char  data_chars[4]   = "yin";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -36360,7 +36360,7 @@ static char SelectNextLetter(
             // rdi
             case 0x00696472:
             {
-                MKV_DATA char  data_chars[3]   = "ev";
+                MKV_DATA char  data_chars[3]   = "ve";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -36441,7 +36441,7 @@ static char SelectNextLetter(
             // ree
             case 0x00656572:
             {
-                MKV_DATA char  data_chars[7]   = "ncdkst";
+                MKV_DATA char  data_chars[7]   = "nkstcd";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x71c7, // 0.444444 
                     0x1c72, // 0.111111 
@@ -36457,7 +36457,7 @@ static char SelectNextLetter(
             // ref
             case 0x00666572:
             {
-                MKV_DATA char  data_chars[4]   = "eru";
+                MKV_DATA char  data_chars[4]   = "eur";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -36497,7 +36497,7 @@ static char SelectNextLetter(
             // rei
             case 0x00696572:
             {
-                MKV_DATA char  data_chars[18]   = "sznhmgbtwkjripude";
+                MKV_DATA char  data_chars[18]   = "snzhgmbtwkjrdiuep";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x28f6, // 0.160000 
                     0x1eb8, // 0.120000 
@@ -36551,7 +36551,7 @@ static char SelectNextLetter(
             // rem
             case 0x006d6572:
             {
-                MKV_DATA char  data_chars[7]   = "aiobmu";
+                MKV_DATA char  data_chars[7]   = "aoimub";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x79e8, // 0.476190 
                     0x30c3, // 0.190476 
@@ -36567,7 +36567,7 @@ static char SelectNextLetter(
             // ren
             case 0x006e6572:
             {
-                MKV_DATA char  data_chars[16]   = "gojadtskzcirbpe";
+                MKV_DATA char  data_chars[16]   = "ogjadtskcirzbpe";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x2424, // 0.141176 
                     0x2424, // 0.141176 
@@ -36604,7 +36604,7 @@ static char SelectNextLetter(
             // rep
             case 0x00706572:
             {
-                MKV_DATA char  data_chars[6]   = "pouea";
+                MKV_DATA char  data_chars[6]   = "poeua";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6276, // 0.384615 
                     0x3b14, // 0.230769 
@@ -36631,7 +36631,7 @@ static char SelectNextLetter(
             // res
             case 0x00736572:
             {
-                MKV_DATA char  data_chars[10]   = "husaioept";
+                MKV_DATA char  data_chars[10]   = "hsuaioept";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x3c3c, // 0.235294 
                     0x2d2d, // 0.176471 
@@ -36665,7 +36665,7 @@ static char SelectNextLetter(
             // reu
             case 0x00756572:
             {
-                MKV_DATA char  data_chars[4]   = "ksr";
+                MKV_DATA char  data_chars[4]   = "skr";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6666, // 0.400000 
                     0x6666, // 0.400000 
@@ -36703,7 +36703,7 @@ static char SelectNextLetter(
             // rez
             case 0x007a6572:
             {
-                MKV_DATA char  data_chars[5]   = "aoue";
+                MKV_DATA char  data_chars[5]   = "aeou";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -36808,7 +36808,7 @@ static char SelectNextLetter(
             // ria
             case 0x00616972:
             {
-                MKV_DATA char  data_chars[12]   = "kiglrstuejn";
+                MKV_DATA char  data_chars[12]   = "kigrslntuej";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x5174, // 0.318182 
                     0x2e8c, // 0.181818 
@@ -36873,7 +36873,7 @@ static char SelectNextLetter(
             // rie
             case 0x00656972:
             {
-                MKV_DATA char  data_chars[10]   = "nmkducors";
+                MKV_DATA char  data_chars[10]   = "nmdkucrso";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x3d71, // 0.240000 
                     0x3333, // 0.200000 
@@ -36934,7 +36934,7 @@ static char SelectNextLetter(
             // rii
             case 0x00696972:
             {
-                MKV_DATA char  data_chars[15]   = "sckwmgzrhbdojn";
+                MKV_DATA char  data_chars[15]   = "sckmwgzorhdbjn";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x5e0a, // 0.367347 
                     0x1f59, // 0.122449 
@@ -37030,7 +37030,7 @@ static char SelectNextLetter(
             // rio
             case 0x006f6972:
             {
-                MKV_DATA char  data_chars[10]   = "kndmrzijt";
+                MKV_DATA char  data_chars[10]   = "kndmrtijz";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x7b42, // 0.481481 
                     0x25ed, // 0.148148 
@@ -37049,7 +37049,7 @@ static char SelectNextLetter(
             // rip
             case 0x00706972:
             {
-                MKV_DATA char  data_chars[7]   = "puaoeh";
+                MKV_DATA char  data_chars[7]   = "puaeho";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x7627, // 0.461538 
                     0x2762, // 0.153846 
@@ -37096,7 +37096,7 @@ static char SelectNextLetter(
             // rit
             case 0x00746972:
             {
-                MKV_DATA char  data_chars[10]   = "asoeticyz";
+                MKV_DATA char  data_chars[10]   = "asoetizcy";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x8000, // 0.500000 
                     0x39dd, // 0.226027 
@@ -37115,7 +37115,7 @@ static char SelectNextLetter(
             // riu
             case 0x00756972:
             {
-                MKV_DATA char  data_chars[9]   = "scrmdtze";
+                MKV_DATA char  data_chars[9]   = "scrmdzet";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x425f, // 0.259259 
                     0x38e4, // 0.222222 
@@ -37184,7 +37184,7 @@ static char SelectNextLetter(
             // rke
             case 0x00656b72:
             {
-                MKV_DATA char  data_chars[3]   = "ty";
+                MKV_DATA char  data_chars[3]   = "yt";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -37413,7 +37413,7 @@ static char SelectNextLetter(
             // rog
             case 0x00676f72:
             {
-                MKV_DATA char  data_chars[6]   = "aiuoy";
+                MKV_DATA char  data_chars[6]   = "auioy";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xa32a, // 0.637363 
                     0x2492, // 0.142857 
@@ -37442,7 +37442,7 @@ static char SelectNextLetter(
             // roi
             case 0x00696f72:
             {
-                MKV_DATA char  data_chars[11]   = "swzdtmcrhk";
+                MKV_DATA char  data_chars[11]   = "swzmtdhckr";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x799a, // 0.475000 
                     0x3333, // 0.200000 
@@ -37507,7 +37507,7 @@ static char SelectNextLetter(
             // ron
             case 0x006e6f72:
             {
-                MKV_DATA char  data_chars[13]   = "oaiudenbjskm";
+                MKV_DATA char  data_chars[13]   = "oaiuedbnsjkm";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x58f3, // 0.347458 
                     0x4341, // 0.262712 
@@ -37604,7 +37604,7 @@ static char SelectNextLetter(
             // rou
             case 0x00756f72:
             {
-                MKV_DATA char  data_chars[14]   = "rsctgmjpndezk";
+                MKV_DATA char  data_chars[14]   = "rsctgjmnpzdek";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x2e8c, // 0.181818 
                     0x2e8c, // 0.181818 
@@ -37977,7 +37977,7 @@ static char SelectNextLetter(
             // rud
             case 0x00647572:
             {
-                MKV_DATA char  data_chars[4]   = "aoe";
+                MKV_DATA char  data_chars[4]   = "aeo";
                 MKV_DATA uint16_t data_weights[3] = {
                     0xa83b, // 0.657143 
                     0x2be3, // 0.171429 
@@ -37990,7 +37990,7 @@ static char SelectNextLetter(
             // rue
             case 0x00657572:
             {
-                MKV_DATA char  data_chars[5]   = "rcdi";
+                MKV_DATA char  data_chars[5]   = "drci";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -38045,7 +38045,7 @@ static char SelectNextLetter(
             // rui
             case 0x00697572:
             {
-                MKV_DATA char  data_chars[14]   = "csznkmdwughbx";
+                MKV_DATA char  data_chars[14]   = "csznkdmwhxgbu";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x3c82, // 0.236364 
                     0x3333, // 0.200000 
@@ -38113,7 +38113,7 @@ static char SelectNextLetter(
             // run
             case 0x006e7572:
             {
-                MKV_DATA char  data_chars[8]   = "oaeiubn";
+                MKV_DATA char  data_chars[8]   = "oaeibun";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x98b4, // 0.596491 
                     0x2cea, // 0.175439 
@@ -38130,7 +38130,7 @@ static char SelectNextLetter(
             // ruo
             case 0x006f7572:
             {
-                MKV_DATA char  data_chars[9]   = "kcmnbthr";
+                MKV_DATA char  data_chars[9]   = "kcmnhrbt";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x6969, // 0.411765 
                     0x1e1e, // 0.117647 
@@ -38148,7 +38148,7 @@ static char SelectNextLetter(
             // rup
             case 0x00707572:
             {
-                MKV_DATA char  data_chars[4]   = "pue";
+                MKV_DATA char  data_chars[4]   = "upe";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6000, // 0.375000 
                     0x6000, // 0.375000 
@@ -38205,7 +38205,7 @@ static char SelectNextLetter(
             // ruu
             case 0x00757572:
             {
-                MKV_DATA char  data_chars[10]   = "cmrsktnpe";
+                MKV_DATA char  data_chars[10]   = "crmsekptn";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x36db, // 0.214286 
                     0x2492, // 0.142857 
@@ -38300,7 +38300,7 @@ static char SelectNextLetter(
             // ryo
             case 0x006f7972:
             {
-                MKV_DATA char  data_chars[18]   = "kusgcztmnhdyjibar";
+                MKV_DATA char  data_chars[18]   = "kusgcztmndhybjira";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5187, // 0.318471 
                     0x209d, // 0.127389 
@@ -38327,7 +38327,7 @@ static char SelectNextLetter(
             // ryu
             case 0x00757972:
             {
-                MKV_DATA char  data_chars[20]   = "gszjmtkuonhdfbiycaw";
+                MKV_DATA char  data_chars[20]   = "gsjzmtukonhfdbyciaw";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x34b5, // 0.205882 
                     0x1a5a, // 0.102941 
@@ -38365,7 +38365,7 @@ static char SelectNextLetter(
             // saa
             case 0x00616173:
             {
-                MKV_DATA char  data_chars[5]   = "ktbc";
+                MKV_DATA char  data_chars[5]   = "kbct";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -38474,7 +38474,7 @@ static char SelectNextLetter(
             // sai
             case 0x00696173:
             {
-                MKV_DATA char  data_chars[21]   = "ktsdbgwnchjmrzyoaeif";
+                MKV_DATA char  data_chars[21]   = "ktdsgbwnchjmrzyaoefi";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x23d7, // 0.140000 
                     0x1ae1, // 0.105000 
@@ -38563,7 +38563,7 @@ static char SelectNextLetter(
             // san
             case 0x006e6173:
             {
-                MKV_DATA char  data_chars[22]   = "ongjabksdumycrtzepihw";
+                MKV_DATA char  data_chars[22]   = "ongjabksdmuyctrzepihw";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x1aec, // 0.105159 
                     0x1862, // 0.095238 
@@ -38620,7 +38620,7 @@ static char SelectNextLetter(
             // sar
             case 0x00726173:
             {
-                MKV_DATA char  data_chars[8]   = "uaioeyd";
+                MKV_DATA char  data_chars[8]   = "uaioedy";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x7c37, // 0.485207 
                     0x4bbd, // 0.295858 
@@ -38637,7 +38637,7 @@ static char SelectNextLetter(
             // sas
             case 0x00736173:
             {
-                MKV_DATA char  data_chars[10]   = "ahueoikst";
+                MKV_DATA char  data_chars[10]   = "ahueoistk";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x77db, // 0.468182 
                     0x68ba, // 0.409091 
@@ -38787,7 +38787,7 @@ static char SelectNextLetter(
             // sea
             case 0x00616573:
             {
-                MKV_DATA char  data_chars[8]   = "smpvwbf";
+                MKV_DATA char  data_chars[8]   = "swbfmpv";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x5555, // 0.333333 
                     0x1c72, // 0.111111 
@@ -38883,7 +38883,7 @@ static char SelectNextLetter(
             // seh
             case 0x00686573:
             {
-                MKV_DATA char  data_chars[5]   = "iaeo";
+                MKV_DATA char  data_chars[5]   = "iaoe";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6db7, // 0.428571 
                     0x4925, // 0.285714 
@@ -38897,7 +38897,7 @@ static char SelectNextLetter(
             // sei
             case 0x00696573:
             {
-                MKV_DATA char  data_chars[22]   = "kscrgtnzmbdjwhyieupfa";
+                MKV_DATA char  data_chars[22]   = "kscrgtbmzndjyhwieuapf";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2b45, // 0.169014 
                     0x1cd8, // 0.112676 
@@ -38967,7 +38967,7 @@ static char SelectNextLetter(
             // sem
             case 0x006d6573:
             {
-                MKV_DATA char  data_chars[9]   = "abieoupm";
+                MKV_DATA char  data_chars[9]   = "abieopum";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x56a5, // 0.338462 
                     0x3723, // 0.215385 
@@ -38985,7 +38985,7 @@ static char SelectNextLetter(
             // sen
             case 0x006e6573:
             {
-                MKV_DATA char  data_chars[22]   = "obgjdnksztarmcpihyeuf";
+                MKV_DATA char  data_chars[22]   = "obgjdnksztarcmpihyefu";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x1c9a, // 0.111732 
                     0x1b2c, // 0.106145 
@@ -39043,7 +39043,7 @@ static char SelectNextLetter(
             // ser
             case 0x00726573:
             {
-                MKV_DATA char  data_chars[7]   = "iuavyo";
+                MKV_DATA char  data_chars[7]   = "iuayov";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x759f, // 0.459459 
                     0x5307, // 0.324324 
@@ -39139,7 +39139,7 @@ static char SelectNextLetter(
             // sha
             case 0x00616873:
             {
-                MKV_DATA char  data_chars[18]   = "kmrngsbcijtdwapzy";
+                MKV_DATA char  data_chars[18]   = "kmrngscbjitdwpayz";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x5f2e, // 0.371795 
                     0x20d2, // 0.128205 
@@ -39250,7 +39250,7 @@ static char SelectNextLetter(
             // shu
             case 0x00756873:
             {
-                MKV_DATA char  data_chars[22]   = "knubstmrdhpgjicyoazef";
+                MKV_DATA char  data_chars[22]   = "knubstmrhdpjgciyzaeof";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x4788, // 0.279412 
                     0x2d2d, // 0.176471 
@@ -39281,7 +39281,7 @@ static char SelectNextLetter(
             // shw
             case 0x00776873:
             {
-                MKV_DATA char  data_chars[3]   = "ao";
+                MKV_DATA char  data_chars[3]   = "oa";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -39354,7 +39354,7 @@ static char SelectNextLetter(
             // sin
             case 0x006e6973:
             {
-                MKV_DATA char  data_chars[6]   = "gsceo";
+                MKV_DATA char  data_chars[6]   = "geosc";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -39393,7 +39393,7 @@ static char SelectNextLetter(
             // sit
             case 0x00746973:
             {
-                MKV_DATA char  data_chars[4]   = "aeo";
+                MKV_DATA char  data_chars[4]   = "eoa";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -39592,7 +39592,7 @@ static char SelectNextLetter(
             // soe
             case 0x00656f73:
             {
-                MKV_DATA char  data_chars[13]   = "cmndgsuijzhk";
+                MKV_DATA char  data_chars[13]   = "cdgmnsuzijkh";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x28f6, // 0.160000 
                     0x1eb8, // 0.120000 
@@ -39655,7 +39655,7 @@ static char SelectNextLetter(
             // soi
             case 0x00696f73:
             {
-                MKV_DATA char  data_chars[9]   = "crdswbgm";
+                MKV_DATA char  data_chars[9]   = "cmsdgrwb";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4ccd, // 0.300000 
                     0x199a, // 0.100000 
@@ -39687,7 +39687,7 @@ static char SelectNextLetter(
             // sok
             case 0x006b6f73:
             {
-                MKV_DATA char  data_chars[8]   = "ouaieky";
+                MKV_DATA char  data_chars[8]   = "ouaiyek";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x5f41, // 0.372093 
                     0x505f, // 0.313953 
@@ -39732,7 +39732,7 @@ static char SelectNextLetter(
             // son
             case 0x006e6f73:
             {
-                MKV_DATA char  data_chars[16]   = "oeaisnubdkytmgz";
+                MKV_DATA char  data_chars[16]   = "oeaindykbusgzmt";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x6d6f, // 0.427481 
                     0x407d, // 0.251908 
@@ -39757,7 +39757,7 @@ static char SelectNextLetter(
             // soo
             case 0x006f6f73:
             {
-                MKV_DATA char  data_chars[5]   = "rtkm";
+                MKV_DATA char  data_chars[5]   = "tkmr";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -39831,7 +39831,7 @@ static char SelectNextLetter(
             // sou
             case 0x00756f73:
             {
-                MKV_DATA char  data_chars[15]   = "sdnmzgjrtoebki";
+                MKV_DATA char  data_chars[15]   = "sdnmzrjgtkbioe";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x35e5, // 0.210526 
                     0x286c, // 0.157895 
@@ -39977,7 +39977,7 @@ static char SelectNextLetter(
             // ssa
             case 0x00617373:
             {
-                MKV_DATA char  data_chars[14]   = "knmithorbgsdw";
+                MKV_DATA char  data_chars[14]   = "knimtdhowbgrs";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x5794, // 0.342105 
                     0x286c, // 0.157895 
@@ -40000,7 +40000,7 @@ static char SelectNextLetter(
             // sse
             case 0x00657373:
             {
-                MKV_DATA char  data_chars[8]   = "nikjlot";
+                MKV_DATA char  data_chars[8]   = "nikotjl";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x78e4, // 0.472222 
                     0x4000, // 0.250000 
@@ -40043,7 +40043,7 @@ static char SelectNextLetter(
             // sso
             case 0x006f7373:
             {
-                MKV_DATA char  data_chars[10]   = "kmcnbgjrt";
+                MKV_DATA char  data_chars[10]   = "mcktbjngr";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x2aab, // 0.166667 
                     0x2aab, // 0.166667 
@@ -40062,7 +40062,7 @@ static char SelectNextLetter(
             // ssu
             case 0x00757373:
             {
-                MKV_DATA char  data_chars[5]   = "rgio";
+                MKV_DATA char  data_chars[5]   = "riog";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -40088,7 +40088,7 @@ static char SelectNextLetter(
             // sta
             case 0x00617473:
             {
-                MKV_DATA char  data_chars[7]   = "tynrdg";
+                MKV_DATA char  data_chars[7]   = "tyndgr";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4ec5, // 0.307692 
                     0x4ec5, // 0.307692 
@@ -40131,7 +40131,7 @@ static char SelectNextLetter(
             // sti
             case 0x00697473:
             {
-                MKV_DATA char  data_chars[6]   = "nctal";
+                MKV_DATA char  data_chars[6]   = "cnalt";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -40153,7 +40153,7 @@ static char SelectNextLetter(
             // sto
             case 0x006f7473:
             {
-                MKV_DATA char  data_chars[5]   = "nckm";
+                MKV_DATA char  data_chars[5]   = "ckmn";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -40205,7 +40205,7 @@ static char SelectNextLetter(
             // sua
             case 0x00617573:
             {
-                MKV_DATA char  data_chars[7]   = "ikmtcj";
+                MKV_DATA char  data_chars[7]   = "ikmtjc";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x638e, // 0.388889 
                     0x471c, // 0.277778 
@@ -40221,7 +40221,7 @@ static char SelectNextLetter(
             // sub
             case 0x00627573:
             {
-                MKV_DATA char  data_chars[10]   = "aoeuipsyj";
+                MKV_DATA char  data_chars[10]   = "aoeuijpsy";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x6878, // 0.408088 
                     0x50f1, // 0.316176 
@@ -40267,7 +40267,7 @@ static char SelectNextLetter(
             // sue
             case 0x00657573:
             {
-                MKV_DATA char  data_chars[14]   = "ntmdkhiygcjzs";
+                MKV_DATA char  data_chars[14]   = "ntmdhkyigczjs";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x3b9e, // 0.232877 
                     0x2312, // 0.136986 
@@ -40331,7 +40331,7 @@ static char SelectNextLetter(
             // sui
             case 0x00697573:
             {
-                MKV_DATA char  data_chars[19]   = "stkdcgjmnzrhweybaf";
+                MKV_DATA char  data_chars[19]   = "stkdcgmjznrwehybfa";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x2c56, // 0.173184 
                     0x1b2c, // 0.106145 
@@ -40419,7 +40419,7 @@ static char SelectNextLetter(
             // sun
             case 0x006e7573:
             {
-                MKV_DATA char  data_chars[17]   = "aoeiudtrsbmynpjz";
+                MKV_DATA char  data_chars[17]   = "oaeiudstbrmjnyzp";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x5e61, // 0.368675 
                     0x5e61, // 0.368675 
@@ -40445,7 +40445,7 @@ static char SelectNextLetter(
             // suo
             case 0x006f7573:
             {
-                MKV_DATA char  data_chars[11]   = "kmdnjtgrho";
+                MKV_DATA char  data_chars[11]   = "kmdngtjhor";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x57c5, // 0.342857 
                     0x3333, // 0.200000 
@@ -40528,7 +40528,7 @@ static char SelectNextLetter(
             // suu
             case 0x00757573:
             {
-                MKV_DATA char  data_chars[8]   = "rsjgkhc";
+                MKV_DATA char  data_chars[8]   = "rsjgkch";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xa41a, // 0.641026 
                     0x20d2, // 0.128205 
@@ -40688,7 +40688,7 @@ static char SelectNextLetter(
             // taa
             case 0x00616174:
             {
-                MKV_DATA char  data_chars[13]   = "kmnsoirztydg";
+                MKV_DATA char  data_chars[13]   = "nskmoriyzdgt";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x2492, // 0.142857 
                     0x2492, // 0.142857 
@@ -40710,7 +40710,7 @@ static char SelectNextLetter(
             // tab
             case 0x00626174:
             {
-                MKV_DATA char  data_chars[7]   = "aieuyo";
+                MKV_DATA char  data_chars[7]   = "aeiuyo";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x63be, // 0.389610 
                     0x36db, // 0.214286 
@@ -40753,7 +40753,7 @@ static char SelectNextLetter(
             // tae
             case 0x00656174:
             {
-                MKV_DATA char  data_chars[10]   = "rknbemcgt";
+                MKV_DATA char  data_chars[10]   = "rkbemnctg";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x38e4, // 0.222222 
                     0x2aab, // 0.166667 
@@ -40813,7 +40813,7 @@ static char SelectNextLetter(
             // tai
             case 0x00696174:
             {
-                MKV_DATA char  data_chars[22]   = "rsnkcdthymbzijwaegofp";
+                MKV_DATA char  data_chars[22]   = "rsnkcdtmyhbizjwaogefp";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x2ebb, // 0.182540 
                     0x2aab, // 0.166667 
@@ -40904,7 +40904,7 @@ static char SelectNextLetter(
             // tan
             case 0x006e6174:
             {
-                MKV_DATA char  data_chars[19]   = "ioaendbujgkmstczyp";
+                MKV_DATA char  data_chars[19]   = "ioaendbujkgmtsyczp";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x6186, // 0.380952 
                     0x3900, // 0.222651 
@@ -41000,7 +41000,7 @@ static char SelectNextLetter(
             // tat
             case 0x00746174:
             {
-                MKV_DATA char  data_chars[9]   = "esaotinu";
+                MKV_DATA char  data_chars[9]   = "esaoitun";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x6758, // 0.403694 
                     0x5fea, // 0.374670 
@@ -41018,7 +41018,7 @@ static char SelectNextLetter(
             // tau
             case 0x00756174:
             {
-                MKV_DATA char  data_chars[11]   = "rsceknmgtw";
+                MKV_DATA char  data_chars[11]   = "rscenktgmw";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x638e, // 0.388889 
                     0x31c7, // 0.194444 
@@ -41106,7 +41106,7 @@ static char SelectNextLetter(
             // tea
             case 0x00616574:
             {
-                MKV_DATA char  data_chars[7]   = "rsudin";
+                MKV_DATA char  data_chars[7]   = "rdinsu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4925, // 0.285714 
                     0x2492, // 0.142857 
@@ -41149,7 +41149,7 @@ static char SelectNextLetter(
             // ted
             case 0x00646574:
             {
-                MKV_DATA char  data_chars[6]   = "oaeiz";
+                MKV_DATA char  data_chars[6]   = "oazei";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x7627, // 0.461538 
                     0x4ec5, // 0.307692 
@@ -41164,7 +41164,7 @@ static char SelectNextLetter(
             // tee
             case 0x00656574:
             {
-                MKV_DATA char  data_chars[6]   = "blmnp";
+                MKV_DATA char  data_chars[6]   = "bnplm";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -41218,7 +41218,7 @@ static char SelectNextLetter(
             // tei
             case 0x00696574:
             {
-                MKV_DATA char  data_chars[17]   = "skjimzrwycnaedgt";
+                MKV_DATA char  data_chars[17]   = "skjimzrcwnytgdea";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x47dc, // 0.280702 
                     0x286c, // 0.157895 
@@ -41283,7 +41283,7 @@ static char SelectNextLetter(
             // tem
             case 0x006d6574:
             {
-                MKV_DATA char  data_chars[9]   = "amiobpus";
+                MKV_DATA char  data_chars[9]   = "aimopubs";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x7000, // 0.437500 
                     0x2000, // 0.125000 
@@ -41301,7 +41301,7 @@ static char SelectNextLetter(
             // ten
             case 0x006e6574:
             {
-                MKV_DATA char  data_chars[22]   = "jgomnsbkarpycdtizuewh";
+                MKV_DATA char  data_chars[22]   = "jgomsnbakrpycdzituehw";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x25a6, // 0.147059 
                     0x21e2, // 0.132353 
@@ -41356,7 +41356,7 @@ static char SelectNextLetter(
             // ter
             case 0x00726574:
             {
-                MKV_DATA char  data_chars[13]   = "aueimonsbrcf";
+                MKV_DATA char  data_chars[13]   = "aueismnobfrc";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x9fac, // 0.623711 
                     0x40a9, // 0.252577 
@@ -41408,7 +41408,7 @@ static char SelectNextLetter(
             // teu
             case 0x00756574:
             {
-                MKV_DATA char  data_chars[4]   = "scr";
+                MKV_DATA char  data_chars[4]   = "csr";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6666, // 0.400000 
                     0x6666, // 0.400000 
@@ -41507,7 +41507,7 @@ static char SelectNextLetter(
             // thi
             case 0x00696874:
             {
-                MKV_DATA char  data_chars[3]   = "os";
+                MKV_DATA char  data_chars[3]   = "so";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -41544,7 +41544,7 @@ static char SelectNextLetter(
             // tia
             case 0x00616974:
             {
-                MKV_DATA char  data_chars[5]   = "nrlm";
+                MKV_DATA char  data_chars[5]   = "nlmr";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -41758,7 +41758,7 @@ static char SelectNextLetter(
             // tne
             case 0x00656e74:
             {
-                MKV_DATA char  data_chars[4]   = "gry";
+                MKV_DATA char  data_chars[4]   = "ryg";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -41771,7 +41771,7 @@ static char SelectNextLetter(
             // toa
             case 0x00616f74:
             {
-                MKV_DATA char  data_chars[10]   = "srinwzcko";
+                MKV_DATA char  data_chars[10]   = "sinrckowz";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x4444, // 0.266667 
                     0x2222, // 0.133333 
@@ -41831,7 +41831,7 @@ static char SelectNextLetter(
             // toe
             case 0x00656f74:
             {
-                MKV_DATA char  data_chars[6]   = "nibgm";
+                MKV_DATA char  data_chars[6]   = "inbgm";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -41889,7 +41889,7 @@ static char SelectNextLetter(
             // toi
             case 0x00696f74:
             {
-                MKV_DATA char  data_chars[17]   = "sncymktdbrazeglw";
+                MKV_DATA char  data_chars[17]   = "sncmykdtbrzaegwl";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x33e4, // 0.202703 
                     0x2298, // 0.135135 
@@ -41965,7 +41965,7 @@ static char SelectNextLetter(
             // ton
             case 0x006e6f74:
             {
-                MKV_DATA char  data_chars[16]   = "oabiedngycuktsj";
+                MKV_DATA char  data_chars[16]   = "oabiedngyckutsj";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x7757, // 0.466165 
                     0x2b4f, // 0.169173 
@@ -41990,7 +41990,7 @@ static char SelectNextLetter(
             // too
             case 0x006f6f74:
             {
-                MKV_DATA char  data_chars[11]   = "krnbithcms";
+                MKV_DATA char  data_chars[11]   = "krnibcshmt";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x4ec5, // 0.307692 
                     0x313b, // 0.192308 
@@ -42024,7 +42024,7 @@ static char SelectNextLetter(
             // tor
             case 0x00726f74:
             {
-                MKV_DATA char  data_chars[9]   = "ioaueyrv";
+                MKV_DATA char  data_chars[9]   = "ioaueyvr";
                 MKV_DATA uint16_t data_weights[8] = {
                     0xb4d6, // 0.706395 
                     0x1c47, // 0.110465 
@@ -42058,7 +42058,7 @@ static char SelectNextLetter(
             // tot
             case 0x00746f74:
             {
-                MKV_DATA char  data_chars[7]   = "saotei";
+                MKV_DATA char  data_chars[7]   = "saoeti";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x638e, // 0.388889 
                     0x3e94, // 0.244444 
@@ -42074,7 +42074,7 @@ static char SelectNextLetter(
             // tou
             case 0x00756f74:
             {
-                MKV_DATA char  data_chars[16]   = "rstgncjhfezmakb";
+                MKV_DATA char  data_chars[16]   = "rstgnjcmfehzbak";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x42f4, // 0.261538 
                     0x2b53, // 0.169231 
@@ -42124,7 +42124,7 @@ static char SelectNextLetter(
             // toz
             case 0x007a6f74:
             {
-                MKV_DATA char  data_chars[5]   = "aueo";
+                MKV_DATA char  data_chars[5]   = "auoe";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x9192, // 0.568627 
                     0x5a5a, // 0.352941 
@@ -42138,7 +42138,7 @@ static char SelectNextLetter(
             // tra
             case 0x00617274:
             {
-                MKV_DATA char  data_chars[7]   = "ilznpv";
+                MKV_DATA char  data_chars[7]   = "ilnpvz";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -42166,7 +42166,7 @@ static char SelectNextLetter(
             // tri
             case 0x00697274:
             {
-                MKV_DATA char  data_chars[7]   = "ncptxa";
+                MKV_DATA char  data_chars[7]   = "nacptx";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x4925, // 0.285714 
                     0x2492, // 0.142857 
@@ -42292,7 +42292,7 @@ static char SelectNextLetter(
             // tta
             case 0x00617474:
             {
-                MKV_DATA char  data_chars[19]   = "riknmbtdcyojxzspug";
+                MKV_DATA char  data_chars[19]   = "rinkmbtycdojxzgpsu";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x2d2d, // 0.176471 
                     0x2969, // 0.161765 
@@ -42320,7 +42320,7 @@ static char SelectNextLetter(
             // tte
             case 0x00657474:
             {
-                MKV_DATA char  data_chars[10]   = "niktrmbcu";
+                MKV_DATA char  data_chars[10]   = "nikmrtbuc";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x4a53, // 0.290323 
                     0x318c, // 0.193548 
@@ -42339,7 +42339,7 @@ static char SelectNextLetter(
             // tto
             case 0x006f7474:
             {
-                MKV_DATA char  data_chars[16]   = "mrknswgiuybpjtz";
+                MKV_DATA char  data_chars[16]   = "mrknsgiuwypjbzt";
                 MKV_DATA uint16_t data_weights[15] = {
                     0x343f, // 0.204082 
                     0x2f05, // 0.183673 
@@ -42461,7 +42461,7 @@ static char SelectNextLetter(
             // tur
             case 0x00727574:
             {
-                MKV_DATA char  data_chars[8]   = "eabikry";
+                MKV_DATA char  data_chars[8]   = "eyabikr";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x6666, // 0.400000 
                     0x199a, // 0.100000 
@@ -42720,7 +42720,7 @@ static char SelectNextLetter(
             // uar
             case 0x00726175:
             {
-                MKV_DATA char  data_chars[6]   = "auiet";
+                MKV_DATA char  data_chars[6]   = "aiuet";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -42735,7 +42735,7 @@ static char SelectNextLetter(
             // uas
             case 0x00736175:
             {
-                MKV_DATA char  data_chars[5]   = "oauh";
+                MKV_DATA char  data_chars[5]   = "oahu";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x6db7, // 0.428571 
                     0x4925, // 0.285714 
@@ -42797,7 +42797,7 @@ static char SelectNextLetter(
             // uba
             case 0x00616275:
             {
-                MKV_DATA char  data_chars[18]   = "rsnktimygceufwbdo";
+                MKV_DATA char  data_chars[18]   = "rsnktimygceuwbofd";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x4f7d, // 0.310502 
                     0x2568, // 0.146119 
@@ -42836,7 +42836,7 @@ static char SelectNextLetter(
             // ube
             case 0x00656275:
             {
-                MKV_DATA char  data_chars[13]   = "tsnrikmocwyu";
+                MKV_DATA char  data_chars[13]   = "tsnrimockwyu";
                 MKV_DATA uint16_t data_weights[12] = {
                     0xaaab, // 0.666667 
                     0x2362, // 0.138211 
@@ -42858,7 +42858,7 @@ static char SelectNextLetter(
             // ubi
             case 0x00696275:
             {
-                MKV_DATA char  data_chars[12]   = "nkscjrmitdw";
+                MKV_DATA char  data_chars[12]   = "nkscrjmdtiw";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x5d17, // 0.363636 
                     0x2e8c, // 0.181818 
@@ -42898,7 +42898,7 @@ static char SelectNextLetter(
             // ubo
             case 0x006f6275:
             {
-                MKV_DATA char  data_chars[20]   = "ncmskitgyurhefdjaoz";
+                MKV_DATA char  data_chars[20]   = "ncmkistgyurjdhfeoza";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x2000, // 0.125000 
                     0x1e00, // 0.117188 
@@ -43041,7 +43041,7 @@ static char SelectNextLetter(
             // uda
             case 0x00616475:
             {
-                MKV_DATA char  data_chars[17]   = "intrkcgshbydmjou";
+                MKV_DATA char  data_chars[17]   = "intrkcgsybhmdouj";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x55c1, // 0.334975 
                     0x4419, // 0.266010 
@@ -43109,7 +43109,7 @@ static char SelectNextLetter(
             // udo
             case 0x006f6475:
             {
-                MKV_DATA char  data_chars[17]   = "mrnukcgsjyhizftd";
+                MKV_DATA char  data_chars[17]   = "mrnkucgsyjihztdf";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x2bf6, // 0.171717 
                     0x2960, // 0.161616 
@@ -43154,7 +43154,7 @@ static char SelectNextLetter(
             // uea
             case 0x00616575:
             {
-                MKV_DATA char  data_chars[5]   = "kbcg";
+                MKV_DATA char  data_chars[5]   = "bcgk";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4000, // 0.250000 
                     0x4000, // 0.250000 
@@ -43228,7 +43228,7 @@ static char SelectNextLetter(
             // ueg
             case 0x00676575:
             {
-                MKV_DATA char  data_chars[4]   = "aou";
+                MKV_DATA char  data_chars[4]   = "oau";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x6000, // 0.375000 
                     0x6000, // 0.375000 
@@ -43254,7 +43254,7 @@ static char SelectNextLetter(
             // uei
             case 0x00696575:
             {
-                MKV_DATA char  data_chars[6]   = "msckl";
+                MKV_DATA char  data_chars[6]   = "msklc";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -43295,7 +43295,7 @@ static char SelectNextLetter(
             // uem
             case 0x006d6575:
             {
-                MKV_DATA char  data_chars[7]   = "aoimub";
+                MKV_DATA char  data_chars[7]   = "aoiumb";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x8348, // 0.512821 
                     0x3483, // 0.205128 
@@ -43311,7 +43311,7 @@ static char SelectNextLetter(
             // uen
             case 0x006e6575:
             {
-                MKV_DATA char  data_chars[17]   = "oacdmnbikzsgrhpj";
+                MKV_DATA char  data_chars[17]   = "oacdmnzkibpghsjr";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x78e4, // 0.472222 
                     0x18e4, // 0.097222 
@@ -43349,7 +43349,7 @@ static char SelectNextLetter(
             // uer
             case 0x00726575:
             {
-                MKV_DATA char  data_chars[5]   = "uioc";
+                MKV_DATA char  data_chars[5]   = "ucio";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x8000, // 0.500000 
                     0x2aab, // 0.166667 
@@ -43363,7 +43363,7 @@ static char SelectNextLetter(
             // ues
             case 0x00736575:
             {
-                MKV_DATA char  data_chars[6]   = "uahte";
+                MKV_DATA char  data_chars[6]   = "uhate";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5b6e, // 0.357143 
                     0x36db, // 0.214286 
@@ -43453,7 +43453,7 @@ static char SelectNextLetter(
             // ufu
             case 0x00756675:
             {
-                MKV_DATA char  data_chars[13]   = "tnrkcmdgjeis";
+                MKV_DATA char  data_chars[13]   = "trnkmcgdjsei";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x4000, // 0.250000 
                     0x2762, // 0.153846 
@@ -43475,7 +43475,7 @@ static char SelectNextLetter(
             // uga
             case 0x00616775:
             {
-                MKV_DATA char  data_chars[21]   = "wmnstokriyhdubcegfzj";
+                MKV_DATA char  data_chars[21]   = "wmnstkoriyhdubcegfjz";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x2e7e, // 0.181614 
                     0x1cb3, // 0.112108 
@@ -43512,7 +43512,7 @@ static char SelectNextLetter(
             // uge
             case 0x00656775:
             {
-                MKV_DATA char  data_chars[12]   = "ntdmksicgjo";
+                MKV_DATA char  data_chars[12]   = "ntdmskcigjo";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x713b, // 0.442308 
                     0x2276, // 0.134615 
@@ -43533,7 +43533,7 @@ static char SelectNextLetter(
             // ugi
             case 0x00696775:
             {
-                MKV_DATA char  data_chars[19]   = "nsytmdhgkzcrjouebi";
+                MKV_DATA char  data_chars[19]   = "nsytmdhkgzcrujoieb";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x4250, // 0.259036 
                     0x1a38, // 0.102410 
@@ -43561,7 +43561,7 @@ static char SelectNextLetter(
             // ugo
             case 0x006f6775:
             {
-                MKV_DATA char  data_chars[20]   = "snkmyueizrthdgojcpb";
+                MKV_DATA char  data_chars[20]   = "snkmyeuizrdhtcjgopb";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x2932, // 0.160920 
                     0x234f, // 0.137931 
@@ -43590,7 +43590,7 @@ static char SelectNextLetter(
             // ugu
             case 0x00756775:
             {
-                MKV_DATA char  data_chars[14]   = "crinmtsedwhyz";
+                MKV_DATA char  data_chars[14]   = "crinmtsedhywz";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x44d1, // 0.268817 
                     0x39ce, // 0.225806 
@@ -43626,7 +43626,7 @@ static char SelectNextLetter(
             // uha
             case 0x00616875:
             {
-                MKV_DATA char  data_chars[13]   = "rmstcnkdeiag";
+                MKV_DATA char  data_chars[13]   = "rmstcnkdeiga";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x7287, // 0.447368 
                     0x286c, // 0.157895 
@@ -43693,7 +43693,7 @@ static char SelectNextLetter(
             // uho
             case 0x006f6875:
             {
-                MKV_DATA char  data_chars[11]   = "kjnrudmzcs";
+                MKV_DATA char  data_chars[11]   = "kjurndmcsz";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x3216, // 0.195652 
                     0x2c86, // 0.173913 
@@ -43776,7 +43776,7 @@ static char SelectNextLetter(
             // uie
             case 0x00656975:
             {
-                MKV_DATA char  data_chars[7]   = "nikmtb";
+                MKV_DATA char  data_chars[7]   = "nibkmt";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -43900,7 +43900,7 @@ static char SelectNextLetter(
             // uin
             case 0x006e6975:
             {
-                MKV_DATA char  data_chars[12]   = "oaekbiumscd";
+                MKV_DATA char  data_chars[12]   = "oaebksucimd";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4e39, // 0.305556 
                     0x1c72, // 0.111111 
@@ -43921,7 +43921,7 @@ static char SelectNextLetter(
             // uio
             case 0x006f6975:
             {
-                MKV_DATA char  data_chars[3]   = "rj";
+                MKV_DATA char  data_chars[3]   = "jr";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -43933,7 +43933,7 @@ static char SelectNextLetter(
             // uir
             case 0x00726975:
             {
-                MKV_DATA char  data_chars[7]   = "oiauye";
+                MKV_DATA char  data_chars[7]   = "oiuyae";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x6db7, // 0.428571 
                     0x3cf4, // 0.238095 
@@ -44038,7 +44038,7 @@ static char SelectNextLetter(
             // uja
             case 0x00616a75:
             {
-                MKV_DATA char  data_chars[6]   = "knybg";
+                MKV_DATA char  data_chars[6]   = "kgnyb";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x8000, // 0.500000 
                     0x2000, // 0.125000 
@@ -44090,7 +44090,7 @@ static char SelectNextLetter(
             // ujo
             case 0x006f6a75:
             {
-                MKV_DATA char  data_chars[12]   = "umncgyijhkd";
+                MKV_DATA char  data_chars[12]   = "umgnycdhjik";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4bda, // 0.296296 
                     0x38e4, // 0.222222 
@@ -44111,7 +44111,7 @@ static char SelectNextLetter(
             // uju
             case 0x00756a75:
             {
-                MKV_DATA char  data_chars[12]   = "knmryatuzdg";
+                MKV_DATA char  data_chars[12]   = "knmzagdrtuy";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x5555, // 0.333333 
                     0x3555, // 0.208333 
@@ -44132,7 +44132,7 @@ static char SelectNextLetter(
             // ujy
             case 0x00796a75:
             {
-                MKV_DATA char  data_chars[3]   = "uo";
+                MKV_DATA char  data_chars[3]   = "ou";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -44144,7 +44144,7 @@ static char SelectNextLetter(
             // uka
             case 0x00616b75:
             {
-                MKV_DATA char  data_chars[22]   = "iwmnsrekdtcygzhbujoap";
+                MKV_DATA char  data_chars[22]   = "iwmnsrekdtycghzbujaop";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3259, // 0.196676 
                     0x21af, // 0.131579 
@@ -44175,7 +44175,7 @@ static char SelectNextLetter(
             // uke
             case 0x00656b75:
             {
-                MKV_DATA char  data_chars[20]   = "ntrimdsgcybhkjzpafo";
+                MKV_DATA char  data_chars[20]   = "ntrimdsgycbhkjzfoap";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3061, // 0.188976 
                     0x264d, // 0.149606 
@@ -44204,7 +44204,7 @@ static char SelectNextLetter(
             // uki
             case 0x00696b75:
             {
-                MKV_DATA char  data_chars[21]   = "nmsdtycgahkbzjoriufe";
+                MKV_DATA char  data_chars[21]   = "nmsdtycgahkzbojruife";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x1ef0, // 0.120846 
                     0x1986, // 0.099698 
@@ -44234,7 +44234,7 @@ static char SelectNextLetter(
             // ukk
             case 0x006b6b75:
             {
-                MKV_DATA char  data_chars[7]   = "oaeiuy";
+                MKV_DATA char  data_chars[7]   = "oeiuay";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x364e, // 0.212121 
                     0x2e8c, // 0.181818 
@@ -44250,7 +44250,7 @@ static char SelectNextLetter(
             // uko
             case 0x006f6b75:
             {
-                MKV_DATA char  data_chars[20]   = "skmugbzdjtcneyiorhp";
+                MKV_DATA char  data_chars[20]   = "skmugbzjdtnciyeohrp";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x22e9, // 0.136364 
                     0x1746, // 0.090909 
@@ -44298,7 +44298,7 @@ static char SelectNextLetter(
             // uku
             case 0x00756b75:
             {
-                MKV_DATA char  data_chars[21]   = "rsmncdjibtegozyhkwua";
+                MKV_DATA char  data_chars[21]   = "rsmncdjibtegoyzhkwua";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x3cdd, // 0.237750 
                     0x1dbc, // 0.116152 
@@ -44395,7 +44395,7 @@ static char SelectNextLetter(
             // uma
             case 0x00616d75:
             {
-                MKV_DATA char  data_chars[23]   = "cngtemksirdzbyohjupafw";
+                MKV_DATA char  data_chars[23]   = "cngtemksirdzbyohjupawf";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x357e, // 0.208955 
                     0x23a9, // 0.139303 
@@ -44439,7 +44439,7 @@ static char SelectNextLetter(
             // ume
             case 0x00656d75:
             {
-                MKV_DATA char  data_chars[20]   = "ngdiktrszhybmjucwao";
+                MKV_DATA char  data_chars[20]   = "ngdiktsrzhbymjcwuoa";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x3f13, // 0.246377 
                     0x1f89, // 0.123188 
@@ -44468,7 +44468,7 @@ static char SelectNextLetter(
             // umi
             case 0x00696d75:
             {
-                MKV_DATA char  data_chars[22]   = "ngcyzdkhtmsbaorueiwjf";
+                MKV_DATA char  data_chars[22]   = "ngcyzdkthmsbaorueiwjf";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x31ac, // 0.194030 
                     0x1dee, // 0.116915 
@@ -44511,7 +44511,7 @@ static char SelectNextLetter(
             // umo
             case 0x006f6d75:
             {
-                MKV_DATA char  data_chars[17]   = "trnkcidgmjshzbuy";
+                MKV_DATA char  data_chars[17]   = "trnckidgmjshzbuy";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x5307, // 0.324324 
                     0x3ce3, // 0.237838 
@@ -44574,7 +44574,7 @@ static char SelectNextLetter(
             // una
             case 0x00616e75:
             {
-                MKV_DATA char  data_chars[21]   = "igkmnstbrdoyhzcuwjea";
+                MKV_DATA char  data_chars[21]   = "igkmnstbdroyhzcwujea";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x3276, // 0.197115 
                     0x2b14, // 0.168269 
@@ -44604,7 +44604,7 @@ static char SelectNextLetter(
             // unb
             case 0x00626e75:
             {
-                MKV_DATA char  data_chars[5]   = "eaoi";
+                MKV_DATA char  data_chars[5]   = "eoai";
                 MKV_DATA uint16_t data_weights[4] = {
                     0xca1b, // 0.789474 
                     0x1436, // 0.078947 
@@ -44630,7 +44630,7 @@ static char SelectNextLetter(
             // und
             case 0x00646e75:
             {
-                MKV_DATA char  data_chars[5]   = "oaer";
+                MKV_DATA char  data_chars[5]   = "aoer";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x5e51, // 0.368421 
                     0x5e51, // 0.368421 
@@ -44644,7 +44644,7 @@ static char SelectNextLetter(
             // une
             case 0x00656e75:
             {
-                MKV_DATA char  data_chars[21]   = "nmghckotzbyisdrfpaju";
+                MKV_DATA char  data_chars[21]   = "nmghcktoybzisdrpafuj";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x2de7, // 0.179310 
                     0x2513, // 0.144828 
@@ -44674,7 +44674,7 @@ static char SelectNextLetter(
             // ung
             case 0x00676e75:
             {
-                MKV_DATA char  data_chars[7]   = "aoeiuy";
+                MKV_DATA char  data_chars[7]   = "aoeiyu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x590b, // 0.347826 
                     0x4dea, // 0.304348 
@@ -44702,7 +44702,7 @@ static char SelectNextLetter(
             // uni
             case 0x00696e75:
             {
-                MKV_DATA char  data_chars[22]   = "snkctmgjyibhwzuovdfra";
+                MKV_DATA char  data_chars[22]   = "snkctmgjyihbwzuovafdr";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3771, // 0.216561 
                     0x1d5a, // 0.114650 
@@ -44792,7 +44792,7 @@ static char SelectNextLetter(
             // uno
             case 0x006f6e75:
             {
-                MKV_DATA char  data_chars[21]   = "ksmhubytdcogrzniewjp";
+                MKV_DATA char  data_chars[21]   = "ksmhubytdcogrnziewjp";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x2e4c, // 0.180851 
                     0x277d, // 0.154255 
@@ -44835,7 +44835,7 @@ static char SelectNextLetter(
             // unr
             case 0x00726e75:
             {
-                MKV_DATA char  data_chars[6]   = "eiyoa";
+                MKV_DATA char  data_chars[6]   = "eiyao";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x6666, // 0.400000 
                     0x3333, // 0.200000 
@@ -44933,7 +44933,7 @@ static char SelectNextLetter(
             // uob
             case 0x00626f75:
             {
-                MKV_DATA char  data_chars[3]   = "ea";
+                MKV_DATA char  data_chars[3]   = "ae";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -45047,7 +45047,7 @@ static char SelectNextLetter(
             // uon
             case 0x006e6f75:
             {
-                MKV_DATA char  data_chars[8]   = "oujabsi";
+                MKV_DATA char  data_chars[8]   = "ouajbis";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x5174, // 0.318182 
                     0x3a2f, // 0.227273 
@@ -45102,7 +45102,7 @@ static char SelectNextLetter(
             // uos
             case 0x00736f75:
             {
-                MKV_DATA char  data_chars[6]   = "houae";
+                MKV_DATA char  data_chars[6]   = "ohuae";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -45153,7 +45153,7 @@ static char SelectNextLetter(
             // upa
             case 0x00617075:
             {
-                MKV_DATA char  data_chars[6]   = "nrukm";
+                MKV_DATA char  data_chars[6]   = "kmnru";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x3333, // 0.200000 
                     0x3333, // 0.200000 
@@ -45221,7 +45221,7 @@ static char SelectNextLetter(
             // upu
             case 0x00757075:
             {
-                MKV_DATA char  data_chars[7]   = "rknsup";
+                MKV_DATA char  data_chars[7]   = "rknpsu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0xba2f, // 0.727273 
                     0x1f08, // 0.121212 
@@ -45237,7 +45237,7 @@ static char SelectNextLetter(
             // ura
             case 0x00617275:
             {
-                MKV_DATA char  data_chars[23]   = "mknscgyditbzhjouwrfpel";
+                MKV_DATA char  data_chars[23]   = "mknscgyditbzhjouwrfple";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x1d3f, // 0.114247 
                     0x1ce7, // 0.112903 
@@ -45293,7 +45293,7 @@ static char SelectNextLetter(
             // ure
             case 0x00657275:
             {
-                MKV_DATA char  data_chars[19]   = "nrtsigbpkdcmzjhyea";
+                MKV_DATA char  data_chars[19]   = "ntrisgbpdkzmcejhya";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x3555, // 0.208333 
                     0x2000, // 0.125000 
@@ -45333,7 +45333,7 @@ static char SelectNextLetter(
             // uri
             case 0x00697275:
             {
-                MKV_DATA char  data_chars[23]   = "nksghtymzbdciwajperofu";
+                MKV_DATA char  data_chars[23]   = "nksgythmzbcdiwapjreofu";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x1eb8, // 0.120000 
                     0x1cdc, // 0.112727 
@@ -45384,7 +45384,7 @@ static char SelectNextLetter(
             // uro
             case 0x006f7275:
             {
-                MKV_DATA char  data_chars[23]   = "kmsgdbntizhcyujarofwpe";
+                MKV_DATA char  data_chars[23]   = "kmsgbdntizhycujaorefpw";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x25f4, // 0.148248 
                     0x206e, // 0.126685 
@@ -45452,7 +45452,7 @@ static char SelectNextLetter(
             // uru
             case 0x00757275:
             {
-                MKV_DATA char  data_chars[23]   = "msgkintybhedjurwzoafcp";
+                MKV_DATA char  data_chars[23]   = "msgkinytbhdejurzwaofpc";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x3042, // 0.188506 
                     0x289b, // 0.158621 
@@ -45508,7 +45508,7 @@ static char SelectNextLetter(
             // usa
             case 0x00617375:
             {
-                MKV_DATA char  data_chars[22]   = "nkwtgsimbrdzcyeouahpj";
+                MKV_DATA char  data_chars[22]   = "nkwtgsimbrdzcyeouahjp";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x34fe, // 0.206997 
                     0x2d87, // 0.177843 
@@ -45539,7 +45539,7 @@ static char SelectNextLetter(
             // use
             case 0x00657375:
             {
-                MKV_DATA char  data_chars[17]   = "niktdmersgcopzhy";
+                MKV_DATA char  data_chars[17]   = "nikdtmesgrozhcyp";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x689a, // 0.408602 
                     0x4211, // 0.258065 
@@ -45603,7 +45603,7 @@ static char SelectNextLetter(
             // uso
             case 0x006f7375:
             {
-                MKV_DATA char  data_chars[12]   = "kngrudtbzhm";
+                MKV_DATA char  data_chars[12]   = "knugrbdzthm";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x3595, // 0.209302 
                     0x23b9, // 0.139535 
@@ -45652,7 +45652,7 @@ static char SelectNextLetter(
             // usu
             case 0x00757375:
             {
-                MKV_DATA char  data_chars[19]   = "kigbnmrytjdsehucoz";
+                MKV_DATA char  data_chars[19]   = "kignbmrytsdjeuhczo";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x4444, // 0.266667 
                     0x1e32, // 0.117949 
@@ -45692,7 +45692,7 @@ static char SelectNextLetter(
             // uta
             case 0x00617475:
             {
-                MKV_DATA char  data_chars[23]   = "mnktigrbcsdjweozhupyaf";
+                MKV_DATA char  data_chars[23]   = "mnktigrbcdsjwoezuhpayf";
                 MKV_DATA uint16_t data_weights[22] = {
                     0x28ba, // 0.159091 
                     0x2624, // 0.148990 
@@ -45731,7 +45731,7 @@ static char SelectNextLetter(
             // ute
             case 0x00657475:
             {
-                MKV_DATA char  data_chars[10]   = "nkirmthjb";
+                MKV_DATA char  data_chars[10]   = "nkirmtjbh";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x5098, // 0.314815 
                     0x3da1, // 0.240741 
@@ -45750,7 +45750,7 @@ static char SelectNextLetter(
             // uti
             case 0x00697475:
             {
-                MKV_DATA char  data_chars[3]   = "vb";
+                MKV_DATA char  data_chars[3]   = "bv";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -45762,7 +45762,7 @@ static char SelectNextLetter(
             // uto
             case 0x006f7475:
             {
-                MKV_DATA char  data_chars[22]   = "rmknsbugzocpjyhitwafd";
+                MKV_DATA char  data_chars[22]   = "rmnksbguzocphtyjifdwa";
                 MKV_DATA uint16_t data_weights[21] = {
                     0x3764, // 0.216374 
                     0x2fe8, // 0.187135 
@@ -45947,7 +45947,7 @@ static char SelectNextLetter(
             // uum
             case 0x006d7575:
             {
-                MKV_DATA char  data_chars[6]   = "iuaeo";
+                MKV_DATA char  data_chars[6]   = "ieoua";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -45962,7 +45962,7 @@ static char SelectNextLetter(
             // uun
             case 0x006e7575:
             {
-                MKV_DATA char  data_chars[8]   = "ainyekt";
+                MKV_DATA char  data_chars[8]   = "aineykt";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x3333, // 0.200000 
                     0x3333, // 0.200000 
@@ -46069,7 +46069,7 @@ static char SelectNextLetter(
             // uwa
             case 0x00617775:
             {
-                MKV_DATA char  data_chars[20]   = "nrkmdstgbzyehjicufo";
+                MKV_DATA char  data_chars[20]   = "nrkmdtsgbzeyhjicouf";
                 MKV_DATA uint16_t data_weights[19] = {
                     0x35d3, // 0.210256 
                     0x18f2, // 0.097436 
@@ -46110,7 +46110,7 @@ static char SelectNextLetter(
             // uya
             case 0x00617975:
             {
-                MKV_DATA char  data_chars[13]   = "mskncgtzhodr";
+                MKV_DATA char  data_chars[13]   = "mskncgtzdhor";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x90e1, // 0.565934 
                     0x205a, // 0.126374 
@@ -46146,7 +46146,7 @@ static char SelectNextLetter(
             // uyo
             case 0x006f7975:
             {
-                MKV_DATA char  data_chars[12]   = "snukrcdimbh";
+                MKV_DATA char  data_chars[12]   = "snukicdrbhm";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x5400, // 0.328125 
                     0x4800, // 0.281250 
@@ -46167,7 +46167,7 @@ static char SelectNextLetter(
             // uyu
             case 0x00757975:
             {
-                MKV_DATA char  data_chars[12]   = "knmgbhirtsy";
+                MKV_DATA char  data_chars[12]   = "knmgbhsyirt";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x78e4, // 0.472222 
                     0x2aab, // 0.166667 
@@ -46227,7 +46227,7 @@ static char SelectNextLetter(
             // uzo
             case 0x006f7a75:
             {
-                MKV_DATA char  data_chars[9]   = "nukghjew";
+                MKV_DATA char  data_chars[9]   = "nukgewhj";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x471c, // 0.277778 
                     0x38e4, // 0.222222 
@@ -46245,7 +46245,7 @@ static char SelectNextLetter(
             // uzu
             case 0x00757a75:
             {
-                MKV_DATA char  data_chars[17]   = "rkmhgnswytifuceo";
+                MKV_DATA char  data_chars[17]   = "rkmhgnswytiufeoc";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x4867, // 0.282828 
                     0x3e10, // 0.242424 
@@ -46353,7 +46353,7 @@ static char SelectNextLetter(
             // ver
             case 0x00726576:
             {
-                MKV_DATA char  data_chars[7]   = "shgntb";
+                MKV_DATA char  data_chars[7]   = "shbgnt";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x5555, // 0.333333 
                     0x38e4, // 0.222222 
@@ -46498,7 +46498,7 @@ static char SelectNextLetter(
             // waa
             case 0x00616177:
             {
-                MKV_DATA char  data_chars[7]   = "cikpte";
+                MKV_DATA char  data_chars[7]   = "ceikpt";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x6000, // 0.375000 
                     0x2000, // 0.125000 
@@ -46514,7 +46514,7 @@ static char SelectNextLetter(
             // wab
             case 0x00626177:
             {
-                MKV_DATA char  data_chars[7]   = "aeuiob";
+                MKV_DATA char  data_chars[7]   = "aeuibo";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x9162, // 0.567901 
                     0x2f68, // 0.185185 
@@ -46555,7 +46555,7 @@ static char SelectNextLetter(
             // wae
             case 0x00656177:
             {
-                MKV_DATA char  data_chars[4]   = "skr";
+                MKV_DATA char  data_chars[4]   = "krs";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -46608,7 +46608,7 @@ static char SelectNextLetter(
             // wai
             case 0x00696177:
             {
-                MKV_DATA char  data_chars[18]   = "cnsdtgmrzhfkywboi";
+                MKV_DATA char  data_chars[18]   = "cnsdgtmzrkhfbiyow";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x2aab, // 0.166667 
                     0x271c, // 0.152778 
@@ -46680,7 +46680,7 @@ static char SelectNextLetter(
             // wan
             case 0x006e6177:
             {
-                MKV_DATA char  data_chars[14]   = "oaieugcdnybpm";
+                MKV_DATA char  data_chars[14]   = "oaieugdcmynbp";
                 MKV_DATA uint16_t data_weights[13] = {
                     0x79f8, // 0.476440 
                     0x36f4, // 0.214660 
@@ -46720,7 +46720,7 @@ static char SelectNextLetter(
             // war
             case 0x00726177:
             {
-                MKV_DATA char  data_chars[7]   = "aiueoy";
+                MKV_DATA char  data_chars[7]   = "aiueyo";
                 MKV_DATA uint16_t data_weights[6] = {
                     0xb12e, // 0.692105 
                     0x3692, // 0.213158 
@@ -47190,7 +47190,7 @@ static char SelectNextLetter(
             // yaa
             case 0x00616179:
             {
-                MKV_DATA char  data_chars[6]   = "ejkmc";
+                MKV_DATA char  data_chars[6]   = "ecjkm";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x5555, // 0.333333 
                     0x2aab, // 0.166667 
@@ -47246,7 +47246,7 @@ static char SelectNextLetter(
             // yae
             case 0x00656179:
             {
-                MKV_DATA char  data_chars[12]   = "smbhkndijzy";
+                MKV_DATA char  data_chars[12]   = "smknbidhjyz";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x4000, // 0.250000 
                     0x2000, // 0.125000 
@@ -47309,7 +47309,7 @@ static char SelectNextLetter(
             // yai
             case 0x00696179:
             {
-                MKV_DATA char  data_chars[10]   = "rstzcngkm";
+                MKV_DATA char  data_chars[10]   = "rstzncgkm";
                 MKV_DATA uint16_t data_weights[9] = {
                     0x2e8c, // 0.181818 
                     0x2e8c, // 0.181818 
@@ -47375,7 +47375,7 @@ static char SelectNextLetter(
             // yan
             case 0x006e6179:
             {
-                MKV_DATA char  data_chars[12]   = "aoiebumsckp";
+                MKV_DATA char  data_chars[12]   = "aoiebumspck";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x884d, // 0.532423 
                     0x5bbe, // 0.358362 
@@ -47396,7 +47396,7 @@ static char SelectNextLetter(
             // yao
             case 0x006f6179:
             {
-                MKV_DATA char  data_chars[11]   = "rknmtdijyh";
+                MKV_DATA char  data_chars[11]   = "rkntmdyijh";
                 MKV_DATA uint16_t data_weights[10] = {
                     0x36db, // 0.214286 
                     0x2db7, // 0.178571 
@@ -47475,7 +47475,7 @@ static char SelectNextLetter(
             // yau
             case 0x00756179:
             {
-                MKV_DATA char  data_chars[8]   = "rsctnbm";
+                MKV_DATA char  data_chars[8]   = "rscntmb";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x47ae, // 0.280000 
                     0x47ae, // 0.280000 
@@ -47687,7 +47687,7 @@ static char SelectNextLetter(
             // yoa
             case 0x00616f79:
             {
-                MKV_DATA char  data_chars[5]   = "knbc";
+                MKV_DATA char  data_chars[5]   = "kncb";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x7627, // 0.461538 
                     0x6276, // 0.384615 
@@ -47797,7 +47797,7 @@ static char SelectNextLetter(
             // yoi
             case 0x00696f79:
             {
-                MKV_DATA char  data_chars[13]   = "nckdmgwztysi";
+                MKV_DATA char  data_chars[13]   = "nckmdgtwzisy";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x3333, // 0.200000 
                     0x2ccd, // 0.175000 
@@ -47850,7 +47850,7 @@ static char SelectNextLetter(
             // yom
             case 0x006d6f79:
             {
-                MKV_DATA char  data_chars[7]   = "aioeub";
+                MKV_DATA char  data_chars[7]   = "aoieub";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x6db7, // 0.428571 
                     0x3844, // 0.219780 
@@ -47866,7 +47866,7 @@ static char SelectNextLetter(
             // yon
             case 0x006e6f79:
             {
-                MKV_DATA char  data_chars[17]   = "eoajibnctskgdyum";
+                MKV_DATA char  data_chars[17]   = "eaojibncsgktdmyu";
                 MKV_DATA uint16_t data_weights[16] = {
                     0x3d38, // 0.239130 
                     0x34df, // 0.206522 
@@ -47919,7 +47919,7 @@ static char SelectNextLetter(
             // yor
             case 0x00726f79:
             {
-                MKV_DATA char  data_chars[7]   = "ioayue";
+                MKV_DATA char  data_chars[7]   = "ioayeu";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x684c, // 0.407407 
                     0x57b4, // 0.342593 
@@ -47967,7 +47967,7 @@ static char SelectNextLetter(
             // you
             case 0x00756f79:
             {
-                MKV_DATA char  data_chars[18]   = "ksrbcjngtdiofzmhw";
+                MKV_DATA char  data_chars[18]   = "ksrbcjngtidfowmhz";
                 MKV_DATA uint16_t data_weights[17] = {
                     0x2932, // 0.160920 
                     0x205e, // 0.126437 
@@ -48129,7 +48129,7 @@ static char SelectNextLetter(
             // yua
             case 0x00617579:
             {
-                MKV_DATA char  data_chars[5]   = "insr";
+                MKV_DATA char  data_chars[5]   = "sinr";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -48238,7 +48238,7 @@ static char SelectNextLetter(
             // yui
             case 0x00697579:
             {
-                MKV_DATA char  data_chars[8]   = "cgknmsw";
+                MKV_DATA char  data_chars[8]   = "ncgkmsw";
                 MKV_DATA uint16_t data_weights[7] = {
                     0x3333, // 0.200000 
                     0x3333, // 0.200000 
@@ -48255,7 +48255,7 @@ static char SelectNextLetter(
             // yuj
             case 0x006a7579:
             {
-                MKV_DATA char  data_chars[6]   = "ioauy";
+                MKV_DATA char  data_chars[6]   = "iouay";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x9000, // 0.562500 
                     0x4800, // 0.281250 
@@ -48319,7 +48319,7 @@ static char SelectNextLetter(
             // yuo
             case 0x006f7579:
             {
-                MKV_DATA char  data_chars[9]   = "kumrstzn";
+                MKV_DATA char  data_chars[9]   = "krtuzmns";
                 MKV_DATA uint16_t data_weights[8] = {
                     0x4ccd, // 0.300000 
                     0x199a, // 0.100000 
@@ -48349,7 +48349,7 @@ static char SelectNextLetter(
             // yur
             case 0x00727579:
             {
-                MKV_DATA char  data_chars[7]   = "iuayoe";
+                MKV_DATA char  data_chars[7]   = "iauoye";
                 MKV_DATA uint16_t data_weights[6] = {
                     0x6000, // 0.375000 
                     0x4492, // 0.267857 
@@ -48395,7 +48395,7 @@ static char SelectNextLetter(
             // yuu
             case 0x00757579:
             {
-                MKV_DATA char  data_chars[12]   = "gkrjsnmbydi";
+                MKV_DATA char  data_chars[12]   = "gkjrnsmbydi";
                 MKV_DATA uint16_t data_weights[11] = {
                     0x2f05, // 0.183673 
                     0x2492, // 0.142857 
@@ -48575,7 +48575,7 @@ static char SelectNextLetter(
             // zai
             case 0x0069617a:
             {
-                MKV_DATA char  data_chars[15]   = "kmscfngjdrthay";
+                MKV_DATA char  data_chars[15]   = "kmscfntjrdgyah";
                 MKV_DATA uint16_t data_weights[14] = {
                     0x5111, // 0.316667 
                     0x3777, // 0.216667 
@@ -48630,7 +48630,7 @@ static char SelectNextLetter(
             // zan
             case 0x006e617a:
             {
-                MKV_DATA char  data_chars[19]   = "egascjtokndpiubhrm";
+                MKV_DATA char  data_chars[19]   = "egasctjkoidnprbumh";
                 MKV_DATA uint16_t data_weights[18] = {
                     0x2323, // 0.137255 
                     0x1e1e, // 0.117647 
@@ -48671,7 +48671,7 @@ static char SelectNextLetter(
             // zar
             case 0x0072617a:
             {
-                MKV_DATA char  data_chars[6]   = "uiaeo";
+                MKV_DATA char  data_chars[6]   = "iueao";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x47ae, // 0.280000 
                     0x47ae, // 0.280000 
@@ -48739,7 +48739,7 @@ static char SelectNextLetter(
             // zaz
             case 0x007a617a:
             {
-                MKV_DATA char  data_chars[3]   = "oa";
+                MKV_DATA char  data_chars[3]   = "ao";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -48799,7 +48799,7 @@ static char SelectNextLetter(
             // zeh
             case 0x0068657a:
             {
-                MKV_DATA char  data_chars[4]   = "aio";
+                MKV_DATA char  data_chars[4]   = "oai";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -48812,7 +48812,7 @@ static char SelectNextLetter(
             // zei
             case 0x0069657a:
             {
-                MKV_DATA char  data_chars[6]   = "mktcd";
+                MKV_DATA char  data_chars[6]   = "mkcdt";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x71c7, // 0.444444 
                     0x38e4, // 0.222222 
@@ -48839,7 +48839,7 @@ static char SelectNextLetter(
             // zek
             case 0x006b657a:
             {
-                MKV_DATA char  data_chars[6]   = "iuako";
+                MKV_DATA char  data_chars[6]   = "ikuao";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xc235, // 0.758621 
                     0x11a8, // 0.068966 
@@ -48868,7 +48868,7 @@ static char SelectNextLetter(
             // zen
             case 0x006e657a:
             {
-                MKV_DATA char  data_chars[21]   = "jtikogdmsbnayhrczpef";
+                MKV_DATA char  data_chars[21]   = "jtikogdmsnbayhrczpef";
                 MKV_DATA uint16_t data_weights[20] = {
                     0x2129, // 0.129534 
                     0x1bdb, // 0.108808 
@@ -48949,7 +48949,7 @@ static char SelectNextLetter(
             // zey
             case 0x0079657a:
             {
-                MKV_DATA char  data_chars[3]   = "ao";
+                MKV_DATA char  data_chars[3]   = "oa";
                 MKV_DATA uint16_t data_weights[2] = {
                     0x8000, // 0.500000 
                     0x8000, // 0.500000 
@@ -49082,7 +49082,7 @@ static char SelectNextLetter(
             // zoe
             case 0x00656f7a:
             {
-                MKV_DATA char  data_chars[6]   = "mcord";
+                MKV_DATA char  data_chars[6]   = "cmdor";
                 MKV_DATA uint16_t data_weights[5] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -49175,7 +49175,7 @@ static char SelectNextLetter(
             // zon
             case 0x006e6f7a:
             {
-                MKV_DATA char  data_chars[6]   = "oeaju";
+                MKV_DATA char  data_chars[6]   = "oeauj";
                 MKV_DATA uint16_t data_weights[5] = {
                     0xde0a, // 0.867347 
                     0x1783, // 0.091837 
@@ -49190,7 +49190,7 @@ static char SelectNextLetter(
             // zor
             case 0x00726f7a:
             {
-                MKV_DATA char  data_chars[5]   = "aeio";
+                MKV_DATA char  data_chars[5]   = "eiao";
                 MKV_DATA uint16_t data_weights[4] = {
                     0x4925, // 0.285714 
                     0x4925, // 0.285714 
@@ -49265,7 +49265,7 @@ static char SelectNextLetter(
             // zoz
             case 0x007a6f7a:
             {
-                MKV_DATA char  data_chars[4]   = "oau";
+                MKV_DATA char  data_chars[4]   = "oua";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x999a, // 0.600000 
                     0x3333, // 0.200000 
@@ -49328,7 +49328,7 @@ static char SelectNextLetter(
             // zue
             case 0x0065757a:
             {
-                MKV_DATA char  data_chars[4]   = "cdm";
+                MKV_DATA char  data_chars[4]   = "dmc";
                 MKV_DATA uint16_t data_weights[3] = {
                     0x5555, // 0.333333 
                     0x5555, // 0.333333 
@@ -49380,7 +49380,7 @@ static char SelectNextLetter(
             // zui
             case 0x0069757a:
             {
-                MKV_DATA char  data_chars[13]   = "rstbodeghkju";
+                MKV_DATA char  data_chars[13]   = "rsotbjdeghku";
                 MKV_DATA uint16_t data_weights[12] = {
                     0x42c8, // 0.260870 
                     0x2c86, // 0.173913 
@@ -49446,7 +49446,7 @@ static char SelectNextLetter(
             // zun
             case 0x006e757a:
             {
-                MKV_DATA char  data_chars[8]   = "oaiuegm";
+                MKV_DATA char  data_chars[8]   = "oauimeg";
                 MKV_DATA uint16_t data_weights[7] = {
                     0xa42d, // 0.641304 
                     0x3d38, // 0.239130 

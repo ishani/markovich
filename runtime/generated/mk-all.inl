@@ -7,16 +7,20 @@
 #include "mk-roots-japan.inl"
 #include "mk-selector-england.inl"
 #include "mk-roots-england.inl"
+#include "mk-selector-mix.inl"
+#include "mk-roots-mix.inl"
 
 #define MKV_CHOICE_LIST( _call )  \
     _call( japan )  \
-    _call( england )  
+    _call( england )  \
+    _call( mix )  
 
 namespace mk {
 
 enum class Choice {
     japan,
     england,
+    mix,
 };
 
 } // namespace mk
